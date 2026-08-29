@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T13:04:17.773362Z",
+  "generated_at": "2026-08-29T13:06:38.188756Z",
   "window_start": "2026-08-29T13:00:00Z",
   "window_end": "2026-08-30T13:00:00Z",
   "timezone": "UTC",
@@ -230,10 +230,7 @@
       "end": "2026-08-29T14:00:00Z",
       "sport": "football",
       "confidence": 0.83,
-      "source": "rytec_uk_sport",
-      "home_team": "Liverpool",
-      "away_team": "Nottingham Forest",
-      "fixture": "Liverpool v Nottingham Forest"
+      "source": "rytec_uk_sport"
     },
     {
       "channel": "SkySpMainEv",
@@ -311,10 +308,7 @@
       "end": "2026-08-29T14:00:00Z",
       "sport": "other",
       "confidence": 0.7,
-      "source": "rytec_uk_sport",
-      "home_team": "Middlesbrough",
-      "away_team": "West Bromwich Albion",
-      "fixture": "Middlesbrough v West Bromwich Albion"
+      "source": "rytec_uk_sport"
     },
     {
       "channel": "SkySp Arena",
@@ -1424,10 +1418,7 @@
       "end": "2026-08-29T14:15:00Z",
       "sport": "other",
       "confidence": 0.7,
-      "source": "rytec_uk_sport",
-      "home_team": "Liverpool",
-      "away_team": "Nottingham Forest",
-      "fixture": "Liverpool v Nottingham Forest"
+      "source": "rytec_uk_sport"
     },
     {
       "channel": "TNT Sport 8",
@@ -1511,10 +1502,7 @@
       "end": "2026-08-29T14:15:00Z",
       "sport": "other",
       "confidence": 0.7,
-      "source": "rytec_uk_sport",
-      "home_team": "Liverpool",
-      "away_team": "Nottingham Forest",
-      "fixture": "Liverpool v Nottingham Forest"
+      "source": "rytec_uk_sport"
     },
     {
       "channel": "408 - SkySp Tennis HD",
@@ -4427,10 +4415,7 @@
       "end": "2026-08-29T21:00:00Z",
       "sport": "other",
       "confidence": 0.7,
-      "source": "rytec_uk_sport",
-      "home_team": "Middlesbrough",
-      "away_team": "West Bromwich Albion",
-      "fixture": "Middlesbrough v West Bromwich Albion"
+      "source": "rytec_uk_sport"
     },
     {
       "channel": "TNT Sport 1",
@@ -5162,10 +5147,7 @@
       "end": "2026-08-29T21:30:00Z",
       "sport": "other",
       "confidence": 0.7,
-      "source": "rytec_uk_sport",
-      "home_team": "Middlesbrough",
-      "away_team": "West Bromwich Albion",
-      "fixture": "Middlesbrough v West Bromwich Albion"
+      "source": "rytec_uk_sport"
     },
     {
       "channel": "ITV4 HD",
@@ -5747,10 +5729,7 @@
       "end": "2026-08-29T23:00:00Z",
       "sport": "other",
       "confidence": 0.7,
-      "source": "rytec_uk_sport",
-      "home_team": "Crystal Palace",
-      "away_team": "Manchester City",
-      "fixture": "Crystal Palace v Manchester City"
+      "source": "rytec_uk_sport"
     },
     {
       "channel": "SkySp Fball",
@@ -5762,10 +5741,7 @@
       "end": "2026-08-29T22:45:00Z",
       "sport": "other",
       "confidence": 0.7,
-      "source": "rytec_uk_sport",
-      "home_team": "Bristol City",
-      "away_team": "Portsmouth",
-      "fixture": "Bristol City v Portsmouth"
+      "source": "rytec_uk_sport"
     },
     {
       "channel": "TNT Sport 1",
@@ -5813,10 +5789,7 @@
       "end": "2026-08-29T23:00:00Z",
       "sport": "other",
       "confidence": 0.7,
-      "source": "rytec_uk_sport",
-      "home_team": "Cardiff City",
-      "away_team": "Sheffield United",
-      "fixture": "Cardiff City v Sheffield United"
+      "source": "rytec_uk_sport"
     },
     {
       "channel": "ITV1",
@@ -6161,10 +6134,7 @@
       "end": "2026-08-30T02:30:00Z",
       "sport": "other",
       "confidence": 0.7,
-      "source": "rytec_uk_sport",
-      "home_team": "Wolverhampton Wanderers",
-      "away_team": "Leeds United",
-      "fixture": "Wolverhampton Wanderers v Leeds United"
+      "source": "rytec_uk_sport"
     },
     {
       "channel": "SkySp Fball",
@@ -6191,10 +6161,7 @@
       "end": "2026-08-30T02:30:00Z",
       "sport": "other",
       "confidence": 0.7,
-      "source": "rytec_uk_sport",
-      "home_team": "Wolverhampton Wanderers",
-      "away_team": "Leeds United",
-      "fixture": "Wolverhampton Wanderers v Leeds United"
+      "source": "rytec_uk_sport"
     },
     {
       "channel": "TNT Sport 2",
@@ -6974,10 +6941,7 @@
       "end": "2026-08-30T01:00:00Z",
       "sport": "other",
       "confidence": 0.7,
-      "source": "rytec_uk_sport",
-      "home_team": "Crystal Palace",
-      "away_team": "Manchester City",
-      "fixture": "Crystal Palace v Manchester City"
+      "source": "rytec_uk_sport"
     },
     {
       "channel": "Sky Sports Racing",
@@ -7655,10 +7619,7 @@
       "end": "2026-08-30T02:15:00Z",
       "sport": "other",
       "confidence": 0.7,
-      "source": "rytec_uk_sport",
-      "home_team": "Portsmouth",
-      "away_team": "Southampton",
-      "fixture": "Portsmouth v Southampton"
+      "source": "rytec_uk_sport"
     },
     {
       "channel": "SkySp Fball",
@@ -7730,10 +7691,7 @@
       "end": "2026-08-30T02:30:00Z",
       "sport": "other",
       "confidence": 0.7,
-      "source": "rytec_uk_sport",
-      "home_team": "Queens Park Rangers",
-      "away_team": "Liverpool",
-      "fixture": "Queens Park Rangers v Liverpool"
+      "source": "rytec_uk_sport"
     },
     {
       "channel": "Sky Sports F1",
@@ -7988,10 +7946,7 @@
       "end": "2026-08-30T03:00:00Z",
       "sport": "other",
       "confidence": 0.7,
-      "source": "rytec_uk_sport",
-      "home_team": "Liverpool",
-      "away_team": "Manchester United",
-      "fixture": "Liverpool v Manchester United"
+      "source": "rytec_uk_sport"
     },
     {
       "channel": "412 - SkySp+ HD",
@@ -8015,10 +7970,7 @@
       "end": "2026-08-30T03:00:00Z",
       "sport": "other",
       "confidence": 0.7,
-      "source": "rytec_uk_sport",
-      "home_team": "Sheffield United",
-      "away_team": "Aston Villa",
-      "fixture": "Sheffield United v Aston Villa"
+      "source": "rytec_uk_sport"
     },
     {
       "channel": "SkySp Arena",
@@ -8819,10 +8771,7 @@
       "end": "2026-08-30T04:30:00Z",
       "sport": "other",
       "confidence": 0.7,
-      "source": "rytec_uk_sport",
-      "home_team": "Leicester City",
-      "away_team": "Liverpool",
-      "fixture": "Leicester City v Liverpool"
+      "source": "rytec_uk_sport"
     },
     {
       "channel": "412 - SkySp+ HD",
@@ -9677,10 +9626,7 @@
       "end": "2026-08-30T05:30:00Z",
       "sport": "other",
       "confidence": 0.7,
-      "source": "rytec_uk_sport",
-      "home_team": "Middlesbrough",
-      "away_team": "West Bromwich Albion",
-      "fixture": "Middlesbrough v West Bromwich Albion"
+      "source": "rytec_uk_sport"
     },
     {
       "channel": "ESPN News",
@@ -9812,10 +9758,7 @@
       "end": "2026-08-30T06:00:00Z",
       "sport": "other",
       "confidence": 0.7,
-      "source": "rytec_uk_sport",
-      "home_team": "Birmingham City",
-      "away_team": "Aston Villa",
-      "fixture": "Birmingham City v Aston Villa"
+      "source": "rytec_uk_sport"
     },
     {
       "channel": "SkySp Fball",
@@ -10430,10 +10373,7 @@
       "end": "2026-08-30T07:00:00Z",
       "sport": "other",
       "confidence": 0.7,
-      "source": "rytec_uk_sport",
-      "home_team": "Crystal Palace",
-      "away_team": "Manchester City",
-      "fixture": "Crystal Palace v Manchester City"
+      "source": "rytec_uk_sport"
     },
     {
       "channel": "SkySp Fball",
@@ -10445,10 +10385,7 @@
       "end": "2026-08-30T06:45:00Z",
       "sport": "other",
       "confidence": 0.7,
-      "source": "rytec_uk_sport",
-      "home_team": "Bristol City",
-      "away_team": "Portsmouth",
-      "fixture": "Bristol City v Portsmouth"
+      "source": "rytec_uk_sport"
     },
     {
       "channel": "LiverpoolFCTV",
@@ -10460,10 +10397,7 @@
       "end": "2026-08-30T06:45:00Z",
       "sport": "football",
       "confidence": 0.83,
-      "source": "rytec_uk_sport",
-      "home_team": "Derby County",
-      "away_team": "Liverpool",
-      "fixture": "Derby County v Liverpool"
+      "source": "rytec_uk_sport"
     },
     {
       "channel": "408 - SkySp Tennis HD",
@@ -10523,10 +10457,7 @@
       "end": "2026-08-30T07:00:00Z",
       "sport": "other",
       "confidence": 0.7,
-      "source": "rytec_uk_sport",
-      "home_team": "Cardiff City",
-      "away_team": "Sheffield United",
-      "fixture": "Cardiff City v Sheffield United"
+      "source": "rytec_uk_sport"
     },
     {
       "channel": "LiverpoolFCTV",
@@ -11633,10 +11564,7 @@
       "end": "2026-08-30T08:30:00Z",
       "sport": "other",
       "confidence": 0.7,
-      "source": "rytec_uk_sport",
-      "home_team": "Middlesbrough",
-      "away_team": "West Bromwich Albion",
-      "fixture": "Middlesbrough v West Bromwich Albion"
+      "source": "rytec_uk_sport"
     },
     {
       "channel": "ESPN News",
@@ -12323,10 +12251,7 @@
       "end": "2026-08-30T09:45:00Z",
       "sport": "other",
       "confidence": 0.7,
-      "source": "rytec_uk_sport",
-      "home_team": "Bristol City",
-      "away_team": "Portsmouth",
-      "fixture": "Bristol City v Portsmouth"
+      "source": "rytec_uk_sport"
     },
     {
       "channel": "408 - SkySp Tennis HD",
@@ -12410,10 +12335,7 @@
       "end": "2026-08-30T10:00:00Z",
       "sport": "other",
       "confidence": 0.7,
-      "source": "rytec_uk_sport",
-      "home_team": "Cardiff City",
-      "away_team": "Sheffield United",
-      "fixture": "Cardiff City v Sheffield United"
+      "source": "rytec_uk_sport"
     },
     {
       "channel": "TNT Sport 1",
@@ -13964,5 +13886,6 @@
       "source": "rytec_uk_sport"
     }
   ],
-  "fixture_enriched_count": 75
+  "fixture_enriched_count": 49,
+  "fixture_ambiguous_count": 0
 }
