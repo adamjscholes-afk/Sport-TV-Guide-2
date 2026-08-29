@@ -12,7 +12,7 @@ SPORT_TERMS={"football":["premier league","championship","league one","league tw
 SPORT_CHANNEL_RE=re.compile(r"sky\s*sp|sky sports|tnt sport|premier sports|bt sport|eurosport|racing tv|sky f1|sky golf|skysp",re.I)
 RADIO_CHANNEL_RE=re.compile(r"talksport|talk sport|bbc radio|bbc sounds|radio [0-9]|absolute radio|capital fm|heart fm|kiss fm|smooth radio|lbc|magic radio|virgin radio|greatest hits radio|radio x|classic fm|gold radio",re.I)
 # Collapse every BBC One / BBC 1 / BBC1 regional, HD and nation variant into one guide row.
-BBC_ONE_RE=re.compile(r"^bbc\s*(?:one|1)\b",re.I)
+BBC_ONE_RE=re.compile(r"\bbbc\s*(?:one|1)\b",re.I)
 PROMO_RE=re.compile(r"^(this is |welcome to |channel |coming up|programming on |schedule$)",re.I); NEWS_RE=re.compile(r"sports news|sky sports news|live at the races",re.I)
 def normalise_channel(channel):
  c=' '.join(channel.split()).strip()
