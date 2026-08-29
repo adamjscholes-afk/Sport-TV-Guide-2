@@ -1,6 +1,6 @@
 name: Deploy to GitHub Pages
 # Fixture resolver: explicit EPG teams plus live fixture matching for ambiguous listings.
-# Fallback: TheSportsDB for English football when ESPN is unavailable.
+# Fallback: TheSportsDB/FixtureDownload for generic football listings.
 
 on:
   push:
@@ -35,6 +35,9 @@ jobs:
       - name: Enrich fixture teams
         run: python3 data_pipeline/scripts/enrich_fixtures.py
 
+      - name: Backfill generic football listings
+        run: python3 data_pipeline/scripts/backfill_fixtures.py
+
       - name: Normalise regional channels
         run: python3 data_pipeline/scripts/normalize_channels.py
 
@@ -57,7 +60,7 @@ jobs:
           print(f"OK: {len(d['events'])} sports events across {d['channel_count']} channels and {hours:.1f} hours; {fixture_count} fixture events enriched; {d.get('fixture_ambiguous_count',0)} ambiguous left unguessed")
           PY
 
-      - name: Update fixture display
+      - name: Update fixture display and channel sizing
         run: python3 data_pipeline/scripts/update_fixture_ui.py
 
       - name: Publish generated data to repository
