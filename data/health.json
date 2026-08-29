@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-08-29T09:32:21.803084Z",
+  "checked_at": "2026-08-29T09:47:37.449952Z",
   "window_start": "2026-08-29T09:30:00Z",
   "window_end": "2026-09-01T09:30:00Z",
   "sources": {
@@ -35,11 +35,11 @@
     },
     "publish": {
       "ok": true,
-      "events": 3174,
-      "channels": 209
+      "events": 3160,
+      "channels": 194
     }
   },
-  "channel_count": 209,
+  "channel_count": 194,
   "sport_counts": {
     "baseball": 125,
     "boxing": 33,
@@ -47,7 +47,7 @@
     "cycling": 46,
     "darts": 26,
     "f1": 95,
-    "football": 611,
+    "football": 597,
     "golf": 164,
     "horse racing": 8,
     "ice hockey": 4,
