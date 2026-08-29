@@ -13,6 +13,7 @@ OUT.mkdir(exist_ok=True)
 
 SOURCES = {
     "freeview": ["https://raw.githubusercontent.com/dp247/Freeview-EPG/master/epg.xml"],
+    "curated_uk": ["https://raw.githubusercontent.com/farleyflex/epg-guide/main/epg.xml"],
     "rytec_uk_basic": ["http://www.xmltvepg.nl/rytecUK_Basic.xz", "http://rytecepg.wanwizard.eu/rytecUK_Basic.xz", "http://epg.vuplus-community.net/rytecUK_Basic.xz"],
     "rytec_uk_sky": ["http://www.xmltvepg.nl/rytecUK_SkyLive.xz", "http://rytecepg.wanwizard.eu/rytecUK_SkyLive.xz", "http://epg.vuplus-community.net/rytecUK_SkyLive.xz"],
     "rytec_uk_sport": ["http://www.xmltvepg.nl/rytecUK_SportMovies.xz", "http://rytecepg.wanwizard.eu/rytecUK_SportMovies.xz", "http://epg.vuplus-community.net/rytecUK_SportMovies.xz"],
@@ -61,12 +62,9 @@ def text(el): return " ".join("".join(el.itertext()).split()) if el is not None 
 
 def classify(title, desc, channel, categories):
     title_l = title.lower(); hay = f"{title} {desc} {' '.join(categories)}".lower()
-    if PROMO_RE.search(title_l) and not any(t in hay for t in ["premier league", "champions league", "rugby", "boxing", "ufc", "tennis", "golf", "cricket", "formula", "grand prix"]):
-        return None, 0.0
-    if NEWS_RE.search(title_l):
-        return None, 0.0
-    scores = {s: sum(1 for t in ts if t in hay) for s, ts in SPORT_TERMS.items()}
-    scores = {k:v for k,v in scores.items() if v}
+    if PROMO_RE.search(title_l) and not any(t in hay for t in ["premier league", "champions league", "rugby", "boxing", "ufc", "tennis", "golf", "cricket", "formula", "grand prix"]): return None, 0.0
+    if NEWS_RE.search(title_l): return None, 0.0
+    scores = {s: sum(1 for t in ts if t in hay) for s, ts in SPORT_TERMS.items()}; scores = {k:v for k,v in scores.items() if v}
     if scores:
         sport=max(scores,key=scores.get); return sport, min(0.99,0.65+0.10*scores[sport])
     if SPORT_CHANNEL_RE.search(channel): return "other",0.70
@@ -98,8 +96,7 @@ def main():
     for e in all_events:
         key=(e["channel"].strip().lower(),e["title"].strip().lower(),e["start"]); old=unique.get(key)
         if old is None or e["confidence"]>old["confidence"]: unique[key]=e
-    events=sorted(unique.values(),key=lambda x:x["start"])
-    channel_counts=Counter(e["channel"] for e in events); sport_counts=Counter(e["sport"] for e in events)
+    events=sorted(unique.values(),key=lambda x:x["start"]); channel_counts=Counter(e["channel"] for e in events); sport_counts=Counter(e["sport"] for e in events)
     payload={"generated_at":now.isoformat().replace("+00:00","Z"),"window_start":start.isoformat().replace("+00:00","Z"),"window_end":end.isoformat().replace("+00:00","Z"),"timezone":"UTC","event_count":len(events),"channel_count":len(channel_counts),"channels":sorted(channel_counts),"sport_counts":dict(sorted(sport_counts.items())),"events":events}
     if events: (OUT/"guide.json").write_text(json.dumps(payload,indent=2),encoding="utf-8"); health["publish"]={"ok":True,"events":len(events),"channels":len(channel_counts)}
     else:
