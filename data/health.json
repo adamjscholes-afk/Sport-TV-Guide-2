@@ -1,24 +1,24 @@
 {
-  "checked_at": "2026-08-29T15:18:52.722004Z",
-  "window_start": "2026-08-29T15:00:00Z",
-  "window_end": "2026-08-30T15:00:00Z",
+  "checked_at": "2026-08-29T15:59:16.006241Z",
+  "window_start": "2026-08-29T15:30:00Z",
+  "window_end": "2026-08-30T15:30:00Z",
   "sources": {
     "freeview": {
       "ok": true,
       "url": "https://raw.githubusercontent.com/dp247/Freeview-EPG/master/epg.xml",
-      "programmes": 52,
+      "programmes": 53,
       "sha256": "4ed92958d0a91d96aa159673b92e2c03d749b97d5b6f15691b4a10aecf981fc7"
     },
     "curated_uk": {
       "ok": true,
       "url": "https://raw.githubusercontent.com/farleyflex/epg-guide/main/epg.xml",
-      "programmes": 535,
+      "programmes": 545,
       "sha256": "5c4bcbbd07650b3a0c02a299a529406a1ca7dcbc189bc2e3851acefe66a95087"
     },
     "rytec_uk_basic": {
       "ok": true,
       "url": "http://www.xmltvepg.nl/rytecUK_Basic.xz",
-      "programmes": 57,
+      "programmes": 59,
       "sha256": "80acdf0b5520883cc9ad1292ebf171ec93874a4db945cba1894835ca21125581"
     },
     "rytec_uk_sky": {
@@ -30,33 +30,33 @@
     "rytec_uk_sport": {
       "ok": true,
       "url": "http://www.xmltvepg.nl/rytecUK_SportMovies.xz",
-      "programmes": 485,
+      "programmes": 491,
       "sha256": "1e9a22e0b5e8857158cb63ddc4e9da66038a07df4a5f6d66903d9c5e8142e643"
     },
     "publish": {
       "ok": true,
-      "events": 1058,
-      "channels": 121
+      "events": 1078,
+      "channels": 123
     }
   },
-  "channel_count": 121,
+  "channel_count": 123,
   "sport_counts": {
     "baseball": 37,
     "boxing": 16,
     "cricket": 44,
-    "cycling": 23,
+    "cycling": 22,
     "darts": 8,
     "f1": 27,
-    "football": 149,
-    "golf": 55,
+    "football": 154,
+    "golf": 56,
     "horse racing": 5,
-    "motorsport": 61,
-    "nba": 2,
+    "motorsport": 62,
+    "nba": 4,
     "nfl": 34,
-    "other": 500,
+    "other": 508,
     "rugby": 34,
     "snooker": 2,
-    "tennis": 50,
+    "tennis": 54,
     "ufc": 2,
     "wrestling": 9
   }

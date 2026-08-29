@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-29T15:18:52.722004Z",
-  "window_start": "2026-08-29T15:00:00Z",
-  "window_end": "2026-08-30T15:00:00Z",
+  "generated_at": "2026-08-29T15:59:16.006241Z",
+  "window_start": "2026-08-29T15:30:00Z",
+  "window_end": "2026-08-30T15:30:00Z",
   "timezone": "UTC",
-  "event_count": 1054,
-  "channel_count": 117,
+  "event_count": 1074,
+  "channel_count": 119,
   "channels": [
     "405 - SkySp Golf HD",
     "408 - SkySp Tennis HD",
@@ -13,6 +13,7 @@
     "5+1",
     "BBC 2 Northern Ireland",
     "BBC 2 Wales",
+    "BBC Alba",
     "BBC Red Button",
     "BBC Red Button 1",
     "BBC Two HD",
@@ -44,6 +45,8 @@
     "ITV4+1",
     "Islam Channel",
     "Legend Xtra",
+    "Legend Xtra +1",
+    "Legend Xtra+1",
     "LiverpoolFCTV",
     "MLB Network",
     "MUTV",
@@ -103,7 +106,6 @@
     "TNT Sport 6",
     "TNT Sport 7",
     "TNT Sport 8",
-    "TNT Sport 9",
     "TNT Sports 1",
     "TNT Sports 2",
     "TNT Sports 3",
@@ -128,19 +130,19 @@
     "baseball": 37,
     "boxing": 16,
     "cricket": 44,
-    "cycling": 23,
+    "cycling": 22,
     "darts": 8,
     "f1": 27,
-    "football": 145,
-    "golf": 55,
+    "football": 150,
+    "golf": 56,
     "horse racing": 5,
-    "motorsport": 61,
-    "nba": 2,
+    "motorsport": 62,
+    "nba": 4,
     "nfl": 34,
-    "other": 500,
+    "other": 508,
     "rugby": 34,
     "snooker": 2,
-    "tennis": 50,
+    "tennis": 54,
     "ufc": 2,
     "wrestling": 9
   },
@@ -311,18 +313,6 @@
       "source": "curated_uk"
     },
     {
-      "channel": "TNT Sports 7",
-      "channel_id": "TNTSport3.uk",
-      "title": "Live World Rally Championship",
-      "description": "",
-      "categories": [],
-      "start": "2026-08-29T13:00:00Z",
-      "end": "2026-08-29T15:30:00Z",
-      "sport": "other",
-      "confidence": 0.7,
-      "source": "curated_uk"
-    },
-    {
       "channel": "RTE Two",
       "channel_id": "RTE2.ie",
       "title": "Live: Women's Irish Open, LET Golf",
@@ -343,18 +333,6 @@
       "start": "2026-08-29T13:00:00Z",
       "end": "2026-08-29T16:00:00Z",
       "sport": "golf",
-      "confidence": 0.83,
-      "source": "rytec_uk_sport"
-    },
-    {
-      "channel": "TNT Sport 9",
-      "channel_id": "TNTSport9.uk",
-      "title": "Live: Cycling Classic Lorient Agglom\u00e9ration",
-      "description": "Action from the 25th edition of the Classic Lorient Agglom\u00e9ration one-day race, with riders taking on a course in Brittany, Northern France.",
-      "categories": [],
-      "start": "2026-08-29T13:10:00Z",
-      "end": "2026-08-29T15:15:00Z",
-      "sport": "cycling",
       "confidence": 0.83,
       "source": "rytec_uk_sport"
     },
@@ -716,18 +694,6 @@
       "source": "curated_uk"
     },
     {
-      "channel": "Premier Sports 2",
-      "channel_id": "premiersports2.uk",
-      "title": "Temples of Sport",
-      "description": "",
-      "categories": [],
-      "start": "2026-08-29T14:55:00Z",
-      "end": "2026-08-29T15:20:00Z",
-      "sport": "other",
-      "confidence": 0.7,
-      "source": "curated_uk"
-    },
-    {
       "channel": "Sky Sports Action",
       "channel_id": "skysportsaction.uk",
       "title": "Live International Rugby Union",
@@ -866,21 +832,6 @@
       "end": "2026-08-29T17:30:00Z",
       "sport": "horse racing",
       "confidence": 0.83,
-      "source": "curated_uk"
-    },
-    {
-      "channel": "MLB Network",
-      "channel_id": "MLBNetwork.us",
-      "title": "MLB Network Podcast",
-      "description": "Features engaging one-on-one interviews, aimed to unearth behind-the-scenes stories and anecdotes.",
-      "categories": [
-        "Sports",
-        "Baseball"
-      ],
-      "start": "2026-08-29T15:00:00Z",
-      "end": "2026-08-29T15:30:00Z",
-      "sport": "baseball",
-      "confidence": 0.91,
       "source": "curated_uk"
     },
     {
@@ -13353,8 +13304,317 @@
       "sport": "other",
       "confidence": 0.7,
       "source": "rytec_uk_sport"
+    },
+    {
+      "channel": "Legend Xtra+1",
+      "channel_id": "LegendXtraPlus1.uk",
+      "title": "The 7 Adventures of Sinbad",
+      "description": "Action-packed adventure on the high seas! A billionaire discovers that he must complete seven seemingly impossible tasks to prevent the apocalypse in this modern retelling of the classic myth. (2010)",
+      "categories": [],
+      "start": "2026-08-30T15:00:00Z",
+      "end": "2026-08-30T17:00:00Z",
+      "sport": "nba",
+      "confidence": 0.83,
+      "source": "freeview"
+    },
+    {
+      "channel": "Big Ten Network",
+      "channel_id": "BigTenNetwork.us",
+      "title": "Women's College Soccer",
+      "description": "From DeMartin Soccer Complex in East Lansing, Mich.",
+      "categories": [
+        "Sports",
+        "Soccer"
+      ],
+      "start": "2026-08-30T15:00:00Z",
+      "end": "2026-08-30T17:00:00Z",
+      "sport": "football",
+      "confidence": 0.83,
+      "source": "curated_uk"
+    },
+    {
+      "channel": "ESPN News",
+      "channel_id": "ESPNNews.us",
+      "title": "OmegaBall",
+      "description": "An evolution of soccer, games involve three teams playing with three goals.",
+      "categories": [
+        "Sports",
+        "Soccer"
+      ],
+      "start": "2026-08-30T15:00:00Z",
+      "end": "2026-08-30T16:00:00Z",
+      "sport": "football",
+      "confidence": 0.83,
+      "source": "curated_uk"
+    },
+    {
+      "channel": "Golf Channel",
+      "channel_id": "GolfChannel.us",
+      "title": "Golf Central Pregame",
+      "description": "Golf Central Pregame preps viewers for all the tournament action, with up-to-date scores, interviews, and analysis.",
+      "categories": [
+        "Sports",
+        "Golf"
+      ],
+      "start": "2026-08-30T15:00:00Z",
+      "end": "2026-08-30T16:00:00Z",
+      "sport": "golf",
+      "confidence": 0.83,
+      "source": "curated_uk"
+    },
+    {
+      "channel": "MLB Network",
+      "channel_id": "MLBNetwork.us",
+      "title": "Quick Pitch",
+      "description": "All the latest baseball news, scores and highlights. Plus, a first look at upcoming matchups.",
+      "categories": [
+        "Sports",
+        "Baseball"
+      ],
+      "start": "2026-08-30T15:00:00Z",
+      "end": "2026-08-30T16:00:00Z",
+      "sport": "baseball",
+      "confidence": 0.83,
+      "source": "curated_uk"
+    },
+    {
+      "channel": "Sky Sports+",
+      "channel_id": "SkySportsArena.uk",
+      "title": "Live US Open Tennis",
+      "description": "",
+      "categories": [],
+      "start": "2026-08-30T15:00:00Z",
+      "end": "2026-08-30T15:30:00Z",
+      "sport": "tennis",
+      "confidence": 0.91,
+      "source": "curated_uk"
+    },
+    {
+      "channel": "Sky Sports F1",
+      "channel_id": "skysportsf1.uk",
+      "title": "Live: Indy NXT",
+      "description": "",
+      "categories": [],
+      "start": "2026-08-30T15:00:00Z",
+      "end": "2026-08-30T16:00:00Z",
+      "sport": "other",
+      "confidence": 0.7,
+      "source": "curated_uk"
+    },
+    {
+      "channel": "Sky Sports Football",
+      "channel_id": "skysportsfootball.uk",
+      "title": "EFL Highlights",
+      "description": "",
+      "categories": [],
+      "start": "2026-08-30T15:00:00Z",
+      "end": "2026-08-30T15:15:00Z",
+      "sport": "other",
+      "confidence": 0.7,
+      "source": "curated_uk"
+    },
+    {
+      "channel": "Sky Sports Main Event",
+      "channel_id": "skysportsmainevent.uk",
+      "title": "Live Super Sunday",
+      "description": "",
+      "categories": [],
+      "start": "2026-08-30T15:00:00Z",
+      "end": "2026-08-30T18:30:00Z",
+      "sport": "other",
+      "confidence": 0.7,
+      "source": "curated_uk"
+    },
+    {
+      "channel": "Sky Sports News",
+      "channel_id": "skysportsnews.uk",
+      "title": "Sports Sunday",
+      "description": "",
+      "categories": [],
+      "start": "2026-08-30T15:00:00Z",
+      "end": "2026-08-30T16:00:00Z",
+      "sport": "other",
+      "confidence": 0.7,
+      "source": "curated_uk"
+    },
+    {
+      "channel": "Sky Sports Premier League",
+      "channel_id": "skysportspremiereleague.uk",
+      "title": "Live Super Sunday",
+      "description": "",
+      "categories": [],
+      "start": "2026-08-30T15:00:00Z",
+      "end": "2026-08-30T18:30:00Z",
+      "sport": "other",
+      "confidence": 0.7,
+      "source": "curated_uk"
+    },
+    {
+      "channel": "TSN 3",
+      "channel_id": "TSN3.ca",
+      "title": "2026 US Open Tennis",
+      "description": "From the USTA Billie Jean King National Tennis Center in Flushing, N.Y.",
+      "categories": [
+        "Sports",
+        "Tennis"
+      ],
+      "start": "2026-08-30T15:00:00Z",
+      "end": "2026-08-30T23:00:00Z",
+      "sport": "tennis",
+      "confidence": 0.91,
+      "source": "curated_uk"
+    },
+    {
+      "channel": "USA Network",
+      "channel_id": "USANetwork.us",
+      "title": "Premier League Mornings",
+      "description": "Stateside Premier League fan festival that includes a turf pitch, the Premier League trophy, club mascots, special guests, contests, and more.",
+      "categories": [
+        "Sports",
+        "Soccer"
+      ],
+      "start": "2026-08-30T15:00:00Z",
+      "end": "2026-08-30T15:30:00Z",
+      "sport": "football",
+      "confidence": 0.91,
+      "source": "curated_uk"
+    },
+    {
+      "channel": "BBC Alba",
+      "channel_id": "BBCAlba.uk",
+      "title": "Scottish Women's Premier League (BBC ALBA)",
+      "description": "Tha Hearts a\u2019 cur f\u00e0ilte air Rangers gu P\u00e0irce Ainslie leis a\u2019 gheama air fad be\u00f2 air BBC ALBA c\u00f2mhla ri Alasdair MacIllinnein agus Donna NicN\u00e8ill. Live football action and reaction as Hearts host Rangers at Ainslie Park, with Alasdair MacLennan and Donna MacNeill.",
+      "categories": [],
+      "start": "2026-08-30T15:00:00Z",
+      "end": "2026-08-30T17:15:00Z",
+      "sport": "football",
+      "confidence": 0.83,
+      "source": "rytec_uk_basic"
+    },
+    {
+      "channel": "Legend Xtra +1",
+      "channel_id": "LegendXtraPlus1.uk",
+      "title": "The 7 Adventures of Sinbad",
+      "description": "Persian prince Sinbad is charged with completing seven seemingly-impossible tasks in order to save humanity from an imminent catastrophe. Ben Hayflick - Director Adam Silver - Director Patrick Muldoon - Adrian Sinbad Sarah Desage - Loa Bo Svenson - Simon Magnusson Dylan Jones - Joseph Atash.",
+      "categories": [],
+      "start": "2026-08-30T15:00:00Z",
+      "end": "2026-08-30T17:00:00Z",
+      "sport": "nba",
+      "confidence": 0.83,
+      "source": "rytec_uk_basic"
+    },
+    {
+      "channel": "Sky Sports News",
+      "channel_id": "SkySpNews.uk",
+      "title": "Soccer Sunday",
+      "description": "Stay in touch with the news, as studio guests join the team for live reports and the latest scores from all the afternoon's sporting events.",
+      "categories": [],
+      "start": "2026-08-30T15:00:00Z",
+      "end": "2026-08-30T16:00:00Z",
+      "sport": "football",
+      "confidence": 0.83,
+      "source": "rytec_uk_sport"
+    },
+    {
+      "channel": "SkySP PL",
+      "channel_id": "SkySpPL.uk",
+      "title": "LIVE: PL: Manchester Utd v Ipswich",
+      "description": "On Super Sunday, Manchester United play host to Ipswich Town at Old Trafford in the Premier League.",
+      "categories": [],
+      "start": "2026-08-30T15:00:00Z",
+      "end": "2026-08-30T18:30:00Z",
+      "sport": "other",
+      "confidence": 0.7,
+      "source": "rytec_uk_sport"
+    },
+    {
+      "channel": "SkySpMainEv",
+      "channel_id": "SkySpMainEv.uk",
+      "title": "LIVE: PL: Manchester Utd v Ipswich",
+      "description": "On Super Sunday, Manchester United play host to Ipswich Town at Old Trafford in the Premier League.",
+      "categories": [],
+      "start": "2026-08-30T15:00:00Z",
+      "end": "2026-08-30T18:30:00Z",
+      "sport": "other",
+      "confidence": 0.7,
+      "source": "rytec_uk_sport"
+    },
+    {
+      "channel": "412 - SkySp+ HD",
+      "channel_id": "SkySportsPlus.uk",
+      "title": "Live: US Open Day 1",
+      "description": "Day one of the 2026 US Open - the fourth and final Grand Slam of the year - at Flushing Meadows in New York City.",
+      "categories": [],
+      "start": "2026-08-30T15:00:00Z",
+      "end": "2026-08-30T23:00:00Z",
+      "sport": "tennis",
+      "confidence": 0.83,
+      "source": "rytec_uk_sport"
+    },
+    {
+      "channel": "SkySp Fball",
+      "channel_id": "SkySpFball.uk",
+      "title": "EFL 26/27: Southampton v Millwall",
+      "description": "Southampton play host to Millwall at St Mary's in the Sky Bet Championship. (29.08).",
+      "categories": [],
+      "start": "2026-08-30T15:00:00Z",
+      "end": "2026-08-30T15:15:00Z",
+      "sport": "other",
+      "confidence": 0.7,
+      "source": "rytec_uk_sport",
+      "home_team": "Southampton",
+      "away_team": "Millwall",
+      "fixture": "Southampton v Millwall"
+    },
+    {
+      "channel": "SkySp Arena",
+      "channel_id": "SkySpArena.uk",
+      "title": "Live: US Open Day 1",
+      "description": "Day one of the 2026 US Open - the fourth and final Grand Slam of the year - at Flushing Meadows in New York City.",
+      "categories": [],
+      "start": "2026-08-30T15:00:00Z",
+      "end": "2026-08-30T23:00:00Z",
+      "sport": "tennis",
+      "confidence": 0.83,
+      "source": "rytec_uk_sport"
+    },
+    {
+      "channel": "Sky sports F1",
+      "channel_id": "SkySpF1.uk",
+      "title": "LIVE: Indycar NXT",
+      "description": "The next generation of budding IndyCar stars line-up on the starting grid for 90 laps of racing at the Milwaukee Mile in Wisconsin.",
+      "categories": [],
+      "start": "2026-08-30T15:00:00Z",
+      "end": "2026-08-30T16:00:00Z",
+      "sport": "motorsport",
+      "confidence": 0.83,
+      "source": "rytec_uk_sport"
+    },
+    {
+      "channel": "Sky Sports Football",
+      "channel_id": "skysportsfootball.uk",
+      "title": "EFL Highlights",
+      "description": "",
+      "categories": [],
+      "start": "2026-08-30T15:15:00Z",
+      "end": "2026-08-30T15:30:00Z",
+      "sport": "other",
+      "confidence": 0.7,
+      "source": "curated_uk"
+    },
+    {
+      "channel": "SkySp Fball",
+      "channel_id": "SkySpFball.uk",
+      "title": "EFL 26/27: Watford v West Ham Utd",
+      "description": "Watford play host to West Ham United at Vicarage Road in the Sky Bet Championship. (29.08).",
+      "categories": [],
+      "start": "2026-08-30T15:15:00Z",
+      "end": "2026-08-30T15:30:00Z",
+      "sport": "other",
+      "confidence": 0.7,
+      "source": "rytec_uk_sport"
     }
   ],
-  "fixture_enriched_count": 51,
-  "fixture_ambiguous_count": 45
+  "fixture_enriched_count": 52,
+  "fixture_ambiguous_count": 47
 }
