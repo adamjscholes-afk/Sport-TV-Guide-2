@@ -1,5 +1,6 @@
 name: Deploy to GitHub Pages
 # Fixture resolver: explicit EPG teams plus live fixture matching for ambiguous listings.
+# Fallback: TheSportsDB for English football when ESPN is unavailable.
 
 on:
   push:
