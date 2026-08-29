@@ -16,7 +16,7 @@ BBC_ONE_RE=re.compile(r"\bbbc\s*(?:one|1)\b",re.I)
 PROMO_RE=re.compile(r"^(this is |welcome to |channel |coming up|programming on |schedule$)",re.I); NEWS_RE=re.compile(r"sports news|sky sports news|live at the races",re.I)
 def normalise_channel(channel):
  c=' '.join(channel.split()).strip()
- if BBC_ONE_RE.match(c): return 'BBC One'
+ if BBC_ONE_RE.search(c): return 'BBC One'
  return c
 def download(url):
  req=urllib.request.Request(url,headers={"User-Agent":"SportTVGuide/0.3"})
