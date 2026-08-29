@@ -1,0 +1,11 @@
+{
+  "name": "Sport TV Guide",
+  "short_name": "Sport TV Guide",
+  "start_url": "/Sport-TV-Guide-2/",
+  "scope": "/Sport-TV-Guide-2/",
+  "display": "standalone",
+  "background_color": "#f7f7f5",
+  "theme_color": "#ffffff",
+  "description": "British sports TV listings in Swiss or local time.",
+  "icons": []
+}
