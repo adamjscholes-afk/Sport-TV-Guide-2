@@ -1,0 +1,40 @@
+name: Normalize BBC One variants
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  normalize:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Normalize BBC One matcher
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          p = Path('data_pipeline/scripts/build_guide.py')
+          s = p.read_text()
+          old = 'BBC_ONE_RE=re.compile(r"^bbc\\s+one\\b",re.I)'
+          new = 'BBC_ONE_RE=re.compile(r"(?:^|\\b)bbc\\s*(?:one|1)\\b",re.I)'
+          if old not in s:
+              raise SystemExit('Expected BBC One matcher not found')
+          p.write_text(s.replace(old, new, 1))
+          PY
+      - name: Commit normalization
+        run: |
+          git config user.name 'sport-tv-guide-bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add data_pipeline/scripts/build_guide.py
+          if git diff --cached --quiet; then
+            echo 'BBC One normalization already applied'
+          else
+            git commit -m 'Harden BBC One regional normalization'
+            git push
+          fi
