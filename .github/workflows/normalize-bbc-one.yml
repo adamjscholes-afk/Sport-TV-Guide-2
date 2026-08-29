@@ -21,18 +21,20 @@ jobs:
           from pathlib import Path
           p = Path('data_pipeline/scripts/build_guide.py')
           s = p.read_text()
-          old_values = [
-              'BBC_ONE_RE=re.compile(r"^bbc\\s+one\\b",re.I)',
-              'BBC_ONE_RE=re.compile(r"^bbc\\s*(?:one|1)\\b",re.I)',
+          replacements = [
+              ('BBC_ONE_RE=re.compile(r"^bbc\\s+one\\b",re.I)', 'BBC_ONE_RE=re.compile(r"\\bbbc\\s*(?:one|1)\\b",re.I)'),
+              ('BBC_ONE_RE=re.compile(r"^bbc\\s*(?:one|1)\\b",re.I)', 'BBC_ONE_RE=re.compile(r"\\bbbc\\s*(?:one|1)\\b",re.I)'),
+              ('if BBC_ONE_RE.match(c): return \'BBC One\'', 'if BBC_ONE_RE.search(c): return \'BBC One\''),
           ]
-          new = 'BBC_ONE_RE=re.compile(r"\\bbbc\\s*(?:one|1)\\b",re.I)'
-          for old in old_values:
+          changed = False
+          for old, new in replacements:
               if old in s:
-                  p.write_text(s.replace(old, new, 1))
-                  break
-          else:
-              if new not in s:
-                  raise SystemExit('No known BBC One matcher found')
+                  s = s.replace(old, new, 1)
+                  changed = True
+          if changed:
+              p.write_text(s)
+          elif 'if BBC_ONE_RE.search(c): return \'BBC One\'' not in s:
+              raise SystemExit('BBC One normalization pattern not found')
           PY
       - name: Commit normalization
         run: |
@@ -42,6 +44,6 @@ jobs:
           if git diff --cached --quiet; then
             echo 'BBC One normalization already applied'
           else
-            git commit -m 'Harden BBC One regional normalization'
+            git commit -m 'Fix BBC One regional channel normalization'
             git push
           fi
