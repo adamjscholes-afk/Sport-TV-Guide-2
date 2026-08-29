@@ -11,7 +11,12 @@ SOURCES={"freeview":["https://raw.githubusercontent.com/dp247/Freeview-EPG/maste
 SPORT_TERMS={"football":["premier league","championship","league one","league two","fa cup","uefa","europa league","champions league","football","soccer"],"rugby":["rugby","six nations","premiership rugby","rugby championship"],"boxing":["boxing","fight night","heavyweight"],"ufc":["ufc","ultimate fighting championship"],"tennis":["tennis","atp","wta","grand slam","wimbledon","us open","french open","australian open"],"golf":["golf","pga","lpga","ryder cup","masters tournament"],"cricket":["cricket","test match","t20","odi","the hundred"],"f1":["formula 1","formula one","f1","grand prix"],"f2":["formula 2","f2"],"f3":["formula 3","f3"],"darts":["darts","pdc"],"snooker":["snooker","world snooker"],"cycling":["cycling","tour de france","giro d'italia","vuelta"],"motorsport":["motorsport","motogp","nascar","indycar","wrc"],"nfl":["nfl","super bowl"],"nba":["nba","basketball"],"baseball":["mlb","baseball"],"ice hockey":["nhl","ice hockey"],"horse racing":["horse racing","racing from","kempton","ascot","cheltenham","aintree","newmarket"],"wrestling":["wwe","aew","wrestling"]}
 SPORT_CHANNEL_RE=re.compile(r"sky\s*sp|sky sports|tnt sport|premier sports|bt sport|eurosport|racing tv|sky f1|sky golf|skysp",re.I)
 RADIO_CHANNEL_RE=re.compile(r"talksport|talk sport|bbc radio|bbc sounds|radio [0-9]|absolute radio|capital fm|heart fm|kiss fm|smooth radio|lbc|magic radio|virgin radio|greatest hits radio|radio x|classic fm|gold radio",re.I)
+BBC_ONE_RE=re.compile(r"^bbc\s+one(?:\s+(?:hd|england|scotland|wales|northern\s+ireland|ni|east|west|north\s*(?:east|west)?|south\s*(?:east|west)?|midlands|yorkshire|oxfordshire|cambridgeshire|channel\s+islands|isle\s+of\s+man|[a-z]+))*(?:\s+hd)?$",re.I)
 PROMO_RE=re.compile(r"^(this is |welcome to |channel |coming up|programming on |schedule$)",re.I); NEWS_RE=re.compile(r"sports news|sky sports news|live at the races",re.I)
+def normalise_channel(channel):
+ c=' '.join(channel.split()).strip()
+ if BBC_ONE_RE.match(c): return 'BBC One'
+ return c
 def download(url):
  req=urllib.request.Request(url,headers={"User-Agent":"SportTVGuide/0.3"})
  with urllib.request.urlopen(req,timeout=30) as r:return r.read()
@@ -28,7 +33,6 @@ def parse_dt(v):
  return d.replace(tzinfo=timezone.utc)
 def text(el):return ' '.join(''.join(el.itertext()).split()) if el is not None else ''
 def classify(title,desc,channel,categories):
- # Descriptions are not used for sport detection: they frequently mention unrelated sports.
  if RADIO_CHANNEL_RE.search(channel):return None,0.0
  tl=title.lower().strip(); category_text=' '.join(categories).lower(); hay=f"{tl} {category_text}"
  if NEWS_RE.search(tl):return None,0.0
@@ -42,12 +46,12 @@ def ingest(name,urls,start,end):
  errors=[]
  for url in urls:
   try:
-   raw=download(url);root=ET.fromstring(xml_bytes(raw,url));chs={c.attrib.get('id',''):text(c.find('display-name')) for c in root.findall('channel')};ps=[]
+   raw=download(url);root=ET.fromstring(xml_bytes(raw,url));chs={c.attrib.get('id',''):normalise_channel(text(c.find('display-name'))) for c in root.findall('channel')};ps=[]
    for p in root.findall('programme'):
     try:s,e=parse_dt(p.attrib.get('start','')),parse_dt(p.attrib.get('stop',''))
     except Exception:continue
     if e<=start or s>=end:continue
-    cid=p.attrib.get('channel','');ch=chs.get(cid,cid);title,desc=text(p.find('title')),text(p.find('desc'));cats=[text(x) for x in p.findall('category')];sport,conf=classify(title,desc,ch,cats)
+    cid=p.attrib.get('channel','');ch=chs.get(cid,normalise_channel(cid));title,desc=text(p.find('title')),text(p.find('desc'));cats=[text(x) for x in p.findall('category')];sport,conf=classify(title,desc,ch,cats)
     if sport:ps.append({'channel':ch,'channel_id':cid,'title':title,'description':desc,'categories':cats,'start':s.isoformat().replace('+00:00','Z'),'end':e.isoformat().replace('+00:00','Z'),'sport':sport,'confidence':conf,'source':name})
    if ps:return ps,{'ok':True,'url':url,'programmes':len(ps),'sha256':hashlib.sha256(raw).hexdigest()}
    errors.append(f'{url}: parsed but no sports programmes')
