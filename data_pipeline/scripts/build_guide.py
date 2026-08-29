@@ -28,13 +28,14 @@ def parse_dt(v):
  return d.replace(tzinfo=timezone.utc)
 def text(el):return ' '.join(''.join(el.itertext()).split()) if el is not None else ''
 def classify(title,desc,channel,categories):
+ # Descriptions are not used for sport detection: they frequently mention unrelated sports.
  if RADIO_CHANNEL_RE.search(channel):return None,0.0
- tl=title.lower();hay=f"{title} {desc} {' '.join(categories)}".lower()
- if PROMO_RE.search(tl) and not any(t in hay for t in ['premier league','champions league','rugby','boxing','ufc','tennis','golf','cricket','formula','grand prix']):return None,0.0
+ tl=title.lower().strip(); category_text=' '.join(categories).lower(); hay=f"{tl} {category_text}"
  if NEWS_RE.search(tl):return None,0.0
+ if PROMO_RE.search(tl) and not any(t in tl for t in ['premier league','champions league','rugby','boxing','ufc','tennis','golf','cricket','formula','grand prix']):return None,0.0
  scores={s:sum(1 for t in ts if t in hay) for s,ts in SPORT_TERMS.items()};scores={k:v for k,v in scores.items() if v}
  if scores:
-  sport=max(scores,key=scores.get);return sport,min(.99,.65+.10*scores[sport])
+  sport=max(scores,key=scores.get);return sport,min(.99,.75+.08*scores[sport])
  if SPORT_CHANNEL_RE.search(channel):return 'other',.70
  return None,0.0
 def ingest(name,urls,start,end):
