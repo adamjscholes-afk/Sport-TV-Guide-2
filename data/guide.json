@@ -1,12 +1,11 @@
 {
-  "generated_at": "2026-08-29T09:19:01.108057Z",
+  "generated_at": "2026-08-29T09:23:05.056411Z",
   "window_start": "2026-08-29T09:00:00Z",
   "window_end": "2026-09-01T09:00:00Z",
   "timezone": "UTC",
-  "event_count": 5006,
-  "channel_count": 471,
+  "event_count": 4923,
+  "channel_count": 451,
   "channels": [
-    "0107 - talkSPORT",
     "0117 - BBC Asian Net",
     "145 - Sky Sci-Fi",
     "147 - TRUE CRIME X",
@@ -81,23 +80,6 @@
     "BBC One West Midlands HD",
     "BBC One Yorks & Lincs HD",
     "BBC One Yorkshire HD",
-    "BBC Radio 1 Xtra",
-    "BBC Radio 2",
-    "BBC Radio 4 FM",
-    "BBC Radio 4 LW",
-    "BBC Radio 5 Live",
-    "BBC Radio 5 Sports Xtra",
-    "BBC Radio 6 Music",
-    "BBC Radio Cymru",
-    "BBC Radio Gloucestershire",
-    "BBC Radio Leeds",
-    "BBC Radio Leicester",
-    "BBC Radio Lincolnshire",
-    "BBC Radio London",
-    "BBC Radio Scotland",
-    "BBC Radio Sheffield",
-    "BBC Radio Tees",
-    "BBC Radio Wales",
     "BBC Red Button",
     "BBC Red Button 1",
     "BBC Scotland",
@@ -325,7 +307,6 @@
     "RT\u00c9 KIDSjr",
     "RT\u00c9 One +1",
     "RT\u00c9 One HD",
-    "RT\u00c9 Radio 1",
     "RT\u00c92 +1",
     "RT\u00c92 HD",
     "Really",
@@ -475,27 +456,26 @@
     "Yesterday +1",
     "Zee Cinema",
     "Zee TV",
-    "revelation",
-    "talkSPORT"
+    "revelation"
   ],
   "sport_counts": {
     "baseball": 137,
-    "boxing": 86,
-    "cricket": 531,
+    "boxing": 80,
+    "cricket": 512,
     "cycling": 152,
     "darts": 92,
     "f1": 156,
-    "football": 1494,
+    "football": 1456,
     "golf": 209,
     "horse racing": 86,
     "ice hockey": 7,
     "motorsport": 141,
-    "nba": 94,
-    "nfl": 443,
+    "nba": 89,
+    "nfl": 435,
     "other": 1037,
-    "rugby": 76,
+    "rugby": 71,
     "snooker": 25,
-    "tennis": 174,
+    "tennis": 172,
     "ufc": 28,
     "wrestling": 38
   },
@@ -661,18 +641,6 @@
       "sport": "other",
       "confidence": 0.7,
       "source": "rytec_uk_sport"
-    },
-    {
-      "channel": "BBC Radio 5 Live",
-      "channel_id": "BBCR5L.uk",
-      "title": "Patrick Kielty",
-      "description": "Paddy is joined by Ivo Graham, Charlie Brooks and James Montague. Hannah Scott will be in the '5 Live Lounge' performing your favourite football chants.",
-      "categories": [],
-      "start": "2026-08-29T08:00:00Z",
-      "end": "2026-08-29T10:00:00Z",
-      "sport": "football",
-      "confidence": 0.75,
-      "source": "freeview"
     },
     {
       "channel": "Newsmax",
@@ -882,18 +850,6 @@
       "end": "2026-08-29T10:00:00Z",
       "sport": "cricket",
       "confidence": 0.75,
-      "source": "freeview"
-    },
-    {
-      "channel": "BBC Radio 5 Sports Xtra",
-      "channel_id": "BBCR5SX.uk",
-      "title": "Test Match Special",
-      "description": "Live ball-by-ball cricket commentary of England v Pakistan on the 3rd day of the 2nd Test at Lord's.",
-      "categories": [],
-      "start": "2026-08-29T09:00:00Z",
-      "end": "2026-08-29T18:00:00Z",
-      "sport": "cricket",
-      "confidence": 0.8500000000000001,
       "source": "freeview"
     },
     {
@@ -1602,30 +1558,6 @@
       "source": "rytec_uk_basic"
     },
     {
-      "channel": "BBC Radio 4 FM",
-      "channel_id": "BBCR4FM.uk",
-      "title": "Soul Music",
-      "description": "Written by Dolly Parton... sent stratospheric by Whitney Houston. It's a song that has a worldwide fanbase, reflected by the diverse memories shared here.",
-      "categories": [],
-      "start": "2026-08-29T09:30:00Z",
-      "end": "2026-08-29T10:00:00Z",
-      "sport": "nba",
-      "confidence": 0.75,
-      "source": "freeview"
-    },
-    {
-      "channel": "BBC Radio 4 LW",
-      "channel_id": "BBCR4LW.uk",
-      "title": "Soul Music",
-      "description": "Written by Dolly Parton... sent stratospheric by Whitney Houston. It's a song that has a worldwide fanbase, reflected by the diverse memories shared here.",
-      "categories": [],
-      "start": "2026-08-29T09:30:00Z",
-      "end": "2026-08-29T10:00:00Z",
-      "sport": "nba",
-      "confidence": 0.75,
-      "source": "freeview"
-    },
-    {
       "channel": "ITV4+1",
       "channel_id": "ITV4Plus1.uk",
       "title": "ITV Racing: The Opening Show",
@@ -1953,18 +1885,6 @@
       "source": "rytec_uk_basic"
     },
     {
-      "channel": "BBC Radio 5 Live",
-      "channel_id": "BBCR5L.uk",
-      "title": "Test Match Special",
-      "description": "Live ball-by-ball cricket commentary of England v Pakistan on day 3 of the 2nd Test at Lord's. Full commentary continues on 5 Sports Extra throughout the day.",
-      "categories": [],
-      "start": "2026-08-29T10:00:00Z",
-      "end": "2026-08-29T11:00:00Z",
-      "sport": "cricket",
-      "confidence": 0.8500000000000001,
-      "source": "freeview"
-    },
-    {
       "channel": "CNBC HD",
       "channel_id": "CNBCEurope.uk",
       "title": "CNBC Sports - PGA Tour",
@@ -2032,18 +1952,6 @@
       "categories": [],
       "start": "2026-08-29T10:00:00Z",
       "end": "2026-08-29T10:30:00Z",
-      "sport": "football",
-      "confidence": 0.75,
-      "source": "freeview"
-    },
-    {
-      "channel": "talkSPORT",
-      "channel_id": "TalkSport.uk",
-      "title": "GameDay Exclusive - Liverpool v Nottingham Forest",
-      "description": "Presented by Reshmin Chowdhury. Saturday is GameDay as we bring you live and exclusive commentary from the Premier League and EFL.",
-      "categories": [],
-      "start": "2026-08-29T10:00:00Z",
-      "end": "2026-08-29T13:30:00Z",
       "sport": "football",
       "confidence": 0.75,
       "source": "freeview"
@@ -2290,18 +2198,6 @@
       "sport": "nfl",
       "confidence": 0.75,
       "source": "rytec_uk_basic"
-    },
-    {
-      "channel": "0107 - talkSPORT",
-      "channel_id": "talkSPORT.uk",
-      "title": "GameDay Exclusive - Liverpool v Nottingham Forest",
-      "description": "Presented by Reshmin Chowdhury. Saturday is GameDay as we bring you live and exclusive commentary from the Premier League and EFL.",
-      "categories": [],
-      "start": "2026-08-29T10:00:00Z",
-      "end": "2026-08-29T13:30:00Z",
-      "sport": "football",
-      "confidence": 0.75,
-      "source": "rytec_uk_sport"
     },
     {
       "channel": "TNT Sports Ultimate HDR",
@@ -2784,18 +2680,6 @@
       "sport": "cycling",
       "confidence": 0.75,
       "source": "curated_uk"
-    },
-    {
-      "channel": "BBC Radio Scotland",
-      "channel_id": "BBCRScotland.uk",
-      "title": "Off the Ball",
-      "description": "The most petty and ill-informed football show on radio.",
-      "categories": [],
-      "start": "2026-08-29T11:00:00Z",
-      "end": "2026-08-29T13:00:00Z",
-      "sport": "football",
-      "confidence": 0.75,
-      "source": "freeview"
     },
     {
       "channel": "ITV1 Anglia HD",
@@ -3806,18 +3690,6 @@
       "sport": "cricket",
       "confidence": 0.75,
       "source": "curated_uk"
-    },
-    {
-      "channel": "BBC Radio Tees",
-      "channel_id": "BBCRadioTees.uk",
-      "title": "BBC Radio Tees Sport: Commentary",
-      "description": "Middlesbrough v West Brom in the Championship (95FM, DAB, Freeview 714, NOT Online).",
-      "categories": [],
-      "start": "2026-08-29T11:30:00Z",
-      "end": "2026-08-29T13:30:00Z",
-      "sport": "football",
-      "confidence": 0.75,
-      "source": "freeview"
     },
     {
       "channel": "CBS Sports Network",
@@ -5711,18 +5583,6 @@
       "source": "rytec_uk_sport"
     },
     {
-      "channel": "BBC Radio Sheffield",
-      "channel_id": "BBCRadioSheffield.uk",
-      "title": "Football Heaven",
-      "description": "Discussion on the day's football news",
-      "categories": [],
-      "start": "2026-08-29T13:00:00Z",
-      "end": "2026-08-29T14:00:00Z",
-      "sport": "football",
-      "confidence": 0.75,
-      "source": "freeview"
-    },
-    {
       "channel": "DMAX ROI",
       "channel_id": "DMAX.ie",
       "title": "Outback Crystal Hunters",
@@ -6119,18 +5979,6 @@
       "source": "freeview"
     },
     {
-      "channel": "talkSPORT",
-      "channel_id": "TalkSport.uk",
-      "title": "GameDay Live",
-      "description": "Adrian Durham, Christian Fuchs and Scott Minto with the fastest goal service as they go around the grounds in the Premier League and EFL. West Ham v Derby is on talkSPORT 2.",
-      "categories": [],
-      "start": "2026-08-29T13:30:00Z",
-      "end": "2026-08-29T16:30:00Z",
-      "sport": "football",
-      "confidence": 0.75,
-      "source": "freeview"
-    },
-    {
       "channel": "CBC News Network",
       "channel_id": "CBCNews.ca",
       "title": "Health Explored",
@@ -6183,18 +6031,6 @@
       "sport": "football",
       "confidence": 0.75,
       "source": "rytec_uk_basic"
-    },
-    {
-      "channel": "0107 - talkSPORT",
-      "channel_id": "talkSPORT.uk",
-      "title": "GameDay Live",
-      "description": "Adrian Durham, Scott Minto and Mark McGhee with the fastest goal service as they go around the grounds in the Premier League and EFL.",
-      "categories": [],
-      "start": "2026-08-29T13:30:00Z",
-      "end": "2026-08-29T16:30:00Z",
-      "sport": "football",
-      "confidence": 0.75,
-      "source": "rytec_uk_sport"
     },
     {
       "channel": "Premier Sports 1 ROI",
@@ -6351,42 +6187,6 @@
       "sport": "other",
       "confidence": 0.7,
       "source": "rytec_uk_sport"
-    },
-    {
-      "channel": "BBC Radio 5 Live",
-      "channel_id": "BBCR5L.uk",
-      "title": "Premier League Football",
-      "description": "Live football commentary of Coventry City v Hull City, plus updates from today's 3pm matches in the Premier League, EFL and Scottish Premiership.",
-      "categories": [],
-      "start": "2026-08-29T14:00:00Z",
-      "end": "2026-08-29T16:00:00Z",
-      "sport": "football",
-      "confidence": 0.8500000000000001,
-      "source": "freeview"
-    },
-    {
-      "channel": "BBC Radio Lincolnshire",
-      "channel_id": "BBCRadioLincolnshire.uk",
-      "title": "Hope and Glory: Live",
-      "description": "Coverage of Bolton Wanderers v Lincoln City in the Championship. Kick-off at 3pm. NOT online.",
-      "categories": [],
-      "start": "2026-08-29T14:00:00Z",
-      "end": "2026-08-29T16:00:00Z",
-      "sport": "football",
-      "confidence": 0.75,
-      "source": "freeview"
-    },
-    {
-      "channel": "BBC Radio Sheffield",
-      "channel_id": "BBCRadioSheffield.uk",
-      "title": "Football Heaven Live",
-      "description": "",
-      "categories": [],
-      "start": "2026-08-29T14:00:00Z",
-      "end": "2026-08-29T16:00:00Z",
-      "sport": "football",
-      "confidence": 0.75,
-      "source": "freeview"
     },
     {
       "channel": "DMAX+1",
@@ -8411,18 +8211,6 @@
       "source": "rytec_uk_sport"
     },
     {
-      "channel": "BBC Radio London",
-      "channel_id": "BBCRadioLondon.uk",
-      "title": "Total Sport: The Far Post",
-      "description": "The final say on all that's happened on the London football scene.",
-      "categories": [],
-      "start": "2026-08-29T16:00:00Z",
-      "end": "2026-08-29T17:00:00Z",
-      "sport": "football",
-      "confidence": 0.75,
-      "source": "freeview"
-    },
-    {
       "channel": "ITV4+1",
       "channel_id": "ITV4Plus1.uk",
       "title": "World of Sport",
@@ -9233,30 +9021,6 @@
       "source": "rytec_uk_sport"
     },
     {
-      "channel": "BBC Radio 5 Live",
-      "channel_id": "BBCR5L.uk",
-      "title": "Premier League Football",
-      "description": "Live commentary of Tottenham Hotspur v Newcastle United in the Premier League.",
-      "categories": [],
-      "start": "2026-08-29T16:30:00Z",
-      "end": "2026-08-29T18:30:00Z",
-      "sport": "football",
-      "confidence": 0.8500000000000001,
-      "source": "freeview"
-    },
-    {
-      "channel": "BBC Radio Wales",
-      "channel_id": "BBCRWales.uk",
-      "title": "Feast of Football Phone In",
-      "description": "Have your say on the day's sporting action. Call the team on 03700 100 110. Text 8 10 12 or message via X @bbcradiowales.",
-      "categories": [],
-      "start": "2026-08-29T16:30:00Z",
-      "end": "2026-08-29T18:00:00Z",
-      "sport": "football",
-      "confidence": 0.75,
-      "source": "freeview"
-    },
-    {
       "channel": "CNBC HD",
       "channel_id": "CNBCEurope.uk",
       "title": "The Score",
@@ -9276,18 +9040,6 @@
       "categories": [],
       "start": "2026-08-29T16:30:00Z",
       "end": "2026-08-29T18:45:00Z",
-      "sport": "football",
-      "confidence": 0.75,
-      "source": "freeview"
-    },
-    {
-      "channel": "talkSPORT",
-      "channel_id": "TalkSport.uk",
-      "title": "GameDay Phone-In",
-      "description": "Have your say on today's football. Call the show on 03717 22 33 44 (calls charged at national rate) or text 81089 (50p + charges).",
-      "categories": [],
-      "start": "2026-08-29T16:30:00Z",
-      "end": "2026-08-29T18:30:00Z",
       "sport": "football",
       "confidence": 0.75,
       "source": "freeview"
@@ -9418,18 +9170,6 @@
       "start": "2026-08-29T16:30:00Z",
       "end": "2026-08-29T17:00:00Z",
       "sport": "cricket",
-      "confidence": 0.75,
-      "source": "rytec_uk_sport"
-    },
-    {
-      "channel": "0107 - talkSPORT",
-      "channel_id": "talkSPORT.uk",
-      "title": "GameDay Phone-In",
-      "description": "Have your say on today's football. Call the show on 03717 22 33 44 (calls charged at national rate) or text 81089 (50p + charges).",
-      "categories": [],
-      "start": "2026-08-29T16:30:00Z",
-      "end": "2026-08-29T18:30:00Z",
-      "sport": "football",
       "confidence": 0.75,
       "source": "rytec_uk_sport"
     },
@@ -10820,30 +10560,6 @@
       "source": "rytec_uk_basic"
     },
     {
-      "channel": "BBC Radio 4 FM",
-      "channel_id": "BBCR4FM.uk",
-      "title": "This Cultural Life",
-      "description": "Pianist Mitsuko Uchida talks to John Wilson about her cultural influences and her career in music.",
-      "categories": [],
-      "start": "2026-08-29T18:15:00Z",
-      "end": "2026-08-29T19:00:00Z",
-      "sport": "nfl",
-      "confidence": 0.75,
-      "source": "freeview"
-    },
-    {
-      "channel": "BBC Radio 4 LW",
-      "channel_id": "BBCR4LW.uk",
-      "title": "This Cultural Life",
-      "description": "Pianist Mitsuko Uchida talks to John Wilson about her cultural influences and her career in music.",
-      "categories": [],
-      "start": "2026-08-29T18:15:00Z",
-      "end": "2026-08-29T19:00:00Z",
-      "sport": "nfl",
-      "confidence": 0.75,
-      "source": "freeview"
-    },
-    {
       "channel": "Sky Sports Cricket",
       "channel_id": "skysportscricket.uk",
       "title": "Best of ICC WT20",
@@ -10866,30 +10582,6 @@
       "sport": "cricket",
       "confidence": 0.75,
       "source": "rytec_uk_sport"
-    },
-    {
-      "channel": "BBC Radio 5 Live",
-      "channel_id": "BBCR5L.uk",
-      "title": "606",
-      "description": "Your football calls with Aaron Paul and Chris Sutton. Phone 08085 909693 free from mobiles and landlines. Text 85058 at your standard message rate.",
-      "categories": [],
-      "start": "2026-08-29T18:30:00Z",
-      "end": "2026-08-29T20:00:00Z",
-      "sport": "football",
-      "confidence": 0.75,
-      "source": "freeview"
-    },
-    {
-      "channel": "talkSPORT",
-      "channel_id": "TalkSport.uk",
-      "title": "Full-Time Fallout with Max Scott",
-      "description": "Join Max for his take on today's football. Call the show on 03717 22 33 44 (calls charged at national rate) or text 81089 (50p + charges).",
-      "categories": [],
-      "start": "2026-08-29T18:30:00Z",
-      "end": "2026-08-29T20:00:00Z",
-      "sport": "football",
-      "confidence": 0.75,
-      "source": "freeview"
     },
     {
       "channel": "Premier Sports 2",
@@ -11037,18 +10729,6 @@
       "sport": "cricket",
       "confidence": 0.75,
       "source": "rytec_uk_sky"
-    },
-    {
-      "channel": "0107 - talkSPORT",
-      "channel_id": "talkSPORT.uk",
-      "title": "Full-Time Fallout with Max Scott",
-      "description": "Join Max for his take on today's football. Call the show on 03717 22 33 44 (calls charged at national rate) or text 81089 (50p + charges).",
-      "categories": [],
-      "start": "2026-08-29T18:30:00Z",
-      "end": "2026-08-29T20:00:00Z",
-      "sport": "football",
-      "confidence": 0.75,
-      "source": "rytec_uk_sport"
     },
     {
       "channel": "TNT Sport 5",
@@ -11927,30 +11607,6 @@
       "source": "rytec_uk_sport"
     },
     {
-      "channel": "BBC Radio 5 Sports Xtra",
-      "channel_id": "BBCR5SX.uk",
-      "title": "Boxing - Live Fight",
-      "description": "Live boxing commentary of Moses Itauma v Filip Hrgovic for the vacant IBF World Heavyweight Championship at the O2 Arena, plus coverage from the undercard.",
-      "categories": [],
-      "start": "2026-08-29T20:00:00Z",
-      "end": "2026-08-29T22:30:00Z",
-      "sport": "boxing",
-      "confidence": 0.8500000000000001,
-      "source": "freeview"
-    },
-    {
-      "channel": "BBC Radio Scotland",
-      "channel_id": "BBCRScotland.uk",
-      "title": "Piping Sounds",
-      "description": "M\u00eccheal Steele with a selection of the premier Grade 1 section at the World Pipe Band Championships 2026.",
-      "categories": [],
-      "start": "2026-08-29T20:00:00Z",
-      "end": "2026-08-29T21:00:00Z",
-      "sport": "football",
-      "confidence": 0.75,
-      "source": "freeview"
-    },
-    {
       "channel": "Bloomberg HD",
       "channel_id": "BloombergTVEurope.uk",
       "title": "Leaders with Francine Lacqua: The Podcast",
@@ -12008,18 +11664,6 @@
       "end": "2026-08-29T21:00:00Z",
       "sport": "nfl",
       "confidence": 0.75,
-      "source": "freeview"
-    },
-    {
-      "channel": "talkSPORT",
-      "channel_id": "TalkSport.uk",
-      "title": "Fight Night Live",
-      "description": "Adam Catterall presents live commentary of the heavyweight fight at London's O2 Arena.",
-      "categories": [],
-      "start": "2026-08-29T20:00:00Z",
-      "end": "2026-08-29T23:00:00Z",
-      "sport": "boxing",
-      "confidence": 0.8500000000000001,
       "source": "freeview"
     },
     {
@@ -12224,18 +11868,6 @@
       "source": "rytec_uk_basic"
     },
     {
-      "channel": "0107 - talkSPORT",
-      "channel_id": "talkSPORT.uk",
-      "title": "Fight Night Live",
-      "description": "Adam Catterall presents live commentary of the heavyweight fight at London's O2 Arena.",
-      "categories": [],
-      "start": "2026-08-29T20:00:00Z",
-      "end": "2026-08-29T23:00:00Z",
-      "sport": "boxing",
-      "confidence": 0.8500000000000001,
-      "source": "rytec_uk_sport"
-    },
-    {
       "channel": "Premier Sports",
       "channel_id": "PremierSports.uk",
       "title": "LaLiga",
@@ -12423,18 +12055,6 @@
       "sport": "other",
       "confidence": 0.7,
       "source": "rytec_uk_sport"
-    },
-    {
-      "channel": "BBC Radio 5 Live",
-      "channel_id": "BBCR5L.uk",
-      "title": "Boxing - Live Fight",
-      "description": "Live boxing commentary of Moses Itauma v Filip Hrgovic for the vacant IBF World Heavyweight Championship at the O2 Arena.",
-      "categories": [],
-      "start": "2026-08-29T21:00:00Z",
-      "end": "2026-08-29T22:30:00Z",
-      "sport": "boxing",
-      "confidence": 0.8500000000000001,
-      "source": "freeview"
     },
     {
       "channel": "ITV4+1",
@@ -15044,30 +14664,6 @@
       "source": "rytec_uk_sport"
     },
     {
-      "channel": "BBC Radio 4 FM",
-      "channel_id": "BBCR4FM.uk",
-      "title": "Take Four Books",
-      "description": "Presenter James Crawford speaks to award-winning Mexican American novelist Valeria Luiselli about her latest novel, Beginning Middle End, and its three key literary influences.",
-      "categories": [],
-      "start": "2026-08-29T23:15:00Z",
-      "end": "2026-08-29T23:48:00Z",
-      "sport": "nfl",
-      "confidence": 0.75,
-      "source": "freeview"
-    },
-    {
-      "channel": "BBC Radio 4 LW",
-      "channel_id": "BBCR4LW.uk",
-      "title": "Take Four Books",
-      "description": "Presenter James Crawford speaks to award-winning Mexican American novelist Valeria Luiselli about her latest novel, Beginning Middle End, and its three key literary influences.",
-      "categories": [],
-      "start": "2026-08-29T23:15:00Z",
-      "end": "2026-08-29T23:48:00Z",
-      "sport": "nfl",
-      "confidence": 0.75,
-      "source": "freeview"
-    },
-    {
       "channel": "Sky Sports F1",
       "channel_id": "skysportsf1.uk",
       "title": "Indycar",
@@ -15537,18 +15133,6 @@
       "sport": "boxing",
       "confidence": 0.75,
       "source": "rytec_uk_basic"
-    },
-    {
-      "channel": "BBC Radio Wales",
-      "channel_id": "BBCRWales.uk",
-      "title": "Game Tracks with Alex Humphreys",
-      "description": "Alex Humphreys explores how video game music captures conflict and chaos, from epic battles and impossible odds to the quieter moments of reflection that follow.",
-      "categories": [],
-      "start": "2026-08-30T00:00:00Z",
-      "end": "2026-08-30T01:56:00Z",
-      "sport": "nfl",
-      "confidence": 0.75,
-      "source": "freeview"
     },
     {
       "channel": "Bloomberg HD",
@@ -17906,18 +17490,6 @@
       "sport": "cricket",
       "confidence": 0.75,
       "source": "rytec_uk_basic"
-    },
-    {
-      "channel": "BBC Radio 1 Xtra",
-      "channel_id": "BBCR1X.uk",
-      "title": "David Rodigan",
-      "description": "Soul Revivers, David Hill and Nick Manasseh join Rodigan in the studio. @1Xtra in social.",
-      "categories": [],
-      "start": "2026-08-30T03:00:00Z",
-      "end": "2026-08-30T05:00:00Z",
-      "sport": "cricket",
-      "confidence": 0.75,
-      "source": "freeview"
     },
     {
       "channel": "Really ROI",
@@ -22351,18 +21923,6 @@
       "source": "rytec_uk_basic"
     },
     {
-      "channel": "BBC Radio Wales",
-      "channel_id": "BBCRWales.uk",
-      "title": "All Things Considered",
-      "description": "Jonathan Thomas talks to Sophie Killingley about her book Blessed are the Neurodivergent.",
-      "categories": [],
-      "start": "2026-08-30T08:00:00Z",
-      "end": "2026-08-30T08:33:00Z",
-      "sport": "cricket",
-      "confidence": 0.75,
-      "source": "freeview"
-    },
-    {
       "channel": "ITV4 HD",
       "channel_id": "ITV4.uk",
       "title": "English Football League Highlights",
@@ -23305,18 +22865,6 @@
       "source": "rytec_uk_basic"
     },
     {
-      "channel": "BBC Radio 5 Sports Xtra",
-      "channel_id": "BBCR5SX.uk",
-      "title": "Test Match Special",
-      "description": "Live ball-by-ball cricket commentary of England v Pakistan on the 4th day of the 2nd Test at Lord's.",
-      "categories": [],
-      "start": "2026-08-30T09:00:00Z",
-      "end": "2026-08-30T18:00:00Z",
-      "sport": "cricket",
-      "confidence": 0.8500000000000001,
-      "source": "freeview"
-    },
-    {
       "channel": "ITV4+1",
       "channel_id": "ITV4Plus1.uk",
       "title": "English Football League Highlights",
@@ -23349,18 +22897,6 @@
       "start": "2026-08-30T09:00:00Z",
       "end": "2026-08-30T10:00:00Z",
       "sport": "nfl",
-      "confidence": 0.75,
-      "source": "freeview"
-    },
-    {
-      "channel": "RT\u00c9 Radio 1",
-      "channel_id": "RTERadio1.ie",
-      "title": "Supercharged with Anna Geary",
-      "description": "Anna opens up the conversation around our bodies and minds with a mix of expert advice, impactful personal stories, listener voice notes, and practical life hacks.",
-      "categories": [],
-      "start": "2026-08-30T09:00:00Z",
-      "end": "2026-08-30T10:00:00Z",
-      "sport": "cricket",
       "confidence": 0.75,
       "source": "freeview"
     },
@@ -25262,18 +24798,6 @@
       "source": "freeview"
     },
     {
-      "channel": "BBC Radio 5 Live",
-      "channel_id": "BBCR5L.uk",
-      "title": "5 Live Sport",
-      "description": "Alistair Bruce-Ball is joined by Nedum Onuoha, Shay Given and Julien Laurens for build-up to today's Premier League fixtures.",
-      "categories": [],
-      "start": "2026-08-30T11:00:00Z",
-      "end": "2026-08-30T13:00:00Z",
-      "sport": "football",
-      "confidence": 0.75,
-      "source": "freeview"
-    },
-    {
       "channel": "Now 70s",
       "channel_id": "Now70s.uk",
       "title": "The 50s Revival! Top 25",
@@ -25942,18 +25466,6 @@
       "start": "2026-08-30T12:00:00Z",
       "end": "2026-08-30T12:30:00Z",
       "sport": "nba",
-      "confidence": 0.75,
-      "source": "freeview"
-    },
-    {
-      "channel": "BBC Radio 1 Xtra",
-      "channel_id": "BBCR1X.uk",
-      "title": "David Rodigan",
-      "description": "Sheldon Shepherd and Storm Saulter pop by the studio to chat about the new TV series, Possession. Sheldon has to be quick though... he's got to make it back in time for Carnival.",
-      "categories": [],
-      "start": "2026-08-30T12:00:00Z",
-      "end": "2026-08-30T14:00:00Z",
-      "sport": "cricket",
       "confidence": 0.75,
       "source": "freeview"
     },
@@ -27403,18 +26915,6 @@
       "source": "rytec_uk_basic"
     },
     {
-      "channel": "talkSPORT",
-      "channel_id": "TalkSport.uk",
-      "title": "GameDay Live with Sam Matterface",
-      "description": "Sam Matterface, Micky Gray and Perry Groves with the fastest goal service as they go around the grounds in the Premier League and EFL.",
-      "categories": [],
-      "start": "2026-08-30T12:30:00Z",
-      "end": "2026-08-30T17:30:00Z",
-      "sport": "football",
-      "confidence": 0.75,
-      "source": "freeview"
-    },
-    {
       "channel": "Premier Sports 2",
       "channel_id": "premiersports2.uk",
       "title": "NASCAR O'Reilly Series",
@@ -27500,18 +27000,6 @@
       "sport": "nfl",
       "confidence": 0.75,
       "source": "rytec_uk_basic"
-    },
-    {
-      "channel": "0107 - talkSPORT",
-      "channel_id": "talkSPORT.uk",
-      "title": "GameDay LIVE: with Sam Matterface",
-      "description": "Sam Matterface, Micky Gray and Perry Groves with the fastest goal service as they go around the grounds in the Premier League.",
-      "categories": [],
-      "start": "2026-08-30T12:30:00Z",
-      "end": "2026-08-30T17:30:00Z",
-      "sport": "football",
-      "confidence": 0.75,
-      "source": "rytec_uk_sport"
     },
     {
       "channel": "Premier Sports 2",
@@ -27656,30 +27144,6 @@
       "sport": "other",
       "confidence": 0.7,
       "source": "rytec_uk_sport"
-    },
-    {
-      "channel": "BBC Radio 5 Live",
-      "channel_id": "BBCR5L.uk",
-      "title": "Premier League Football",
-      "description": "Live football commentary of Chelsea v Brighton & Hove Albion in the Premier League, plus updates from Leeds United v Brentford and Sunderland v Fulham.",
-      "categories": [],
-      "start": "2026-08-30T13:00:00Z",
-      "end": "2026-08-30T15:00:00Z",
-      "sport": "football",
-      "confidence": 0.8500000000000001,
-      "source": "freeview"
-    },
-    {
-      "channel": "BBC Radio Leeds",
-      "channel_id": "BBCRadioLeeds.uk",
-      "title": "West Yorkshire Sport: Commentary",
-      "description": "Coverage of Leeds United v Brentford in the Premier League. Kick-off at 2pm. NOT online.",
-      "categories": [],
-      "start": "2026-08-30T13:00:00Z",
-      "end": "2026-08-30T15:00:00Z",
-      "sport": "football",
-      "confidence": 0.75,
-      "source": "freeview"
     },
     {
       "channel": "CNBC HD",
@@ -29136,30 +28600,6 @@
       "source": "freeview"
     },
     {
-      "channel": "BBC Radio 1 Xtra",
-      "channel_id": "BBCR1X.uk",
-      "title": "1Xtra Salutes Carnival: Rampage",
-      "description": "Rampage salute 60 years of Notting Hill Carnival with Masicka, Kevin Lyttle, Sweeti Irvee and Stush, plus heavyweight anthems, sound-system heat and Ladbroke Grove energy.",
-      "categories": [],
-      "start": "2026-08-30T15:00:00Z",
-      "end": "2026-08-30T18:00:00Z",
-      "sport": "boxing",
-      "confidence": 0.75,
-      "source": "freeview"
-    },
-    {
-      "channel": "BBC Radio 5 Live",
-      "channel_id": "BBCR5L.uk",
-      "title": "5 Live Sport",
-      "description": "Alistair Bruce-Ball builds up to Manchester United v Ipswich Town in the Premier League.",
-      "categories": [],
-      "start": "2026-08-30T15:00:00Z",
-      "end": "2026-08-30T15:30:00Z",
-      "sport": "football",
-      "confidence": 0.75,
-      "source": "freeview"
-    },
-    {
       "channel": "Legend Xtra+1",
       "channel_id": "LegendXtraPlus1.uk",
       "title": "The 7 Adventures of Sinbad",
@@ -29625,18 +29065,6 @@
       "source": "freeview"
     },
     {
-      "channel": "BBC Radio 5 Live",
-      "channel_id": "BBCR5L.uk",
-      "title": "Premier League Football",
-      "description": "Live commentary of Manchester United v Ipswich Town in the Premier League.",
-      "categories": [],
-      "start": "2026-08-30T15:30:00Z",
-      "end": "2026-08-30T17:30:00Z",
-      "sport": "football",
-      "confidence": 0.8500000000000001,
-      "source": "freeview"
-    },
-    {
       "channel": "ITV1 Granada HD",
       "channel_id": "ITV1Granada.uk",
       "title": "Jurassic World",
@@ -29833,18 +29261,6 @@
       "sport": "football",
       "confidence": 0.8500000000000001,
       "source": "rytec_uk_sport"
-    },
-    {
-      "channel": "BBC Radio 2",
-      "channel_id": "BBCR2.uk",
-      "title": "Pick of the Pops",
-      "description": "Mark Goodier counts down the chart from this day in 1989.",
-      "categories": [],
-      "start": "2026-08-30T16:00:00Z",
-      "end": "2026-08-30T17:00:00Z",
-      "sport": "cricket",
-      "confidence": 0.75,
-      "source": "freeview"
     },
     {
       "channel": "CBeebies",
@@ -30194,30 +29610,6 @@
       "start": "2026-08-30T16:05:00Z",
       "end": "2026-08-30T16:30:00Z",
       "sport": "nfl",
-      "confidence": 0.75,
-      "source": "freeview"
-    },
-    {
-      "channel": "BBC Radio 4 FM",
-      "channel_id": "BBCR4FM.uk",
-      "title": "All Kinds of Minds",
-      "description": "1/4. Nathan Filer explores how the language of neurodiversity has evolved - offering a sense of belonging for many, while raising difficult questions about difference and diagnosis.",
-      "categories": [],
-      "start": "2026-08-30T16:10:00Z",
-      "end": "2026-08-30T16:54:00Z",
-      "sport": "cricket",
-      "confidence": 0.75,
-      "source": "freeview"
-    },
-    {
-      "channel": "BBC Radio 4 LW",
-      "channel_id": "BBCR4LW.uk",
-      "title": "All Kinds of Minds",
-      "description": "1/4. Nathan Filer explores how the language of neurodiversity has evolved - offering a sense of belonging for many, while raising difficult questions about difference and diagnosis.",
-      "categories": [],
-      "start": "2026-08-30T16:10:00Z",
-      "end": "2026-08-30T16:54:00Z",
-      "sport": "cricket",
       "confidence": 0.75,
       "source": "freeview"
     },
@@ -30723,18 +30115,6 @@
       "source": "rytec_uk_sport"
     },
     {
-      "channel": "BBC Radio 2",
-      "channel_id": "BBCR2.uk",
-      "title": "Pick of the Pops",
-      "description": "Mark Goodier counts down the chart from this day in 1999.",
-      "categories": [],
-      "start": "2026-08-30T17:00:00Z",
-      "end": "2026-08-30T18:00:00Z",
-      "sport": "cricket",
-      "confidence": 0.75,
-      "source": "freeview"
-    },
-    {
       "channel": "RNIB Connect",
       "channel_id": "RNIBConnectRadio.uk",
       "title": "Sunset Melodies",
@@ -31188,18 +30568,6 @@
       "source": "rytec_uk_sport"
     },
     {
-      "channel": "BBC Radio 5 Live",
-      "channel_id": "BBCR5L.uk",
-      "title": "606",
-      "description": "Your football calls with Robbie Savage and Chris Sutton. Phone 08085 909693 free from mobiles and landlines. Text 85058 at your standard message rate.",
-      "categories": [],
-      "start": "2026-08-30T17:30:00Z",
-      "end": "2026-08-30T19:00:00Z",
-      "sport": "football",
-      "confidence": 0.75,
-      "source": "freeview"
-    },
-    {
       "channel": "CNBC HD",
       "channel_id": "CNBCEurope.uk",
       "title": "The Score",
@@ -31207,18 +30575,6 @@
       "categories": [],
       "start": "2026-08-30T17:30:00Z",
       "end": "2026-08-30T18:00:00Z",
-      "sport": "football",
-      "confidence": 0.75,
-      "source": "freeview"
-    },
-    {
-      "channel": "talkSPORT",
-      "channel_id": "TalkSport.uk",
-      "title": "The Final Word with Natalie Sawyer",
-      "description": "Have your say on the weekend's football. Call the show on 03717 22 33 44 (Calls charged at national rate) or text 81089 (50p + charges).",
-      "categories": [],
-      "start": "2026-08-30T17:30:00Z",
-      "end": "2026-08-30T20:00:00Z",
       "sport": "football",
       "confidence": 0.75,
       "source": "freeview"
@@ -31305,18 +30661,6 @@
       "source": "rytec_uk_basic"
     },
     {
-      "channel": "0107 - talkSPORT",
-      "channel_id": "talkSPORT.uk",
-      "title": "The Final Word with Natalie Sawyer",
-      "description": "Have your say on the weekend's football. Call the show on 03717 22 33 44 (Calls charged at national rate) or text 81089 (50p + charges).",
-      "categories": [],
-      "start": "2026-08-30T17:30:00Z",
-      "end": "2026-08-30T20:00:00Z",
-      "sport": "football",
-      "confidence": 0.75,
-      "source": "rytec_uk_sport"
-    },
-    {
       "channel": "SkySp Fball",
       "channel_id": "SkySpFball.uk",
       "title": "EFL Cup Highlights",
@@ -31397,18 +30741,6 @@
       "start": "2026-08-30T18:00:00Z",
       "end": "2026-08-30T19:00:00Z",
       "sport": "cycling",
-      "confidence": 0.8500000000000001,
-      "source": "freeview"
-    },
-    {
-      "channel": "BBC Radio 5 Sports Xtra",
-      "channel_id": "BBCR5SX.uk",
-      "title": "US Open Tennis",
-      "description": "Live tennis commentary of the 1st round of the US Open from Flushing Meadows, New York.",
-      "categories": [],
-      "start": "2026-08-30T18:00:00Z",
-      "end": "2026-08-30T23:00:00Z",
-      "sport": "tennis",
       "confidence": 0.8500000000000001,
       "source": "freeview"
     },
@@ -32028,18 +31360,6 @@
       "source": "freeview"
     },
     {
-      "channel": "BBC Radio 5 Live",
-      "channel_id": "BBCR5L.uk",
-      "title": "The Boxing Board",
-      "description": "Ade Oladipo is joined by trainer Frank Gilfeather and Johnny Fisher, to debate boxing's ultimate heavyweight?",
-      "categories": [],
-      "start": "2026-08-30T19:00:00Z",
-      "end": "2026-08-30T19:30:00Z",
-      "sport": "boxing",
-      "confidence": 0.8500000000000001,
-      "source": "freeview"
-    },
-    {
       "channel": "Big Ten Network",
       "channel_id": "BigTenNetwork.us",
       "title": "B1G Football in 60",
@@ -32502,42 +31822,6 @@
       "source": "rytec_uk_sport"
     },
     {
-      "channel": "BBC Radio 4 FM",
-      "channel_id": "BBCR4FM.uk",
-      "title": "Last Word",
-      "description": "Music icon Dolly Parton; Dierdre McSharry, the editor who discovered Twiggy; classicist Professor Pat Easterling; and Billy Boston, who received rugby league's first knighthood.",
-      "categories": [],
-      "start": "2026-08-30T19:30:00Z",
-      "end": "2026-08-30T20:00:00Z",
-      "sport": "rugby",
-      "confidence": 0.75,
-      "source": "freeview"
-    },
-    {
-      "channel": "BBC Radio 4 LW",
-      "channel_id": "BBCR4LW.uk",
-      "title": "Last Word",
-      "description": "Music icon Dolly Parton; Dierdre McSharry, the editor who discovered Twiggy; classicist Professor Pat Easterling; and Billy Boston, who received rugby league's first knighthood.",
-      "categories": [],
-      "start": "2026-08-30T19:30:00Z",
-      "end": "2026-08-30T20:00:00Z",
-      "sport": "rugby",
-      "confidence": 0.75,
-      "source": "freeview"
-    },
-    {
-      "channel": "BBC Radio 5 Live",
-      "channel_id": "BBCR5L.uk",
-      "title": "Sport's Strangest Crimes...",
-      "description": "...Presents: Shadows on the Pitch. Patronage and power: lessons from an Italian footballing scandal. James questions his own footballing scar from the past.",
-      "categories": [],
-      "start": "2026-08-30T19:30:00Z",
-      "end": "2026-08-30T20:00:00Z",
-      "sport": "football",
-      "confidence": 0.75,
-      "source": "freeview"
-    },
-    {
       "channel": "CNBC HD",
       "channel_id": "CNBCEurope.uk",
       "title": "CNBC Sport: On the Record",
@@ -32937,18 +32221,6 @@
       "source": "rytec_uk_basic"
     },
     {
-      "channel": "BBC Radio Scotland",
-      "channel_id": "BBCRScotland.uk",
-      "title": "Roddy Hart's Mix Tape",
-      "description": "Featuring new music from Dunbar singer-songwriter Alex Cornish and Glasgow-based collective merrowfolk, plus this week's Mixtape Moment comes from Teenage Fanclub.",
-      "categories": [],
-      "start": "2026-08-30T20:00:00Z",
-      "end": "2026-08-30T22:00:00Z",
-      "sport": "nba",
-      "confidence": 0.75,
-      "source": "freeview"
-    },
-    {
       "channel": "Newsmax",
       "channel_id": "NewsmaxTV.uk",
       "title": "Newsmax",
@@ -32957,18 +32229,6 @@
       "start": "2026-08-30T20:00:00Z",
       "end": "2026-08-30T22:00:00Z",
       "sport": "nfl",
-      "confidence": 0.75,
-      "source": "freeview"
-    },
-    {
-      "channel": "talkSPORT",
-      "channel_id": "TalkSport.uk",
-      "title": "Trans Europe Express",
-      "description": "Football discussion and debate around the leagues in Europe with Andy Brassell and Kevin Hatchard.",
-      "categories": [],
-      "start": "2026-08-30T20:00:00Z",
-      "end": "2026-08-30T23:00:00Z",
-      "sport": "football",
       "confidence": 0.75,
       "source": "freeview"
     },
@@ -33151,18 +32411,6 @@
       "sport": "cricket",
       "confidence": 0.75,
       "source": "rytec_uk_sky"
-    },
-    {
-      "channel": "0107 - talkSPORT",
-      "channel_id": "talkSPORT.uk",
-      "title": "Trans Europe Express",
-      "description": "Danny Kelly with football discussion and debate around the leagues in Europe.",
-      "categories": [],
-      "start": "2026-08-30T20:00:00Z",
-      "end": "2026-08-30T23:00:00Z",
-      "sport": "football",
-      "confidence": 0.75,
-      "source": "rytec_uk_sport"
     },
     {
       "channel": "SkySp Mix",
@@ -33566,30 +32814,6 @@
       "start": "2026-08-30T20:55:00Z",
       "end": "2026-08-30T21:55:00Z",
       "sport": "boxing",
-      "confidence": 0.75,
-      "source": "freeview"
-    },
-    {
-      "channel": "BBC Radio 6 Music",
-      "channel_id": "BBCR6M.uk",
-      "title": "Dream Time",
-      "description": "Zakia celebrates Notting Hill Carnival with a dreamlike journey through calypso, roots reggae and dub, and traces the global influence of sound system culture.",
-      "categories": [],
-      "start": "2026-08-30T21:00:00Z",
-      "end": "2026-08-30T23:00:00Z",
-      "sport": "nfl",
-      "confidence": 0.75,
-      "source": "freeview"
-    },
-    {
-      "channel": "BBC Radio Wales",
-      "channel_id": "BBCRWales.uk",
-      "title": "Beverley's World of Music",
-      "description": "The finest musical melodies, exquisite performances from stage and screen, and orchestral and choral works from Wales and the world. There's no need to book your seat, just listen and relax.",
-      "categories": [],
-      "start": "2026-08-30T21:00:00Z",
-      "end": "2026-08-31T00:00:00Z",
-      "sport": "cricket",
       "confidence": 0.75,
       "source": "freeview"
     },
@@ -35463,18 +34687,6 @@
       "sport": "nfl",
       "confidence": 0.75,
       "source": "rytec_uk_sport"
-    },
-    {
-      "channel": "BBC Radio 5 Live",
-      "channel_id": "BBCR5L.uk",
-      "title": "Football Daily",
-      "description": "The Football Daily team review the weekend's Premier League action.",
-      "categories": [],
-      "start": "2026-08-30T23:00:00Z",
-      "end": "2026-08-30T23:30:00Z",
-      "sport": "football",
-      "confidence": 0.8500000000000001,
-      "source": "freeview"
     },
     {
       "channel": "Challenge ROI",
@@ -39400,30 +38612,6 @@
       "sport": "football",
       "confidence": 0.75,
       "source": "rytec_uk_sport"
-    },
-    {
-      "channel": "BBC Radio 4 FM",
-      "channel_id": "BBCR4FM.uk",
-      "title": "Last Word",
-      "description": "Music icon Dolly Parton; Dierdre McSharry, the editor who discovered Twiggy; classicist Professor Pat Easterling; and Billy Boston, who received rugby league's first knighthood.",
-      "categories": [],
-      "start": "2026-08-31T04:04:00Z",
-      "end": "2026-08-31T04:34:00Z",
-      "sport": "rugby",
-      "confidence": 0.75,
-      "source": "freeview"
-    },
-    {
-      "channel": "BBC Radio 4 LW",
-      "channel_id": "BBCR4LW.uk",
-      "title": "Last Word",
-      "description": "Music icon Dolly Parton; Dierdre McSharry, the editor who discovered Twiggy; classicist Professor Pat Easterling; and Billy Boston, who received rugby league's first knighthood.",
-      "categories": [],
-      "start": "2026-08-31T04:04:00Z",
-      "end": "2026-08-31T04:34:00Z",
-      "sport": "rugby",
-      "confidence": 0.75,
-      "source": "freeview"
     },
     {
       "channel": "ITV1 Anglia HD",
@@ -43792,18 +42980,6 @@
       "source": "freeview"
     },
     {
-      "channel": "BBC Radio 5 Sports Xtra",
-      "channel_id": "BBCR5SX.uk",
-      "title": "Test Match Special",
-      "description": "Live ball-by-ball cricket commentary of England v Pakistan on the 5th day of the 2nd Test at Lord's.",
-      "categories": [],
-      "start": "2026-08-31T09:00:00Z",
-      "end": "2026-08-31T18:00:00Z",
-      "sport": "cricket",
-      "confidence": 0.8500000000000001,
-      "source": "freeview"
-    },
-    {
       "channel": "BBC Red Button 1",
       "channel_id": "BBCRedButton1.uk",
       "title": "Major League Baseball: Boston...",
@@ -44614,30 +43790,6 @@
       "sport": "golf",
       "confidence": 0.75,
       "source": "curated_uk"
-    },
-    {
-      "channel": "BBC Radio 4 FM",
-      "channel_id": "BBCR4FM.uk",
-      "title": "All Kinds of Minds",
-      "description": "2/4. Nathan Filer explores what happens when neurodivergent children struggle at school - and asks how education can better recognise distress, difference and need.",
-      "categories": [],
-      "start": "2026-08-31T10:00:00Z",
-      "end": "2026-08-31T10:45:00Z",
-      "sport": "cricket",
-      "confidence": 0.75,
-      "source": "freeview"
-    },
-    {
-      "channel": "BBC Radio 4 LW",
-      "channel_id": "BBCR4LW.uk",
-      "title": "All Kinds of Minds",
-      "description": "2/4. Nathan Filer explores what happens when neurodivergent children struggle at school - and asks how education can better recognise distress, difference and need.",
-      "categories": [],
-      "start": "2026-08-31T10:00:00Z",
-      "end": "2026-08-31T10:45:00Z",
-      "sport": "cricket",
-      "confidence": 0.75,
-      "source": "freeview"
     },
     {
       "channel": "E4 ROI",
@@ -46050,18 +45202,6 @@
       "sport": "cricket",
       "confidence": 0.75,
       "source": "rytec_uk_sky"
-    },
-    {
-      "channel": "BBC Radio Cymru",
-      "channel_id": "BBCRadioCymru.uk",
-      "title": "Dros Ginio",
-      "description": "Trin a thrafod Cymru a'r byd, gan godi'r pynciau a gofyn y cwestiynau sy'n bwysig i chi. Discussing Wales and the world.",
-      "categories": [],
-      "start": "2026-08-31T12:00:00Z",
-      "end": "2026-08-31T13:00:00Z",
-      "sport": "cricket",
-      "confidence": 0.75,
-      "source": "freeview"
     },
     {
       "channel": "Newsmax",
@@ -47840,18 +46980,6 @@
       "source": "freeview"
     },
     {
-      "channel": "BBC Radio 2",
-      "channel_id": "BBCR2.uk",
-      "title": "Mark Goodier's Most Played...",
-      "description": "Mark Goodier presents his essential selection of the finest 'billion streamers' from the past six decades of rock and pop.",
-      "categories": [],
-      "start": "2026-08-31T14:00:00Z",
-      "end": "2026-08-31T17:00:00Z",
-      "sport": "cricket",
-      "confidence": 0.75,
-      "source": "freeview"
-    },
-    {
       "channel": "BBC Scotland HD",
       "channel_id": "BBCScotland.uk",
       "title": "Beechgrove Garden",
@@ -49001,30 +48129,6 @@
       "source": "freeview"
     },
     {
-      "channel": "BBC Radio 4 FM",
-      "channel_id": "BBCR4FM.uk",
-      "title": "Soul Music",
-      "description": "Written by Dolly Parton... sent stratospheric by Whitney Houston. It's a song that has a worldwide fanbase, reflected by the diverse memories shared here.",
-      "categories": [],
-      "start": "2026-08-31T15:30:00Z",
-      "end": "2026-08-31T16:00:00Z",
-      "sport": "nba",
-      "confidence": 0.75,
-      "source": "freeview"
-    },
-    {
-      "channel": "BBC Radio 4 LW",
-      "channel_id": "BBCR4LW.uk",
-      "title": "Soul Music",
-      "description": "Written by Dolly Parton... sent stratospheric by Whitney Houston. It's a song that has a worldwide fanbase, reflected by the diverse memories shared here.",
-      "categories": [],
-      "start": "2026-08-31T15:30:00Z",
-      "end": "2026-08-31T16:00:00Z",
-      "sport": "nba",
-      "confidence": 0.75,
-      "source": "freeview"
-    },
-    {
       "channel": "NDTV World",
       "channel_id": "NDTVWorld.in",
       "title": "India Matters",
@@ -50044,18 +49148,6 @@
       "source": "rytec_uk_sport"
     },
     {
-      "channel": "BBC Radio Cymru",
-      "channel_id": "BBCRadioCymru.uk",
-      "title": "Tapiau Coll",
-      "description": "Barry 'Archie' Jones yn taflu golwg unigryw ar haenau sain rhai o dapiau pwysicaf cerddoriaeth Gymraeg. Barry 'Archie' Jones looks at the master tapes of influential Welsh albums.",
-      "categories": [],
-      "start": "2026-08-31T16:30:00Z",
-      "end": "2026-08-31T17:00:00Z",
-      "sport": "nfl",
-      "confidence": 0.75,
-      "source": "freeview"
-    },
-    {
       "channel": "E4 Extra",
       "channel_id": "E4Extra.uk",
       "title": "Storage Wars: Texas",
@@ -50434,30 +49526,6 @@
       "sport": "football",
       "confidence": 0.75,
       "source": "rytec_uk_sport"
-    },
-    {
-      "channel": "BBC Radio Gloucestershire",
-      "channel_id": "BBCRadioGloucestershire.uk",
-      "title": "Lewis Ludlow - A One Club Man",
-      "description": "Gloucester Rugby's longest-serving captain, Lewis Ludlow, in conversation with Steve Kitchen at the start of his testimonial season.",
-      "categories": [],
-      "start": "2026-08-31T17:00:00Z",
-      "end": "2026-08-31T18:00:00Z",
-      "sport": "rugby",
-      "confidence": 0.75,
-      "source": "freeview"
-    },
-    {
-      "channel": "BBC Radio Leicester",
-      "channel_id": "BBCRadioLeicester.uk",
-      "title": "Football Forum",
-      "description": "",
-      "categories": [],
-      "start": "2026-08-31T17:00:00Z",
-      "end": "2026-08-31T18:00:00Z",
-      "sport": "football",
-      "confidence": 0.75,
-      "source": "freeview"
     },
     {
       "channel": "S4C",
@@ -51213,30 +50281,6 @@
       "source": "rytec_uk_sport"
     },
     {
-      "channel": "BBC Radio 5 Live",
-      "channel_id": "BBCR5L.uk",
-      "title": "5 Live Sport",
-      "description": "Mark Chapman is joined by Chris Sutton, Stephen Warnock and Rory Smith to debate the weekend's football.",
-      "categories": [],
-      "start": "2026-08-31T18:00:00Z",
-      "end": "2026-08-31T20:00:00Z",
-      "sport": "football",
-      "confidence": 0.75,
-      "source": "freeview"
-    },
-    {
-      "channel": "BBC Radio 5 Sports Xtra",
-      "channel_id": "BBCR5SX.uk",
-      "title": "US Open Tennis",
-      "description": "Live tennis commentary of the 1st round of the US Open from Flushing Meadows, New York.",
-      "categories": [],
-      "start": "2026-08-31T18:00:00Z",
-      "end": "2026-08-31T23:00:00Z",
-      "sport": "tennis",
-      "confidence": 0.8500000000000001,
-      "source": "freeview"
-    },
-    {
       "channel": "BBC Two HD",
       "channel_id": "BBCTwoHD.uk",
       "title": "Today at the Test: England v Pakistan",
@@ -51281,18 +50325,6 @@
       "start": "2026-08-31T18:00:00Z",
       "end": "2026-08-31T20:00:00Z",
       "sport": "nfl",
-      "confidence": 0.75,
-      "source": "freeview"
-    },
-    {
-      "channel": "talkSPORT",
-      "channel_id": "TalkSport.uk",
-      "title": "Kick Off - Aston Villa v Arsenal",
-      "description": "Adrian Durham presents live Premier League commentary.",
-      "categories": [],
-      "start": "2026-08-31T18:00:00Z",
-      "end": "2026-08-31T21:00:00Z",
-      "sport": "football",
       "confidence": 0.75,
       "source": "freeview"
     },
@@ -51520,18 +50552,6 @@
       "sport": "nfl",
       "confidence": 0.75,
       "source": "rytec_uk_basic"
-    },
-    {
-      "channel": "0107 - talkSPORT",
-      "channel_id": "talkSPORT.uk",
-      "title": "Kick Off - Aston Villa v Arsenal",
-      "description": "Adrian Durham presents live Premier League commentary.",
-      "categories": [],
-      "start": "2026-08-31T18:00:00Z",
-      "end": "2026-08-31T21:00:00Z",
-      "sport": "football",
-      "confidence": 0.75,
-      "source": "rytec_uk_sport"
     },
     {
       "channel": "TNT Sport 3",
@@ -52338,30 +51358,6 @@
       "sport": "other",
       "confidence": 0.7,
       "source": "rytec_uk_sport"
-    },
-    {
-      "channel": "BBC Radio 4 FM",
-      "channel_id": "BBCR4FM.uk",
-      "title": "BBC Inside Science",
-      "description": "The datacentres are coming, potentially in the hundreds, and not everyone is happy.",
-      "categories": [],
-      "start": "2026-08-31T19:30:00Z",
-      "end": "2026-08-31T20:00:00Z",
-      "sport": "cricket",
-      "confidence": 0.75,
-      "source": "freeview"
-    },
-    {
-      "channel": "BBC Radio 4 LW",
-      "channel_id": "BBCR4LW.uk",
-      "title": "BBC Inside Science",
-      "description": "The datacentres are coming, potentially in the hundreds, and not everyone is happy.",
-      "categories": [],
-      "start": "2026-08-31T19:30:00Z",
-      "end": "2026-08-31T20:00:00Z",
-      "sport": "cricket",
-      "confidence": 0.75,
-      "source": "freeview"
     },
     {
       "channel": "ESPN News",
@@ -57485,18 +56481,6 @@
       "sport": "cycling",
       "confidence": 0.75,
       "source": "rytec_uk_sky"
-    },
-    {
-      "channel": "BBC Radio 6 Music",
-      "channel_id": "BBCR6M.uk",
-      "title": "Pet Shop Boys Playlist",
-      "description": "A playlist celebrating the music of Pet Shop Boys and its roots and branches - including those they've been influenced by and those they've inspired.",
-      "categories": [],
-      "start": "2026-09-01T03:00:00Z",
-      "end": "2026-09-01T04:00:00Z",
-      "sport": "nfl",
-      "confidence": 0.75,
-      "source": "freeview"
     },
     {
       "channel": "Challenge ROI",
