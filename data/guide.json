@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-29T14:14:48.561769Z",
+  "generated_at": "2026-08-29T14:17:02.361846Z",
   "window_start": "2026-08-29T14:00:00Z",
   "window_end": "2026-08-30T14:00:00Z",
   "timezone": "UTC",
-  "event_count": 1088,
+  "event_count": 1067,
   "channel_count": 120,
   "channels": [
     "405 - SkySp Golf HD",
@@ -132,15 +132,15 @@
     "boxing": 16,
     "cricket": 44,
     "cycling": 23,
-    "darts": 6,
+    "darts": 7,
     "f1": 29,
-    "football": 216,
-    "golf": 49,
+    "football": 151,
+    "golf": 53,
     "horse racing": 6,
     "motorsport": 64,
-    "nba": 1,
+    "nba": 2,
     "nfl": 32,
-    "other": 465,
+    "other": 503,
     "rugby": 35,
     "snooker": 6,
     "tennis": 48,
@@ -483,8 +483,8 @@
       "categories": [],
       "start": "2026-08-29T13:00:00Z",
       "end": "2026-08-29T15:30:00Z",
-      "sport": "football",
-      "confidence": 0.83,
+      "sport": "other",
+      "confidence": 0.7,
       "source": "curated_uk"
     },
     {
@@ -618,8 +618,8 @@
       "categories": [],
       "start": "2026-08-29T13:45:00Z",
       "end": "2026-08-29T16:30:00Z",
-      "sport": "football",
-      "confidence": 0.83,
+      "sport": "other",
+      "confidence": 0.7,
       "source": "curated_uk"
     },
     {
@@ -630,8 +630,8 @@
       "categories": [],
       "start": "2026-08-29T13:45:00Z",
       "end": "2026-08-29T16:30:00Z",
-      "sport": "football",
-      "confidence": 0.83,
+      "sport": "other",
+      "confidence": 0.7,
       "source": "curated_uk"
     },
     {
@@ -642,8 +642,8 @@
       "categories": [],
       "start": "2026-08-29T13:45:00Z",
       "end": "2026-08-29T16:20:00Z",
-      "sport": "football",
-      "confidence": 0.83,
+      "sport": "other",
+      "confidence": 0.7,
       "source": "rytec_uk_sport"
     },
     {
@@ -765,7 +765,7 @@
       ],
       "start": "2026-08-29T14:00:00Z",
       "end": "2026-08-29T15:00:00Z",
-      "sport": "football",
+      "sport": "nba",
       "confidence": 0.83,
       "source": "curated_uk"
     },
@@ -984,8 +984,8 @@
       "categories": [],
       "start": "2026-08-29T14:00:00Z",
       "end": "2026-08-29T14:40:00Z",
-      "sport": "football",
-      "confidence": 0.83,
+      "sport": "other",
+      "confidence": 0.7,
       "source": "rytec_uk_sport"
     },
     {
@@ -1272,8 +1272,8 @@
       "categories": [],
       "start": "2026-08-29T14:45:00Z",
       "end": "2026-08-29T15:45:00Z",
-      "sport": "football",
-      "confidence": 0.83,
+      "sport": "other",
+      "confidence": 0.7,
       "source": "curated_uk"
     },
     {
@@ -1332,8 +1332,8 @@
       "categories": [],
       "start": "2026-08-29T14:45:00Z",
       "end": "2026-08-29T15:45:00Z",
-      "sport": "football",
-      "confidence": 0.83,
+      "sport": "other",
+      "confidence": 0.7,
       "source": "rytec_uk_sport"
     },
     {
@@ -1686,12 +1686,9 @@
       "categories": [],
       "start": "2026-08-29T15:45:00Z",
       "end": "2026-08-29T16:45:00Z",
-      "sport": "football",
-      "confidence": 0.83,
-      "source": "curated_uk",
-      "home_team": "Tottenham Hotspur",
-      "away_team": "Newcastle United",
-      "fixture": "Tottenham Hotspur v Newcastle United"
+      "sport": "other",
+      "confidence": 0.7,
+      "source": "curated_uk"
     },
     {
       "channel": "TNT Sport 4",
@@ -1701,12 +1698,9 @@
       "categories": [],
       "start": "2026-08-29T15:45:00Z",
       "end": "2026-08-29T16:45:00Z",
-      "sport": "football",
-      "confidence": 0.83,
-      "source": "rytec_uk_sport",
-      "home_team": "Tottenham Hotspur",
-      "away_team": "Newcastle United",
-      "fixture": "Tottenham Hotspur v Newcastle United"
+      "sport": "other",
+      "confidence": 0.7,
+      "source": "rytec_uk_sport"
     },
     {
       "channel": "Premier Sports 2",
@@ -2547,12 +2541,9 @@
       ],
       "start": "2026-08-29T17:00:00Z",
       "end": "2026-08-29T19:00:00Z",
-      "sport": "football",
+      "sport": "golf",
       "confidence": 0.83,
-      "source": "curated_uk",
-      "home_team": "Tottenham Hotspur",
-      "away_team": "Newcastle United",
-      "fixture": "Tottenham Hotspur v Newcastle United"
+      "source": "curated_uk"
     },
     {
       "channel": "MLB Network",
@@ -2604,12 +2595,9 @@
       "categories": [],
       "start": "2026-08-29T17:00:00Z",
       "end": "2026-08-29T18:00:00Z",
-      "sport": "football",
-      "confidence": 0.83,
-      "source": "curated_uk",
-      "home_team": "Tottenham Hotspur",
-      "away_team": "Newcastle United",
-      "fixture": "Tottenham Hotspur v Newcastle United"
+      "sport": "other",
+      "confidence": 0.7,
+      "source": "curated_uk"
     },
     {
       "channel": "Sky Sports News",
@@ -2865,12 +2853,9 @@
       "categories": [],
       "start": "2026-08-29T17:15:00Z",
       "end": "2026-08-29T18:45:00Z",
-      "sport": "football",
-      "confidence": 0.83,
-      "source": "curated_uk",
-      "home_team": "Tottenham Hotspur",
-      "away_team": "Newcastle United",
-      "fixture": "Tottenham Hotspur v Newcastle United"
+      "sport": "other",
+      "confidence": 0.7,
+      "source": "curated_uk"
     },
     {
       "channel": "TNT Sports 1",
@@ -2880,12 +2865,9 @@
       "categories": [],
       "start": "2026-08-29T17:15:00Z",
       "end": "2026-08-29T18:45:00Z",
-      "sport": "football",
-      "confidence": 0.83,
-      "source": "curated_uk",
-      "home_team": "Tottenham Hotspur",
-      "away_team": "Newcastle United",
-      "fixture": "Tottenham Hotspur v Newcastle United"
+      "sport": "other",
+      "confidence": 0.7,
+      "source": "curated_uk"
     },
     {
       "channel": "TNT Sport 7",
@@ -3695,21 +3677,6 @@
       "source": "curated_uk"
     },
     {
-      "channel": "ESPN News",
-      "channel_id": "ESPNNews.us",
-      "title": "2025 Extreme Archery Championship",
-      "description": "Experience the thrill of Extreme Archery as elite teams from the USA and Canada face off in a fast-paced arena battle with foam-tipped arrows. Dodge, shoot, and strategize -- non-stop action makes this a must-watch for fans of unconventional sports!",
-      "categories": [
-        "Specials",
-        "Sports"
-      ],
-      "start": "2026-08-29T19:00:00Z",
-      "end": "2026-08-29T20:00:00Z",
-      "sport": "football",
-      "confidence": 0.83,
-      "source": "curated_uk"
-    },
-    {
       "channel": "FOX Sports 2",
       "channel_id": "foxsports2.us",
       "title": "Horse Racing",
@@ -3846,8 +3813,8 @@
       "categories": [],
       "start": "2026-08-29T19:00:00Z",
       "end": "2026-08-29T22:30:00Z",
-      "sport": "football",
-      "confidence": 0.83,
+      "sport": "other",
+      "confidence": 0.7,
       "source": "curated_uk"
     },
     {
@@ -3858,8 +3825,8 @@
       "categories": [],
       "start": "2026-08-29T19:00:00Z",
       "end": "2026-08-29T22:30:00Z",
-      "sport": "football",
-      "confidence": 0.83,
+      "sport": "other",
+      "confidence": 0.7,
       "source": "curated_uk"
     },
     {
@@ -4029,8 +3996,8 @@
       "categories": [],
       "start": "2026-08-29T19:30:00Z",
       "end": "2026-08-29T20:00:00Z",
-      "sport": "football",
-      "confidence": 0.83,
+      "sport": "other",
+      "confidence": 0.7,
       "source": "curated_uk"
     },
     {
@@ -4092,8 +4059,8 @@
       "categories": [],
       "start": "2026-08-29T19:30:00Z",
       "end": "2026-08-29T20:00:00Z",
-      "sport": "football",
-      "confidence": 0.83,
+      "sport": "other",
+      "confidence": 0.7,
       "source": "rytec_uk_sport"
     },
     {
@@ -4155,21 +4122,6 @@
       "sport": "football",
       "confidence": 0.83,
       "source": "freeview"
-    },
-    {
-      "channel": "ESPN News",
-      "channel_id": "ESPNNews.us",
-      "title": "The National Dodgeball League Championship Games",
-      "description": "The National Dodgeball League Championship returns as part of the Ocho Show! Don't miss the Men's Finals, featuring some of the world's top dodgeball athletes in this premier U.S. competition.",
-      "categories": [
-        "Sports",
-        "Extreme"
-      ],
-      "start": "2026-08-29T20:00:00Z",
-      "end": "2026-08-29T21:00:00Z",
-      "sport": "football",
-      "confidence": 0.83,
-      "source": "curated_uk"
     },
     {
       "channel": "MLB Network",
@@ -4281,8 +4233,8 @@
       "categories": [],
       "start": "2026-08-29T20:00:00Z",
       "end": "2026-08-29T20:30:00Z",
-      "sport": "football",
-      "confidence": 0.83,
+      "sport": "other",
+      "confidence": 0.7,
       "source": "curated_uk"
     },
     {
@@ -4407,8 +4359,8 @@
       "categories": [],
       "start": "2026-08-29T20:30:00Z",
       "end": "2026-08-29T21:00:00Z",
-      "sport": "football",
-      "confidence": 0.83,
+      "sport": "other",
+      "confidence": 0.7,
       "source": "curated_uk"
     },
     {
@@ -4470,21 +4422,6 @@
       "sport": "football",
       "confidence": 0.83,
       "source": "freeview"
-    },
-    {
-      "channel": "ESPN News",
-      "channel_id": "ESPNNews.us",
-      "title": "World Axe & Knife Throwing Championship 2025",
-      "description": "Axes and knives fly as we watch the finals to crown World Champions in all Axe and Knife Throwing disciplines for the 2025 World Axe & Knife Throwing Championship.",
-      "categories": [
-        "Sports",
-        "Outdoors"
-      ],
-      "start": "2026-08-29T21:00:00Z",
-      "end": "2026-08-29T22:00:00Z",
-      "sport": "football",
-      "confidence": 0.83,
-      "source": "curated_uk"
     },
     {
       "channel": "FOX Sports 2",
@@ -5922,8 +5859,8 @@
       "categories": [],
       "start": "2026-08-29T23:30:00Z",
       "end": "2026-08-30T00:30:00Z",
-      "sport": "football",
-      "confidence": 0.83,
+      "sport": "other",
+      "confidence": 0.7,
       "source": "curated_uk"
     },
     {
@@ -6135,21 +6072,6 @@
       "categories": [
         "Sports",
         "Football"
-      ],
-      "start": "2026-08-30T00:00:00Z",
-      "end": "2026-08-30T01:00:00Z",
-      "sport": "football",
-      "confidence": 0.83,
-      "source": "curated_uk"
-    },
-    {
-      "channel": "ESPN News",
-      "channel_id": "ESPNNews.us",
-      "title": "Battle Court Jai-Alai Championship VII",
-      "description": "Battle Court VII is the most highly anticipated Jai-Alai event of the year. The World Jai-Alai League's Championship game features Udonis Haslem's two-time titleholders, The Renegades, versus the newest expansion team in the League, The Fireballs.",
-      "categories": [
-        "Sports",
-        "Extreme"
       ],
       "start": "2026-08-30T00:00:00Z",
       "end": "2026-08-30T01:00:00Z",
@@ -6686,18 +6608,6 @@
       "source": "rytec_uk_sport"
     },
     {
-      "channel": "Sky The Open",
-      "channel_id": "SkySpTheOpen.uk",
-      "title": "Tour Championship 2021 Highlights",
-      "description": "Highlights from across the season-ending TOUR Championship in Atlanta, Georgia. USA's Dustin Johnson won this event in 2020.",
-      "categories": [],
-      "start": "2026-08-30T01:00:00Z",
-      "end": "2026-08-30T02:00:00Z",
-      "sport": "football",
-      "confidence": 0.83,
-      "source": "rytec_uk_sport"
-    },
-    {
       "channel": "405 - SkySp Golf HD",
       "channel_id": "SkySpGolf.uk",
       "title": "Tour Championship 2021 Highlights",
@@ -6705,8 +6615,8 @@
       "categories": [],
       "start": "2026-08-30T01:00:00Z",
       "end": "2026-08-30T02:00:00Z",
-      "sport": "football",
-      "confidence": 0.83,
+      "sport": "other",
+      "confidence": 0.7,
       "source": "rytec_uk_sport"
     },
     {
@@ -6948,7 +6858,7 @@
       ],
       "start": "2026-08-30T02:00:00Z",
       "end": "2026-08-30T03:00:00Z",
-      "sport": "football",
+      "sport": "darts",
       "confidence": 0.83,
       "source": "curated_uk"
     },
@@ -6963,7 +6873,7 @@
       ],
       "start": "2026-08-30T02:00:00Z",
       "end": "2026-08-30T06:30:00Z",
-      "sport": "football",
+      "sport": "golf",
       "confidence": 0.83,
       "source": "curated_uk"
     },
@@ -7163,18 +7073,6 @@
       "fixture": "Liverpool v Nottingham Forest"
     },
     {
-      "channel": "Sky The Open",
-      "channel_id": "SkySpTheOpen.uk",
-      "title": "Tour Championship 2022 Highlights",
-      "description": "Highlights from the 2022 Tour Championship, as the FedExCup champion is crowned from between the PGA Tour's top 30 players at East Lake Golf Club in Georgia.",
-      "categories": [],
-      "start": "2026-08-30T02:00:00Z",
-      "end": "2026-08-30T03:00:00Z",
-      "sport": "football",
-      "confidence": 0.83,
-      "source": "rytec_uk_sport"
-    },
-    {
       "channel": "405 - SkySp Golf HD",
       "channel_id": "SkySpGolf.uk",
       "title": "Tour Championship 2022 Highlights",
@@ -7182,8 +7080,8 @@
       "categories": [],
       "start": "2026-08-30T02:00:00Z",
       "end": "2026-08-30T03:00:00Z",
-      "sport": "football",
-      "confidence": 0.83,
+      "sport": "other",
+      "confidence": 0.7,
       "source": "rytec_uk_sport"
     },
     {
@@ -7589,21 +7487,6 @@
       "source": "curated_uk"
     },
     {
-      "channel": "ESPN News",
-      "channel_id": "ESPNNews.us",
-      "title": "Pillow Fight Championship",
-      "description": "The world's only Professional Pillow Fighting league -- returns to The Ocho featuring fighters from various disciplines competing for a cash purse and ultimate bragging rights in the Hush Presents PFC tournament.",
-      "categories": [
-        "Sports",
-        "Extreme"
-      ],
-      "start": "2026-08-30T03:00:00Z",
-      "end": "2026-08-30T04:30:00Z",
-      "sport": "football",
-      "confidence": 0.83,
-      "source": "curated_uk"
-    },
-    {
       "channel": "FOX Sports 2",
       "channel_id": "foxsports2.us",
       "title": "MotoGP Racing",
@@ -7980,8 +7863,8 @@
       "categories": [],
       "start": "2026-08-30T03:30:00Z",
       "end": "2026-08-30T04:00:00Z",
-      "sport": "football",
-      "confidence": 0.83,
+      "sport": "other",
+      "confidence": 0.7,
       "source": "curated_uk"
     },
     {
@@ -8250,8 +8133,8 @@
       "categories": [],
       "start": "2026-08-30T04:00:00Z",
       "end": "2026-08-30T04:30:00Z",
-      "sport": "football",
-      "confidence": 0.83,
+      "sport": "other",
+      "confidence": 0.7,
       "source": "curated_uk"
     },
     {
@@ -9206,21 +9089,6 @@
       "source": "rytec_uk_sport"
     },
     {
-      "channel": "ESPN News",
-      "channel_id": "ESPNNews.us",
-      "title": "2025 T-Rex World Championship Races",
-      "description": "It's a race of prehistoric proportion as men, women, children and seniors compete to be the 2025 T. rex World Champion!",
-      "categories": [
-        "Sports",
-        "Miscellaneous"
-      ],
-      "start": "2026-08-30T05:30:00Z",
-      "end": "2026-08-30T06:00:00Z",
-      "sport": "football",
-      "confidence": 0.83,
-      "source": "curated_uk"
-    },
-    {
       "channel": "Sky Sports Football",
       "channel_id": "skysportsfootball.uk",
       "title": "EFL Highlights",
@@ -9803,33 +9671,6 @@
       "source": "rytec_uk_sport"
     },
     {
-      "channel": "ITV4 HD",
-      "channel_id": "ITV4.uk",
-      "title": "British Touring Car Championship Highlights",
-      "description": "Nicki Shields presents highlights of the seventh weekend of the 2026 British Touring Car Championship season from Donington Park GP circuit in Leicestershire.",
-      "categories": [],
-      "start": "2026-08-30T06:30:00Z",
-      "end": "2026-08-30T08:00:00Z",
-      "sport": "football",
-      "confidence": 0.83,
-      "source": "freeview"
-    },
-    {
-      "channel": "ESPN News",
-      "channel_id": "ESPNNews.us",
-      "title": "2025 World Dog Surfing Championships Best Waves",
-      "description": "The World Dog Surfing Championships Best Waves competition rewards the best waves, champion dog surfers have surfed over the past year.",
-      "categories": [
-        "Sports",
-        "Miscellaneous"
-      ],
-      "start": "2026-08-30T06:30:00Z",
-      "end": "2026-08-30T07:00:00Z",
-      "sport": "football",
-      "confidence": 0.83,
-      "source": "curated_uk"
-    },
-    {
       "channel": "Golf Channel",
       "channel_id": "GolfChannel.us",
       "title": "PGA Tour Champions Golf",
@@ -9903,18 +9744,6 @@
       "sport": "tennis",
       "confidence": 0.83,
       "source": "curated_uk"
-    },
-    {
-      "channel": "ITV 4",
-      "channel_id": "ITV4.uk",
-      "title": "British Touring Car Championship",
-      "description": "Highlights of the seventh weekend of the 2026 British Touring Car Championship season from the Donington Park GP circuit. Nicki Shields presents the best of the action from rounds 19, 20 and 21, with race commentary coming from David Addison and Tim Harvey. Nicki Shields.",
-      "categories": [],
-      "start": "2026-08-30T06:30:00Z",
-      "end": "2026-08-30T08:00:00Z",
-      "sport": "football",
-      "confidence": 0.83,
-      "source": "rytec_uk_basic"
     },
     {
       "channel": "Premier Sports",
@@ -10020,8 +9849,8 @@
       "categories": [],
       "start": "2026-08-30T06:45:00Z",
       "end": "2026-08-30T07:25:00Z",
-      "sport": "football",
-      "confidence": 0.83,
+      "sport": "other",
+      "confidence": 0.7,
       "source": "rytec_uk_sport"
     },
     {
@@ -10083,7 +9912,7 @@
       ],
       "start": "2026-08-30T07:00:00Z",
       "end": "2026-08-30T07:30:00Z",
-      "sport": "football",
+      "sport": "golf",
       "confidence": 0.83,
       "source": "curated_uk"
     },
@@ -10140,8 +9969,8 @@
       "categories": [],
       "start": "2026-08-30T07:00:00Z",
       "end": "2026-08-30T08:00:00Z",
-      "sport": "football",
-      "confidence": 0.83,
+      "sport": "other",
+      "confidence": 0.7,
       "source": "curated_uk"
     },
     {
@@ -10299,8 +10128,8 @@
       "categories": [],
       "start": "2026-08-30T07:00:00Z",
       "end": "2026-08-30T08:00:00Z",
-      "sport": "football",
-      "confidence": 0.83,
+      "sport": "other",
+      "confidence": 0.7,
       "source": "rytec_uk_sport"
     },
     {
@@ -10472,18 +10301,6 @@
       "fixture": "Norwich City v Burnley"
     },
     {
-      "channel": "ITV4+1",
-      "channel_id": "ITV4Plus1.uk",
-      "title": "British Touring Car Championship Highlights",
-      "description": "Nicki Shields presents highlights of the seventh weekend of the 2026 British Touring Car Championship season from Donington Park GP circuit in Leicestershire.",
-      "categories": [],
-      "start": "2026-08-30T07:30:00Z",
-      "end": "2026-08-30T09:00:00Z",
-      "sport": "football",
-      "confidence": 0.83,
-      "source": "freeview"
-    },
-    {
       "channel": "ESPN News",
       "channel_id": "ESPNNews.us",
       "title": "Freestyle Chess Grand Slam - Paris Final: Best Of Show",
@@ -10545,18 +10362,6 @@
       "sport": "motorsport",
       "confidence": 0.83,
       "source": "curated_uk"
-    },
-    {
-      "channel": "ITV4+1",
-      "channel_id": "ITV4plus1.uk",
-      "title": "British Touring Car Championship",
-      "description": "Highlights of the seventh weekend of the 2026 British Touring Car Championship season from the Donington Park GP circuit. Nicki Shields presents the best of the action from rounds 19, 20 and 21, with race commentary coming from David Addison and Tim Harvey. Nicki Shields.",
-      "categories": [],
-      "start": "2026-08-30T07:30:00Z",
-      "end": "2026-08-30T09:00:00Z",
-      "sport": "football",
-      "confidence": 0.83,
-      "source": "rytec_uk_basic"
     },
     {
       "channel": "Premier Sports 2",
@@ -11144,21 +10949,6 @@
       "source": "rytec_uk_sport"
     },
     {
-      "channel": "ESPN News",
-      "channel_id": "ESPNNews.us",
-      "title": "2025 NuLu Bock Fest Goat Racing Championships",
-      "description": "NuLu Bock Fest Goat Racing brings new life to a quirky, historic Louisville tradition, once born from travelers racing goats through alleyways as they waited to cross the Ohio River. Ready. Set. Goat!",
-      "categories": [
-        "Sports",
-        "Miscellaneous"
-      ],
-      "start": "2026-08-30T08:30:00Z",
-      "end": "2026-08-30T09:00:00Z",
-      "sport": "football",
-      "confidence": 0.83,
-      "source": "curated_uk"
-    },
-    {
       "channel": "Golf Channel",
       "channel_id": "GolfChannel.us",
       "title": "2026 TOUR Championship",
@@ -11169,7 +10959,7 @@
       ],
       "start": "2026-08-30T08:30:00Z",
       "end": "2026-08-30T11:00:00Z",
-      "sport": "football",
+      "sport": "golf",
       "confidence": 0.83,
       "source": "curated_uk"
     },
@@ -11205,8 +10995,8 @@
       "categories": [],
       "start": "2026-08-30T08:30:00Z",
       "end": "2026-08-30T09:00:00Z",
-      "sport": "football",
-      "confidence": 0.83,
+      "sport": "other",
+      "confidence": 0.7,
       "source": "curated_uk"
     },
     {
@@ -11232,8 +11022,8 @@
       "categories": [],
       "start": "2026-08-30T08:30:00Z",
       "end": "2026-08-30T09:00:00Z",
-      "sport": "football",
-      "confidence": 0.83,
+      "sport": "other",
+      "confidence": 0.7,
       "source": "rytec_uk_sport"
     },
     {
@@ -11298,21 +11088,6 @@
       ],
       "start": "2026-08-30T09:00:00Z",
       "end": "2026-08-30T10:00:00Z",
-      "sport": "football",
-      "confidence": 0.83,
-      "source": "curated_uk"
-    },
-    {
-      "channel": "ESPN News",
-      "channel_id": "ESPNNews.us",
-      "title": "Microsoft Excel World Championship 2024 Finals",
-      "description": "Microsoft Excel World Championship is an Excel Esports competition where players solve unusual game tasks in Microsoft Excel. For the second year, the Finals were held at the HyperX Arena Las Vegas, uniting top players from around the globe.",
-      "categories": [
-        "Sports",
-        "eSports"
-      ],
-      "start": "2026-08-30T09:00:00Z",
-      "end": "2026-08-30T09:30:00Z",
       "sport": "football",
       "confidence": 0.83,
       "source": "curated_uk"
@@ -11778,8 +11553,8 @@
       "categories": [],
       "start": "2026-08-30T09:30:00Z",
       "end": "2026-08-30T09:45:00Z",
-      "sport": "football",
-      "confidence": 0.83,
+      "sport": "other",
+      "confidence": 0.7,
       "source": "curated_uk"
     },
     {
@@ -11874,8 +11649,8 @@
       "categories": [],
       "start": "2026-08-30T09:45:00Z",
       "end": "2026-08-30T10:15:00Z",
-      "sport": "football",
-      "confidence": 0.83,
+      "sport": "other",
+      "confidence": 0.7,
       "source": "curated_uk"
     },
     {
@@ -12084,8 +11859,8 @@
       "categories": [],
       "start": "2026-08-30T10:00:00Z",
       "end": "2026-08-30T11:00:00Z",
-      "sport": "football",
-      "confidence": 0.83,
+      "sport": "other",
+      "confidence": 0.7,
       "source": "curated_uk"
     },
     {
@@ -12324,8 +12099,8 @@
       "categories": [],
       "start": "2026-08-30T10:15:00Z",
       "end": "2026-08-30T10:45:00Z",
-      "sport": "football",
-      "confidence": 0.83,
+      "sport": "other",
+      "confidence": 0.7,
       "source": "curated_uk"
     },
     {
@@ -12351,21 +12126,6 @@
       "sport": "other",
       "confidence": 0.7,
       "source": "rytec_uk_sport"
-    },
-    {
-      "channel": "ESPN News",
-      "channel_id": "ESPNNews.us",
-      "title": "Stupid Robot Fighting League American Championship",
-      "description": "A Stupid Robot is a humanoid-shaped creation with its joints held together by thin wire loops. The Stupid Robots are powered by poles attached to the hands and feet controlled by a human pilot. A limb count determines the winner.",
-      "categories": [
-        "Sports",
-        "eSports"
-      ],
-      "start": "2026-08-30T10:30:00Z",
-      "end": "2026-08-30T11:30:00Z",
-      "sport": "football",
-      "confidence": 0.83,
-      "source": "curated_uk"
     },
     {
       "channel": "Sky Sports Tennis",
@@ -12399,8 +12159,8 @@
       "categories": [],
       "start": "2026-08-30T10:45:00Z",
       "end": "2026-08-30T12:45:00Z",
-      "sport": "football",
-      "confidence": 0.83,
+      "sport": "other",
+      "confidence": 0.7,
       "source": "curated_uk"
     },
     {
@@ -12807,8 +12567,8 @@
       "categories": [],
       "start": "2026-08-30T11:30:00Z",
       "end": "2026-08-30T12:30:00Z",
-      "sport": "football",
-      "confidence": 0.83,
+      "sport": "other",
+      "confidence": 0.7,
       "source": "curated_uk"
     },
     {
@@ -12954,18 +12714,6 @@
       "sport": "other",
       "confidence": 0.7,
       "source": "rytec_uk_sport"
-    },
-    {
-      "channel": "CNBC HD",
-      "channel_id": "CNBCEurope.uk",
-      "title": "FEI World Championships 2026",
-      "description": "Aachen (GER) - Jumping (Team): Some of the biggest sporting events from around the world are presented. (Ep3)",
-      "categories": [],
-      "start": "2026-08-30T12:00:00Z",
-      "end": "2026-08-30T13:00:00Z",
-      "sport": "football",
-      "confidence": 0.83,
-      "source": "freeview"
     },
     {
       "channel": "MLB Network",
@@ -13122,18 +12870,6 @@
       "sport": "football",
       "confidence": 0.91,
       "source": "curated_uk"
-    },
-    {
-      "channel": "Urdu1 Europe",
-      "channel_id": "Urdu1Europe.uk",
-      "title": "FEI World Championships 2026",
-      "description": "Some of the biggest sporting events from around the world are presented. (Ep3).",
-      "categories": [],
-      "start": "2026-08-30T12:00:00Z",
-      "end": "2026-08-30T13:00:00Z",
-      "sport": "football",
-      "confidence": 0.83,
-      "source": "rytec_uk_basic"
     },
     {
       "channel": "SkySp Mix",
@@ -13463,18 +13199,6 @@
       "source": "rytec_uk_sport"
     },
     {
-      "channel": "CNBC HD",
-      "channel_id": "CNBCEurope.uk",
-      "title": "FEI World Championships 2026",
-      "description": "Aachen (GER) - Jumping (Individual): Some of the biggest sporting events from around the world are presented. (Ep4)",
-      "categories": [],
-      "start": "2026-08-30T13:00:00Z",
-      "end": "2026-08-30T14:00:00Z",
-      "sport": "football",
-      "confidence": 0.83,
-      "source": "freeview"
-    },
-    {
       "channel": "ESPN News",
       "channel_id": "ESPNNews.us",
       "title": "FlingGolf All-Star Skills Challenge",
@@ -13486,21 +13210,6 @@
       "start": "2026-08-30T13:00:00Z",
       "end": "2026-08-30T14:00:00Z",
       "sport": "golf",
-      "confidence": 0.83,
-      "source": "curated_uk"
-    },
-    {
-      "channel": "FOX Sports 2",
-      "channel_id": "foxsports2.us",
-      "title": "AMSOIL Championship Off Road",
-      "description": "Off-road racing action.",
-      "categories": [
-        "Sports",
-        "Auto Racing"
-      ],
-      "start": "2026-08-30T13:00:00Z",
-      "end": "2026-08-30T14:00:00Z",
-      "sport": "football",
       "confidence": 0.83,
       "source": "curated_uk"
     },
@@ -13593,8 +13302,8 @@
       "categories": [],
       "start": "2026-08-30T13:00:00Z",
       "end": "2026-08-30T16:00:00Z",
-      "sport": "football",
-      "confidence": 0.83,
+      "sport": "other",
+      "confidence": 0.7,
       "source": "curated_uk"
     },
     {
@@ -13605,8 +13314,8 @@
       "categories": [],
       "start": "2026-08-30T13:00:00Z",
       "end": "2026-08-30T15:30:00Z",
-      "sport": "football",
-      "confidence": 0.83,
+      "sport": "other",
+      "confidence": 0.7,
       "source": "curated_uk"
     },
     {
@@ -13640,18 +13349,6 @@
       "source": "rytec_uk_basic"
     },
     {
-      "channel": "Urdu1 Europe",
-      "channel_id": "Urdu1Europe.uk",
-      "title": "FEI World Championships 2026",
-      "description": "Some of the biggest sporting events from around the world are presented. (Ep4).",
-      "categories": [],
-      "start": "2026-08-30T13:00:00Z",
-      "end": "2026-08-30T14:00:00Z",
-      "sport": "football",
-      "confidence": 0.83,
-      "source": "rytec_uk_basic"
-    },
-    {
       "channel": "TNT Sport 8",
       "channel_id": "TNTSport8.uk",
       "title": "Live: Gravel European Championship",
@@ -13659,8 +13356,8 @@
       "categories": [],
       "start": "2026-08-30T13:00:00Z",
       "end": "2026-08-30T16:30:00Z",
-      "sport": "football",
-      "confidence": 0.83,
+      "sport": "other",
+      "confidence": 0.7,
       "source": "rytec_uk_sport"
     },
     {
@@ -13767,8 +13464,8 @@
       "categories": [],
       "start": "2026-08-30T13:45:00Z",
       "end": "2026-08-30T15:30:00Z",
-      "sport": "football",
-      "confidence": 0.83,
+      "sport": "other",
+      "confidence": 0.7,
       "source": "curated_uk"
     },
     {
@@ -13820,6 +13517,6 @@
       "source": "rytec_uk_sport"
     }
   ],
-  "fixture_enriched_count": 59,
-  "fixture_ambiguous_count": 98
+  "fixture_enriched_count": 53,
+  "fixture_ambiguous_count": 46
 }
