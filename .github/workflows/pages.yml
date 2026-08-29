@@ -8,7 +8,7 @@ on:
     - cron: '17 */3 * * *'
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -34,7 +34,7 @@ jobs:
         run: |
           python3 - <<'PY'
           import json
-          from datetime import datetime
+          from datetime import datetime, timezone
           from pathlib import Path
           p = Path('data/guide.json')
           if not p.exists(): raise SystemExit('guide.json missing')
@@ -45,14 +45,23 @@ jobs:
           hours = (end-start).total_seconds()/3600
           if hours < 71.9: raise SystemExit(f'window is only {hours:.1f} hours')
           if not d['events']: raise SystemExit('no sports events returned')
-          print(f"OK: {len(d['events'])} sports events across {hours:.1f} hours")
+          if d.get('channel_count',0) < 5: raise SystemExit('suspiciously few sports channels')
+          print(f"OK: {len(d['events'])} sports events across {d['channel_count']} channels and {hours:.1f} hours")
           PY
+
+      - name: Publish generated data to repository
+        run: |
+          git config user.name 'sport-tv-guide-bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add data/guide.json data/health.json
+          git diff --cached --quiet || git commit -m 'Refresh 72-hour EPG data'
+          git push
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
         with:
           path: '.'
 
