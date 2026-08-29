@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build a rolling 72-hour sports EPG from public XMLTV feeds."""
+"""Build a rolling 24-hour sports EPG from public XMLTV feeds."""
 from __future__ import annotations
 import gzip, hashlib, json, lzma, re, urllib.request
 from collections import Counter
@@ -11,15 +11,20 @@ SOURCES={"freeview":["https://raw.githubusercontent.com/dp247/Freeview-EPG/maste
 SPORT_TERMS={"football":["premier league","championship","league one","league two","fa cup","uefa","europa league","champions league","football","soccer"],"rugby":["rugby","six nations","premiership rugby","rugby championship"],"boxing":["boxing","fight night","heavyweight"],"ufc":["ufc","ultimate fighting championship"],"tennis":["tennis","atp","wta","grand slam","wimbledon","us open","french open","australian open"],"golf":["golf","pga","lpga","ryder cup","masters tournament"],"cricket":["cricket","test match","t20","odi","the hundred"],"f1":["formula 1","formula one","f1","grand prix"],"f2":["formula 2","f2"],"f3":["formula 3","f3"],"darts":["darts","pdc"],"snooker":["snooker","world snooker"],"cycling":["cycling","tour de france","giro d'italia","vuelta"],"motorsport":["motorsport","motogp","nascar","indycar","wrc"],"nfl":["nfl","super bowl"],"nba":["nba","basketball"],"baseball":["mlb","baseball"],"ice hockey":["nhl","ice hockey"],"horse racing":["horse racing","racing from","kempton","ascot","cheltenham","aintree","newmarket"],"wrestling":["wwe","aew","wrestling"]}
 SPORT_CHANNEL_RE=re.compile(r"sky\s*sp|sky sports|tnt sport|premier sports|bt sport|eurosport|racing tv|sky f1|sky golf|skysp",re.I)
 RADIO_CHANNEL_RE=re.compile(r"talksport|talk sport|bbc radio|bbc sounds|radio [0-9]|absolute radio|capital fm|heart fm|kiss fm|smooth radio|lbc|magic radio|virgin radio|greatest hits radio|radio x|classic fm|gold radio",re.I)
-# Collapse every BBC One / BBC 1 / BBC1 regional, HD and nation variant into one guide row.
 BBC_ONE_RE=re.compile(r"\bbbc\s*(?:one|1)\b",re.I)
+ITV1_RE=re.compile(r"\bitv\s*1\b|\bitv1\b",re.I)
+STV_RE=re.compile(r"\bstv\b",re.I)
+UTV_RE=re.compile(r"\butv\b",re.I)
 PROMO_RE=re.compile(r"^(this is |welcome to |channel |coming up|programming on |schedule$)",re.I); NEWS_RE=re.compile(r"sports news|sky sports news|live at the races",re.I)
 def normalise_channel(channel):
  c=' '.join(channel.split()).strip()
  if BBC_ONE_RE.search(c): return 'BBC One'
+ if ITV1_RE.search(c): return 'ITV1'
+ if STV_RE.search(c): return 'STV'
+ if UTV_RE.search(c): return 'UTV'
  return c
 def download(url):
- req=urllib.request.Request(url,headers={"User-Agent":"SportTVGuide/0.3"})
+ req=urllib.request.Request(url,headers={"User-Agent":"SportTVGuide/0.4"})
  with urllib.request.urlopen(req,timeout=30) as r:return r.read()
 def xml_bytes(raw,url):
  if raw[:2]==b"\x1f\x8b" or url.endswith('.gz'):return gzip.decompress(raw)
@@ -59,7 +64,7 @@ def ingest(name,urls,start,end):
   except Exception as ex:errors.append(f'{url}: {ex}')
  return [],{'ok':False,'errors':errors}
 def main():
- now=datetime.now(timezone.utc);start=now.replace(minute=0 if now.minute<30 else 30,second=0,microsecond=0);end=start+timedelta(hours=72);all_events=[];health={}
+ now=datetime.now(timezone.utc);start=now.replace(minute=0 if now.minute<30 else 30,second=0,microsecond=0);end=start+timedelta(hours=24);all_events=[];health={}
  for n,u in SOURCES.items():
   es,st=ingest(n,u,start,end);health[n]=st;all_events.extend(es)
  unique={}
