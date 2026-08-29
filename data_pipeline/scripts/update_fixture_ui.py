@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Patch the static UI at build time so enriched fixtures are shown to users."""
+"""Patch the static UI so enriched fixtures are shown to users."""
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -15,7 +15,9 @@ for old, new in replacements.items():
     if n:
         s = s.replace(old, new)
         changed += n
-if changed != 3:
+if changed and changed != 3:
     raise SystemExit(f"fixture UI patch expected 3 replacements, made {changed}")
+if changed == 0 and sum(s.count(new) for new in replacements.values()) < 3:
+    raise SystemExit("fixture UI patch found neither source nor all 3 target patterns")
 path.write_text(s, encoding="utf-8")
-print("Fixture UI patch applied: fixture shown in guide, sports and tonight views")
+print(f"Fixture UI patch OK: {changed} replacements applied")
