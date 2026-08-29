@@ -1,4 +1,5 @@
 name: Deploy to GitHub Pages
+# Fixture resolver: explicit EPG teams plus live fixture matching for ambiguous listings.
 
 on:
   push:
@@ -52,7 +53,7 @@ jobs:
           fixture_count=sum(1 for e in d['events'] if e.get('home_team') and e.get('away_team') and e.get('fixture'))
           bad_fixtures=[e for e in d['events'] if (e.get('home_team') or e.get('away_team')) and not (e.get('home_team') and e.get('away_team') and e.get('fixture'))]
           if bad_fixtures: raise SystemExit(f'incomplete fixture fields on {len(bad_fixtures)} events')
-          print(f"OK: {len(d['events'])} sports events across {d['channel_count']} channels and {hours:.1f} hours; {fixture_count} fixture events enriched")
+          print(f"OK: {len(d['events'])} sports events across {d['channel_count']} channels and {hours:.1f} hours; {fixture_count} fixture events enriched; {d.get('fixture_ambiguous_count',0)} ambiguous left unguessed")
           PY
 
       - name: Update fixture display
