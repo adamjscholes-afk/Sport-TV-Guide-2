@@ -4,6 +4,8 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  schedule:
+    - cron: '17 */3 * * *'
 
 permissions:
   contents: read
@@ -12,7 +14,7 @@ permissions:
 
 concurrency:
   group: pages
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   deploy:
@@ -20,15 +22,40 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
+      - name: Build rolling 72-hour guide
+        run: python3 data_pipeline/scripts/build_guide.py
+
+      - name: Validate guide
+        run: |
+          python3 - <<'PY'
+          import json
+          from datetime import datetime
+          from pathlib import Path
+          p = Path('data/guide.json')
+          if not p.exists(): raise SystemExit('guide.json missing')
+          d = json.loads(p.read_text())
+          if 'events' not in d: raise SystemExit('events missing')
+          start = datetime.fromisoformat(d['window_start'].replace('Z','+00:00'))
+          end = datetime.fromisoformat(d['window_end'].replace('Z','+00:00'))
+          hours = (end-start).total_seconds()/3600
+          if hours < 71.9: raise SystemExit(f'window is only {hours:.1f} hours')
+          if not d['events']: raise SystemExit('no sports events returned')
+          print(f"OK: {len(d['events'])} sports events across {hours:.1f} hours")
+          PY
+
       - name: Configure Pages
         uses: actions/configure-pages@v5
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: '.'
+
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
