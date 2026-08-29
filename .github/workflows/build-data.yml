@@ -1,6 +1,11 @@
 name: Build 72-hour sports guide
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - 'data_pipeline/**'
+      - '.github/workflows/build-data.yml'
   workflow_dispatch:
   schedule:
     - cron: '17 */3 * * *'
@@ -8,14 +13,42 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: sports-guide-data
+  cancel-in-progress: false
+
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
       - name: Build guide
         run: python3 data_pipeline/scripts/build_guide.py
+
+      - name: Validate generated data
+        run: |
+          python3 - <<'PY'
+          import json
+          from datetime import datetime, timezone
+          from pathlib import Path
+          p = Path('data/guide.json')
+          if not p.exists():
+              raise SystemExit('guide.json was not generated')
+          d = json.loads(p.read_text())
+          events = d.get('events', [])
+          if not events:
+              raise SystemExit('guide contains zero events')
+          start = datetime.fromisoformat(d['window_start'].replace('Z','+00:00'))
+          end = datetime.fromisoformat(d['window_end'].replace('Z','+00:00'))
+          hours = (end-start).total_seconds()/3600
+          if hours < 71.9:
+              raise SystemExit(f'guide window is only {hours:.1f} hours')
+          print(f'Validated {len(events)} events over {hours:.1f} hours')
+          PY
+
       - name: Commit generated data
         run: |
           git config user.name 'sport-tv-guide-bot'
