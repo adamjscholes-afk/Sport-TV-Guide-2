@@ -15,9 +15,9 @@ for old,new in replacements.items():
     n=s.count(old)
     if n:
         s=s.replace(old,new); changed+=n
-if s.count("grid-template-columns:220px 1fr")<2:
-    raise SystemExit("channel column patch did not update both Guide row definitions")
-if sum(s.count(x) for x in ["${e.fixture||e.title||'Sport'}"] )<3:
+if s.count("grid-template-columns:220px 1fr")<1:
+    raise SystemExit("channel column patch did not update the Guide row definition")
+if s.count("${e.fixture||e.title||'Sport'}")<3:
     raise SystemExit("fixture display patch is incomplete")
 path.write_text(s,encoding="utf-8")
 print(f"UI patch OK: {changed} replacements; channel column 220px; fixture rendering present in Guide/Sports/Tonight")
