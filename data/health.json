@@ -1,24 +1,24 @@
 {
-  "checked_at": "2026-08-30T05:11:07.582204Z",
-  "window_start": "2026-08-30T05:00:00Z",
-  "window_end": "2026-08-31T05:00:00Z",
+  "checked_at": "2026-08-30T06:18:53.622085Z",
+  "window_start": "2026-08-30T06:00:00Z",
+  "window_end": "2026-08-31T06:00:00Z",
   "sources": {
     "freeview": {
       "ok": true,
       "url": "https://raw.githubusercontent.com/dp247/Freeview-EPG/master/epg.xml",
-      "programmes": 44,
+      "programmes": 50,
       "sha256": "6855fbe650f48b1c9b77470da3915b5f962588ce31517bc2464452a2ee72afb8"
     },
     "curated_uk": {
       "ok": true,
       "url": "https://raw.githubusercontent.com/farleyflex/epg-guide/main/epg.xml",
-      "programmes": 492,
+      "programmes": 503,
       "sha256": "5c4bcbbd07650b3a0c02a299a529406a1ca7dcbc189bc2e3851acefe66a95087"
     },
     "rytec_uk_basic": {
       "ok": true,
       "url": "http://www.xmltvepg.nl/rytecUK_Basic.xz",
-      "programmes": 45,
+      "programmes": 47,
       "sha256": "efa2259449196b08daa08349d5d3c91e37fb4a4b0fba4c6157a278165607ce2d"
     },
     "rytec_uk_sky": {
@@ -30,32 +30,32 @@
     "rytec_uk_sport": {
       "ok": true,
       "url": "http://www.xmltvepg.nl/rytecUK_SportMovies.xz",
-      "programmes": 468,
+      "programmes": 478,
       "sha256": "d648b1938d9d2114e5cec099bfc5fbfe6f2b49847016058bb91cbddb9274ff61"
     },
     "publish": {
       "ok": true,
-      "events": 985,
-      "channels": 104
+      "events": 1011,
+      "channels": 108
     }
   },
-  "channel_count": 104,
+  "channel_count": 108,
   "sport_counts": {
-    "baseball": 36,
+    "baseball": 37,
     "boxing": 10,
-    "cricket": 44,
+    "cricket": 45,
     "cycling": 19,
     "darts": 9,
-    "f1": 22,
-    "football": 123,
-    "golf": 49,
+    "f1": 23,
+    "football": 127,
+    "golf": 53,
     "horse racing": 2,
-    "motorsport": 46,
+    "motorsport": 56,
     "nba": 5,
     "nfl": 32,
-    "other": 512,
-    "rugby": 24,
-    "tennis": 46,
+    "other": 517,
+    "rugby": 23,
+    "tennis": 47,
     "ufc": 2,
     "wrestling": 4
   }
