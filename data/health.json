@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-08-31T12:18:58.740966Z",
-  "window_start": "2026-08-31T12:00:00Z",
-  "window_end": "2026-09-01T12:00:00Z",
+  "checked_at": "2026-08-31T15:18:54.791131Z",
+  "window_start": "2026-08-31T15:00:00Z",
+  "window_end": "2026-09-01T15:00:00Z",
   "sources": {
     "freeview": {
       "ok": true,
@@ -12,51 +12,51 @@
     "curated_uk": {
       "ok": true,
       "url": "https://raw.githubusercontent.com/farleyflex/epg-guide/main/epg.xml",
-      "programmes": 546,
+      "programmes": 554,
       "sha256": "0674eab4235bb613ea0f6b15c6f3f476b717a98f564788ef1de3bea75ead7ab9"
     },
     "rytec_uk_basic": {
       "ok": true,
       "url": "http://www.xmltvepg.nl/rytecUK_Basic.xz",
-      "programmes": 19,
+      "programmes": 20,
       "sha256": "11a2235821404a0a56b2ae1da4795ac4d6c1fab60918ba8c27cf2a5c5442a0b6"
     },
     "rytec_uk_sky": {
       "ok": true,
       "url": "http://www.xmltvepg.nl/rytecUK_SkyLive.xz",
-      "programmes": 1,
+      "programmes": 2,
       "sha256": "7637a69b445a431e6834a1ea19d59aebfa8f8b573482b791f24d0b36038d3058"
     },
     "rytec_uk_sport": {
       "ok": true,
       "url": "http://www.xmltvepg.nl/rytecUK_SportMovies.xz",
-      "programmes": 522,
+      "programmes": 531,
       "sha256": "94a7b131dc81fba36e0c7c31b43e6444a4a14d63c73b587f6abfd6ff2a556487"
     },
     "publish": {
       "ok": true,
-      "events": 1064,
+      "events": 1080,
       "channels": 80
     }
   },
   "channel_count": 80,
   "sport_counts": {
-    "baseball": 51,
-    "boxing": 10,
+    "baseball": 50,
+    "boxing": 8,
     "cricket": 55,
-    "cycling": 9,
+    "cycling": 10,
     "darts": 10,
-    "f1": 45,
-    "football": 106,
-    "golf": 76,
+    "f1": 49,
+    "football": 104,
+    "golf": 74,
     "ice hockey": 6,
-    "motorsport": 43,
+    "motorsport": 41,
     "nba": 4,
-    "nfl": 38,
-    "other": 538,
+    "nfl": 40,
+    "other": 549,
     "rugby": 1,
-    "snooker": 19,
-    "tennis": 41,
+    "snooker": 21,
+    "tennis": 46,
     "ufc": 10,
     "wrestling": 2
   }
