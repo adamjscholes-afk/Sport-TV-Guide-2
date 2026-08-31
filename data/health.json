@@ -1,18 +1,18 @@
 {
-  "checked_at": "2026-08-31T15:18:54.791131Z",
-  "window_start": "2026-08-31T15:00:00Z",
-  "window_end": "2026-09-01T15:00:00Z",
+  "checked_at": "2026-08-31T18:18:56.286922Z",
+  "window_start": "2026-08-31T18:00:00Z",
+  "window_end": "2026-09-01T18:00:00Z",
   "sources": {
     "freeview": {
       "ok": true,
       "url": "https://raw.githubusercontent.com/dp247/Freeview-EPG/master/epg.xml",
-      "programmes": 17,
+      "programmes": 20,
       "sha256": "d45f7db57299526077de5894a2359b84fe793a7ba6ad37e12ce07b485aa0adc8"
     },
     "curated_uk": {
       "ok": true,
       "url": "https://raw.githubusercontent.com/farleyflex/epg-guide/main/epg.xml",
-      "programmes": 554,
+      "programmes": 537,
       "sha256": "0674eab4235bb613ea0f6b15c6f3f476b717a98f564788ef1de3bea75ead7ab9"
     },
     "rytec_uk_basic": {
@@ -24,40 +24,40 @@
     "rytec_uk_sky": {
       "ok": true,
       "url": "http://www.xmltvepg.nl/rytecUK_SkyLive.xz",
-      "programmes": 2,
+      "programmes": 3,
       "sha256": "7637a69b445a431e6834a1ea19d59aebfa8f8b573482b791f24d0b36038d3058"
     },
     "rytec_uk_sport": {
       "ok": true,
       "url": "http://www.xmltvepg.nl/rytecUK_SportMovies.xz",
-      "programmes": 531,
+      "programmes": 513,
       "sha256": "94a7b131dc81fba36e0c7c31b43e6444a4a14d63c73b587f6abfd6ff2a556487"
     },
     "publish": {
       "ok": true,
-      "events": 1080,
-      "channels": 80
+      "events": 1046,
+      "channels": 81
     }
   },
-  "channel_count": 80,
+  "channel_count": 81,
   "sport_counts": {
-    "baseball": 50,
+    "baseball": 48,
     "boxing": 8,
-    "cricket": 55,
+    "cricket": 57,
     "cycling": 10,
-    "darts": 10,
-    "f1": 49,
-    "football": 104,
+    "darts": 8,
+    "f1": 46,
+    "football": 103,
     "golf": 74,
     "ice hockey": 6,
     "motorsport": 41,
-    "nba": 4,
-    "nfl": 40,
-    "other": 549,
+    "nba": 2,
+    "nfl": 34,
+    "other": 533,
     "rugby": 1,
-    "snooker": 21,
+    "snooker": 18,
     "tennis": 46,
     "ufc": 10,
-    "wrestling": 2
+    "wrestling": 1
   }
 }
