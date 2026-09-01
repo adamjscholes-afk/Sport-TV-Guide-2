@@ -1,24 +1,24 @@
 {
-  "checked_at": "2026-09-01T06:31:13.879495Z",
-  "window_start": "2026-09-01T06:30:00Z",
-  "window_end": "2026-09-02T06:30:00Z",
+  "checked_at": "2026-09-01T09:25:42.476258Z",
+  "window_start": "2026-09-01T09:00:00Z",
+  "window_end": "2026-09-02T09:00:00Z",
   "sources": {
     "freeview": {
       "ok": true,
       "url": "https://raw.githubusercontent.com/dp247/Freeview-EPG/master/epg.xml",
-      "programmes": 18,
+      "programmes": 19,
       "sha256": "1f4244f92501cd249c20e71a936767a823aa86b0599bbd4697a54379c637c771"
     },
     "curated_uk": {
       "ok": true,
       "url": "https://raw.githubusercontent.com/farleyflex/epg-guide/main/epg.xml",
-      "programmes": 558,
+      "programmes": 555,
       "sha256": "0674eab4235bb613ea0f6b15c6f3f476b717a98f564788ef1de3bea75ead7ab9"
     },
     "rytec_uk_basic": {
       "ok": true,
       "url": "http://www.xmltvepg.nl/rytecUK_Basic.xz",
-      "programmes": 20,
+      "programmes": 21,
       "sha256": "1b38569a507c9fb998fa7bd42b4244d9be28879e2cc78a6507469fd62aad7b61"
     },
     "rytec_uk_sky": {
@@ -30,33 +30,33 @@
     "rytec_uk_sport": {
       "ok": true,
       "url": "http://www.xmltvepg.nl/rytecUK_SportMovies.xz",
-      "programmes": 560,
+      "programmes": 564,
       "sha256": "c124d37a691bbb4ed828f55308abb4b846f5af32eb06183d5763228be9ab938c"
     },
     "publish": {
       "ok": true,
-      "events": 1105,
+      "events": 1109,
       "channels": 78
     }
   },
   "channel_count": 78,
   "sport_counts": {
-    "baseball": 52,
+    "baseball": 51,
     "boxing": 2,
-    "cricket": 60,
-    "cycling": 18,
-    "darts": 11,
-    "f1": 44,
-    "football": 124,
-    "golf": 84,
+    "cricket": 68,
+    "cycling": 20,
+    "darts": 13,
+    "f1": 42,
+    "football": 131,
+    "golf": 76,
     "ice hockey": 6,
-    "motorsport": 41,
-    "nba": 2,
-    "nfl": 64,
-    "other": 534,
+    "motorsport": 40,
+    "nba": 1,
+    "nfl": 61,
+    "other": 532,
     "rugby": 3,
     "snooker": 13,
-    "tennis": 46,
-    "ufc": 1
+    "tennis": 47,
+    "ufc": 3
   }
 }
