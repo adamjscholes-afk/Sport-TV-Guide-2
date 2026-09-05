@@ -1,18 +1,18 @@
 {
-  "checked_at": "2026-09-05T12:27:28.082164Z",
-  "window_start": "2026-09-05T12:00:00Z",
-  "window_end": "2026-09-06T12:00:00Z",
+  "checked_at": "2026-09-05T15:22:39.453250Z",
+  "window_start": "2026-09-05T15:00:00Z",
+  "window_end": "2026-09-06T15:00:00Z",
   "sources": {
     "freeview": {
       "ok": true,
       "url": "https://raw.githubusercontent.com/dp247/Freeview-EPG/master/epg.xml",
-      "programmes": 71,
-      "sha256": "4419f33f661b4330ea29f8bcbb2db97f16cbb17c661cc087d0edf5060e0f70dc"
+      "programmes": 70,
+      "sha256": "8788ef7a838b3fa8d82536586ff1674270a3bce72ff9513d0d2cb616a249b4e0"
     },
     "curated_uk": {
       "ok": true,
       "url": "https://raw.githubusercontent.com/farleyflex/epg-guide/main/epg.xml",
-      "programmes": 571,
+      "programmes": 575,
       "sha256": "147b48736d4ffd5e086fc116483196313c9e1928ddd6585abfb00bb79600eadd"
     },
     "rytec_uk_basic": {
@@ -30,34 +30,34 @@
     "rytec_uk_sport": {
       "ok": true,
       "url": "http://www.xmltvepg.nl/rytecUK_SportMovies.xz",
-      "programmes": 502,
+      "programmes": 495,
       "sha256": "1148e1bafe6df992dc2d43c985a8855e47910eb0367f678ac1b9584cfbbbcf41"
     },
     "publish": {
       "ok": true,
-      "events": 1129,
-      "channels": 124
+      "events": 1125,
+      "channels": 125
     }
   },
-  "channel_count": 124,
+  "channel_count": 125,
   "sport_counts": {
-    "baseball": 48,
+    "baseball": 49,
     "boxing": 4,
-    "cricket": 65,
-    "cycling": 26,
-    "darts": 4,
+    "cricket": 58,
+    "cycling": 27,
+    "darts": 5,
     "f1": 42,
-    "f2": 4,
+    "f2": 2,
     "f3": 2,
-    "football": 170,
-    "golf": 54,
-    "horse racing": 4,
-    "motorsport": 38,
-    "nba": 3,
-    "nfl": 19,
-    "other": 518,
-    "rugby": 67,
-    "snooker": 13,
+    "football": 172,
+    "golf": 55,
+    "horse racing": 3,
+    "motorsport": 37,
+    "nba": 4,
+    "nfl": 20,
+    "other": 522,
+    "rugby": 60,
+    "snooker": 15,
     "tennis": 35,
     "ufc": 5,
     "wrestling": 8
