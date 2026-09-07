@@ -1,18 +1,18 @@
 {
-  "checked_at": "2026-09-07T15:25:45.181940Z",
-  "window_start": "2026-09-07T15:00:00Z",
-  "window_end": "2026-09-08T15:00:00Z",
+  "checked_at": "2026-09-07T18:27:47.686217Z",
+  "window_start": "2026-09-07T18:00:00Z",
+  "window_end": "2026-09-08T18:00:00Z",
   "sources": {
     "freeview": {
       "ok": true,
       "url": "https://raw.githubusercontent.com/dp247/Freeview-EPG/master/epg.xml",
-      "programmes": 12,
-      "sha256": "ac7a61de37591b0559fb065fe0d9e4f710ee41bdd27c7a1bf341fad5d262d790"
+      "programmes": 15,
+      "sha256": "7e6bc7220494721e77d3f040600e21e8bf0abe828869bf1709d0c488f58655e3"
     },
     "curated_uk": {
       "ok": true,
       "url": "https://raw.githubusercontent.com/farleyflex/epg-guide/main/epg.xml",
-      "programmes": 547,
+      "programmes": 551,
       "sha256": "d9641b661e2b93590f2dc85e93d2a4474c6185ed60e42c5320340d7b82b2c432"
     },
     "rytec_uk_basic": {
@@ -30,33 +30,35 @@
     "rytec_uk_sport": {
       "ok": true,
       "url": "http://www.xmltvepg.nl/rytecUK_SportMovies.xz",
-      "programmes": 514,
+      "programmes": 522,
       "sha256": "1148e1bafe6df992dc2d43c985a8855e47910eb0367f678ac1b9584cfbbbcf41"
     },
     "publish": {
       "ok": true,
-      "events": 1059,
-      "channels": 78
+      "events": 1076,
+      "channels": 77
     }
   },
-  "channel_count": 78,
+  "channel_count": 77,
   "sport_counts": {
-    "baseball": 38,
+    "baseball": 37,
     "boxing": 1,
-    "cricket": 68,
+    "cricket": 72,
     "cycling": 11,
-    "darts": 14,
-    "f1": 30,
-    "football": 146,
-    "golf": 77,
+    "darts": 16,
+    "f1": 26,
+    "f2": 2,
+    "f3": 4,
+    "football": 159,
+    "golf": 89,
     "horse racing": 1,
-    "motorsport": 10,
-    "nba": 7,
-    "nfl": 74,
-    "other": 502,
-    "rugby": 9,
-    "snooker": 28,
-    "tennis": 40,
+    "motorsport": 14,
+    "nba": 4,
+    "nfl": 68,
+    "other": 485,
+    "rugby": 10,
+    "snooker": 24,
+    "tennis": 50,
     "ufc": 2,
     "wrestling": 1
   }
