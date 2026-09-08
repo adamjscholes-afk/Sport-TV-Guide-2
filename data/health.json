@@ -1,18 +1,18 @@
 {
-  "checked_at": "2026-09-08T15:27:59.138473Z",
-  "window_start": "2026-09-08T15:00:00Z",
-  "window_end": "2026-09-09T15:00:00Z",
+  "checked_at": "2026-09-08T18:29:21.572209Z",
+  "window_start": "2026-09-08T18:00:00Z",
+  "window_end": "2026-09-09T18:00:00Z",
   "sources": {
     "freeview": {
       "ok": true,
       "url": "https://raw.githubusercontent.com/dp247/Freeview-EPG/master/epg.xml",
-      "programmes": 21,
-      "sha256": "a55ffb77d99b1eae435128a900d42faa633cea1b7475d2d22ac5fa043af185d3"
+      "programmes": 20,
+      "sha256": "26d3fb08ea2254758beed22ed9820f4418c198893317aaf3959b5716f7712ac5"
     },
     "curated_uk": {
       "ok": true,
       "url": "https://raw.githubusercontent.com/farleyflex/epg-guide/main/epg.xml",
-      "programmes": 524,
+      "programmes": 520,
       "sha256": "17479b9f253a6bc819d086232610d9b38872fe46024ab910b9cd622018760c15"
     },
     "rytec_uk_basic": {
@@ -32,34 +32,35 @@
     "rytec_uk_sport": {
       "ok": true,
       "url": "http://www.xmltvepg.nl/rytecUK_SportMovies.xz",
-      "programmes": 496,
+      "programmes": 483,
       "sha256": "1148e1bafe6df992dc2d43c985a8855e47910eb0367f678ac1b9584cfbbbcf41"
     },
     "publish": {
       "ok": true,
-      "events": 1035,
-      "channels": 87
+      "events": 1020,
+      "channels": 86
     }
   },
-  "channel_count": 87,
+  "channel_count": 86,
   "sport_counts": {
-    "baseball": 37,
+    "baseball": 39,
     "boxing": 1,
-    "cricket": 56,
-    "cycling": 20,
-    "darts": 16,
-    "f1": 33,
+    "cricket": 44,
+    "cycling": 18,
+    "darts": 13,
+    "f1": 34,
     "f2": 5,
-    "f3": 5,
-    "football": 192,
-    "golf": 43,
-    "motorsport": 15,
+    "f3": 2,
+    "football": 198,
+    "golf": 32,
+    "ice hockey": 1,
+    "motorsport": 19,
     "nba": 1,
-    "nfl": 73,
-    "other": 459,
-    "rugby": 5,
-    "snooker": 20,
-    "tennis": 48,
+    "nfl": 76,
+    "other": 460,
+    "rugby": 3,
+    "snooker": 16,
+    "tennis": 52,
     "ufc": 1,
     "wrestling": 5
   }
