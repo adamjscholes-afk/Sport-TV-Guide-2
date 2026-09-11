@@ -1,18 +1,20 @@
 {
-  "generated_at": "2026-09-11T09:25:36.210641Z",
-  "window_start": "2026-09-11T09:00:00Z",
-  "window_end": "2026-09-12T09:00:00Z",
+  "generated_at": "2026-09-11T12:31:00.844831Z",
+  "window_start": "2026-09-11T12:30:00Z",
+  "window_end": "2026-09-12T12:30:00Z",
   "timezone": "UTC",
-  "event_count": 847,
-  "channel_count": 89,
+  "event_count": 790,
+  "channel_count": 94,
   "channels": [
     "405 - SkySp Golf HD",
     "408 - SkySp Tennis HD",
     "412 - SkySp+ HD",
     "5 HD",
     "5+1",
+    "ATN Bangla UK",
     "BBC 2 Northern Ireland",
     "BBC 2 Wales",
+    "BBC One",
     "BBC Red Button",
     "BBC Red Button 1",
     "BBC Two HD",
@@ -20,12 +22,11 @@
     "BBC Two Wales HD",
     "Big Ten Network",
     "Bloomberg HD",
-    "CBBC",
-    "CBBC HD",
     "CBS Sports Network",
     "CBeebies",
     "CBeebies HD",
     "CNA",
+    "CNBC HD",
     "Channel 5",
     "Channel 5 +1",
     "Dave",
@@ -43,6 +44,9 @@
     "MLB Network",
     "MUTV",
     "NFL Network",
+    "Now 70s",
+    "Now 80s",
+    "PTV Prime",
     "Premier Sports",
     "Premier Sports 1",
     "Premier Sports 1 ROI",
@@ -94,115 +98,32 @@
     "U&Dave",
     "U&Dave ja vu",
     "USA Network",
+    "Urdu1 Europe",
     "Virgin Media Two"
   ],
   "sport_counts": {
-    "baseball": 36,
-    "boxing": 5,
-    "cricket": 40,
+    "baseball": 38,
+    "boxing": 6,
+    "cricket": 43,
     "cycling": 12,
-    "darts": 4,
+    "darts": 5,
     "f1": 33,
-    "f2": 4,
-    "f3": 2,
-    "football": 149,
-    "golf": 51,
+    "f2": 3,
+    "f3": 3,
+    "football": 143,
+    "golf": 53,
     "horse racing": 1,
-    "motorsport": 29,
-    "nba": 7,
-    "nfl": 52,
-    "other": 358,
-    "rugby": 11,
+    "motorsport": 17,
+    "nba": 8,
+    "nfl": 49,
+    "other": 314,
+    "rugby": 10,
     "snooker": 7,
-    "tennis": 34,
+    "tennis": 33,
     "ufc": 6,
     "wrestling": 6
   },
   "events": [
-    {
-      "channel": "BBC Red Button 1",
-      "channel_id": "BBCRedButton1.uk",
-      "title": "MOTD: UEFA Champions League Highlights",
-      "description": "Highlights from the opening round of matches in the UEFA Champions League group stage.",
-      "categories": [],
-      "start": "2026-09-11T05:00:00Z",
-      "end": "2026-09-11T11:00:00Z",
-      "sport": "football",
-      "confidence": 0.91,
-      "source": "freeview"
-    },
-    {
-      "channel": "Sky Sports Golf",
-      "channel_id": "skysportsgolf.uk",
-      "title": "Live Solheim Cup Golf",
-      "description": "",
-      "categories": [],
-      "start": "2026-09-11T05:00:00Z",
-      "end": "2026-09-11T11:00:00Z",
-      "sport": "golf",
-      "confidence": 0.83,
-      "source": "curated_uk"
-    },
-    {
-      "channel": "Sky Sports Main Event",
-      "channel_id": "skysportsmainevent.uk",
-      "title": "Live Solheim Cup Golf",
-      "description": "",
-      "categories": [],
-      "start": "2026-09-11T05:00:00Z",
-      "end": "2026-09-11T11:00:00Z",
-      "sport": "golf",
-      "confidence": 0.83,
-      "source": "curated_uk"
-    },
-    {
-      "channel": "BBC Red Button 1",
-      "channel_id": "BBCRedButton1.uk",
-      "title": "UEFA Champions League Football",
-      "description": "Highlights from the opening round of matches in the UEFA Champions League group stage.",
-      "categories": [],
-      "start": "2026-09-11T05:00:00Z",
-      "end": "2026-09-11T11:00:00Z",
-      "sport": "football",
-      "confidence": 0.99,
-      "source": "rytec_uk_basic"
-    },
-    {
-      "channel": "BBC Red Button",
-      "channel_id": "BBCRedButton.uk",
-      "title": "UEFA Champions League Football",
-      "description": "Highlights from the opening round of matches in the UEFA Champions League group stage.",
-      "categories": [],
-      "start": "2026-09-11T05:00:00Z",
-      "end": "2026-09-11T11:00:00Z",
-      "sport": "football",
-      "confidence": 0.99,
-      "source": "rytec_uk_basic"
-    },
-    {
-      "channel": "405 - SkySp Golf HD",
-      "channel_id": "SkySpGolf.uk",
-      "title": "LIVE: Solheim Cup Day 1 Foursomes",
-      "description": "",
-      "categories": [],
-      "start": "2026-09-11T05:00:00Z",
-      "end": "2026-09-11T11:00:00Z",
-      "sport": "other",
-      "confidence": 0.7,
-      "source": "rytec_uk_sport"
-    },
-    {
-      "channel": "SkySpMainEv",
-      "channel_id": "SkySpMainEv.uk",
-      "title": "LIVE: Solheim Cup Day 1 Foursomes",
-      "description": "",
-      "categories": [],
-      "start": "2026-09-11T05:00:00Z",
-      "end": "2026-09-11T11:00:00Z",
-      "sport": "other",
-      "confidence": 0.7,
-      "source": "rytec_uk_sport"
-    },
     {
       "channel": "Golf Channel",
       "channel_id": "GolfChannel.us",
@@ -219,117 +140,6 @@
       "source": "curated_uk"
     },
     {
-      "channel": "TNT Sports 2",
-      "channel_id": "tntsports2.uk",
-      "title": "Live MotoGP",
-      "description": "",
-      "categories": [],
-      "start": "2026-09-11T07:00:00Z",
-      "end": "2026-09-11T09:45:00Z",
-      "sport": "motorsport",
-      "confidence": 0.83,
-      "source": "curated_uk"
-    },
-    {
-      "channel": "TNT Sport 2",
-      "channel_id": "TNTSport2.uk",
-      "title": "Live: Formula E World Championship",
-      "description": "Action from the first free practice session ahead of the 2026 Grand Prix of San Marino at Misano World Circuit Marco Simoncelli.",
-      "categories": [],
-      "start": "2026-09-11T07:00:00Z",
-      "end": "2026-09-11T09:45:00Z",
-      "sport": "other",
-      "confidence": 0.7,
-      "source": "rytec_uk_sport"
-    },
-    {
-      "channel": "Premier Sports 2",
-      "channel_id": "premiersports2.uk",
-      "title": "Copa do Brasil",
-      "description": "",
-      "categories": [],
-      "start": "2026-09-11T07:30:00Z",
-      "end": "2026-09-11T09:30:00Z",
-      "sport": "other",
-      "confidence": 0.7,
-      "source": "curated_uk"
-    },
-    {
-      "channel": "Premier Sports 2",
-      "channel_id": "PremierSports2.uk",
-      "title": "Copa do Brasil Football",
-      "description": "Coverage of the Copa do Brasil, the premium cup competition in Brazilian football.",
-      "categories": [],
-      "start": "2026-09-11T07:30:00Z",
-      "end": "2026-09-11T09:30:00Z",
-      "sport": "football",
-      "confidence": 0.83,
-      "source": "rytec_uk_sport"
-    },
-    {
-      "channel": "Sky Sports Mix",
-      "channel_id": "skysportsmix.uk",
-      "title": "Live NRLW",
-      "description": "",
-      "categories": [],
-      "start": "2026-09-11T07:40:00Z",
-      "end": "2026-09-11T09:40:00Z",
-      "sport": "other",
-      "confidence": 0.7,
-      "source": "curated_uk"
-    },
-    {
-      "channel": "SkySp Mix",
-      "channel_id": "SkySpMix.uk",
-      "title": "LIVE: NRLW: Tigers v Raiders",
-      "description": "During round 11 of the 2026 Telstra Women's Premiership season, Wests Tigers take on the Raiders.",
-      "categories": [],
-      "start": "2026-09-11T07:40:00Z",
-      "end": "2026-09-11T09:40:00Z",
-      "sport": "other",
-      "confidence": 0.7,
-      "source": "rytec_uk_sport"
-    },
-    {
-      "channel": "Big Ten Network",
-      "channel_id": "BigTenNetwork.us",
-      "title": "Women's College Soccer",
-      "description": "From Husky Soccer Stadium in Seattle.",
-      "categories": [
-        "Sports",
-        "Soccer"
-      ],
-      "start": "2026-09-11T08:00:00Z",
-      "end": "2026-09-11T10:00:00Z",
-      "sport": "football",
-      "confidence": 0.83,
-      "source": "curated_uk"
-    },
-    {
-      "channel": "Sky Sports Tennis",
-      "channel_id": "skysportstennis.uk",
-      "title": "US Open Tennis",
-      "description": "",
-      "categories": [],
-      "start": "2026-09-11T08:00:00Z",
-      "end": "2026-09-11T10:00:00Z",
-      "sport": "tennis",
-      "confidence": 0.91,
-      "source": "curated_uk"
-    },
-    {
-      "channel": "408 - SkySp Tennis HD",
-      "channel_id": "SkySportsTennis.uk",
-      "title": "US Open Women's SF Highlights",
-      "description": "Revisit a standout match from yesterday's play at the 2026 US Open in New York City.",
-      "categories": [],
-      "start": "2026-09-11T08:00:00Z",
-      "end": "2026-09-11T10:00:00Z",
-      "sport": "tennis",
-      "confidence": 0.83,
-      "source": "rytec_uk_sport"
-    },
-    {
       "channel": "Sky Sports+",
       "channel_id": "SkySportsArena.uk",
       "title": "Live DP World Tour Golf",
@@ -339,30 +149,6 @@
       "end": "2026-09-11T14:00:00Z",
       "sport": "golf",
       "confidence": 0.83,
-      "source": "curated_uk"
-    },
-    {
-      "channel": "TNT Sports 1",
-      "channel_id": "tntsports1.uk",
-      "title": "Rolex SailGP Championship",
-      "description": "",
-      "categories": [],
-      "start": "2026-09-11T08:30:00Z",
-      "end": "2026-09-11T09:30:00Z",
-      "sport": "other",
-      "confidence": 0.7,
-      "source": "curated_uk"
-    },
-    {
-      "channel": "TNT Sports 4",
-      "channel_id": "tntsports4.uk",
-      "title": "Ultimate Pool",
-      "description": "",
-      "categories": [],
-      "start": "2026-09-11T08:30:00Z",
-      "end": "2026-09-11T10:00:00Z",
-      "sport": "other",
-      "confidence": 0.7,
       "source": "curated_uk"
     },
     {
@@ -402,315 +188,6 @@
       "source": "rytec_uk_sport"
     },
     {
-      "channel": "TNT Sport 1",
-      "channel_id": "TNTSport1.uk",
-      "title": "SailGP Highlights",
-      "description": "Highlights from the 10th event of the 2026 Rolex SailGP Championship, which took place in the vibrant Spanish city of Valencia.",
-      "categories": [],
-      "start": "2026-09-11T08:30:00Z",
-      "end": "2026-09-11T09:30:00Z",
-      "sport": "other",
-      "confidence": 0.7,
-      "source": "rytec_uk_sport"
-    },
-    {
-      "channel": "TNT Sport 4",
-      "channel_id": "TNTSport4.uk",
-      "title": "Ultimate Pool",
-      "description": "Ultimate Pool's brand new Monday Night competition showcases some of the game's best young rising talent, pairing them with Ultimate Pool pro players.",
-      "categories": [],
-      "start": "2026-09-11T08:30:00Z",
-      "end": "2026-09-11T10:00:00Z",
-      "sport": "other",
-      "confidence": 0.7,
-      "source": "rytec_uk_sport"
-    },
-    {
-      "channel": "FOX Sports 2",
-      "channel_id": "foxsports2.us",
-      "title": "The Joel Klatt Show: A College Football Podcast",
-      "description": "Joel Klatt breaks down the biggest topics in the world of college football.",
-      "categories": [
-        "Sports",
-        "Miscellaneous"
-      ],
-      "start": "2026-09-11T09:00:00Z",
-      "end": "2026-09-11T09:30:00Z",
-      "sport": "football",
-      "confidence": 0.83,
-      "source": "curated_uk"
-    },
-    {
-      "channel": "MLB Network",
-      "channel_id": "MLBNetwork.us",
-      "title": "Quick Pitch",
-      "description": "All the latest baseball news, scores and highlights. Plus, a first look at upcoming matchups.",
-      "categories": [
-        "Sports",
-        "Baseball"
-      ],
-      "start": "2026-09-11T09:00:00Z",
-      "end": "2026-09-11T10:00:00Z",
-      "sport": "baseball",
-      "confidence": 0.83,
-      "source": "curated_uk"
-    },
-    {
-      "channel": "NFL Network",
-      "channel_id": "NFLNetwork.us",
-      "title": "NFL GameDay Final",
-      "description": "Chris Rose and crew wrap up the day's NFL action with all the highlights and reactions, plus postgame interviews with the day's best performers.",
-      "categories": [
-        "Sports",
-        "Football"
-      ],
-      "start": "2026-09-11T09:00:00Z",
-      "end": "2026-09-11T10:00:00Z",
-      "sport": "football",
-      "confidence": 0.83,
-      "source": "curated_uk"
-    },
-    {
-      "channel": "Premier Sports 1",
-      "channel_id": "premiersports1.uk",
-      "title": "Scottish Rally Championship",
-      "description": "",
-      "categories": [],
-      "start": "2026-09-11T09:00:00Z",
-      "end": "2026-09-11T09:30:00Z",
-      "sport": "other",
-      "confidence": 0.7,
-      "source": "curated_uk"
-    },
-    {
-      "channel": "Sky Sports Action",
-      "channel_id": "skysportsaction.uk",
-      "title": "NFL: America's Game",
-      "description": "",
-      "categories": [],
-      "start": "2026-09-11T09:00:00Z",
-      "end": "2026-09-11T10:00:00Z",
-      "sport": "nfl",
-      "confidence": 0.83,
-      "source": "curated_uk"
-    },
-    {
-      "channel": "Sky Sports Cricket",
-      "channel_id": "skysportscricket.uk",
-      "title": "Test Cricket Bitesize",
-      "description": "",
-      "categories": [],
-      "start": "2026-09-11T09:00:00Z",
-      "end": "2026-09-11T09:15:00Z",
-      "sport": "cricket",
-      "confidence": 0.83,
-      "source": "curated_uk"
-    },
-    {
-      "channel": "Sky Sports F1",
-      "channel_id": "skysportsf1.uk",
-      "title": "Live Formula 2 Championship",
-      "description": "",
-      "categories": [],
-      "start": "2026-09-11T09:00:00Z",
-      "end": "2026-09-11T10:00:00Z",
-      "sport": "f2",
-      "confidence": 0.83,
-      "source": "curated_uk"
-    },
-    {
-      "channel": "Sky Sports Football",
-      "channel_id": "skysportsfootball.uk",
-      "title": "Championship Retro",
-      "description": "",
-      "categories": [],
-      "start": "2026-09-11T09:00:00Z",
-      "end": "2026-09-11T11:00:00Z",
-      "sport": "other",
-      "confidence": 0.7,
-      "source": "curated_uk"
-    },
-    {
-      "channel": "Sky Sports News",
-      "channel_id": "skysportsnews.uk",
-      "title": "Sky Sports FC",
-      "description": "",
-      "categories": [],
-      "start": "2026-09-11T09:00:00Z",
-      "end": "2026-09-11T10:00:00Z",
-      "sport": "other",
-      "confidence": 0.7,
-      "source": "curated_uk"
-    },
-    {
-      "channel": "Sky Sports Premier League",
-      "channel_id": "skysportspremiereleague.uk",
-      "title": "Sky Sports FC",
-      "description": "",
-      "categories": [],
-      "start": "2026-09-11T09:00:00Z",
-      "end": "2026-09-11T10:00:00Z",
-      "sport": "other",
-      "confidence": 0.7,
-      "source": "curated_uk"
-    },
-    {
-      "channel": "Sky Sports Racing",
-      "channel_id": "skysportsracing.uk",
-      "title": "Eddie Greatrex: Comeback Kid",
-      "description": "",
-      "categories": [],
-      "start": "2026-09-11T09:00:00Z",
-      "end": "2026-09-11T09:15:00Z",
-      "sport": "other",
-      "confidence": 0.7,
-      "source": "curated_uk"
-    },
-    {
-      "channel": "TNT Sports 3",
-      "channel_id": "tntsports3.uk",
-      "title": "UEFA Champions League",
-      "description": "",
-      "categories": [],
-      "start": "2026-09-11T09:00:00Z",
-      "end": "2026-09-11T09:30:00Z",
-      "sport": "football",
-      "confidence": 0.91,
-      "source": "curated_uk"
-    },
-    {
-      "channel": "Premier Sports",
-      "channel_id": "PremierSports.uk",
-      "title": "Scottish Rally Championship",
-      "description": "Watch the latest highlights from the Scottish Rally Championship.",
-      "categories": [],
-      "start": "2026-09-11T09:00:00Z",
-      "end": "2026-09-11T09:30:00Z",
-      "sport": "other",
-      "confidence": 0.7,
-      "source": "rytec_uk_sport"
-    },
-    {
-      "channel": "Premier Sports 1 ROI",
-      "channel_id": "PremierSports1ROI.ie",
-      "title": "UEFA Champions League",
-      "description": "Manchester United v Sabah.",
-      "categories": [],
-      "start": "2026-09-11T09:00:00Z",
-      "end": "2026-09-11T11:00:00Z",
-      "sport": "football",
-      "confidence": 0.91,
-      "source": "rytec_uk_sport"
-    },
-    {
-      "channel": "TNT Sport 3",
-      "channel_id": "TNTSport3.uk",
-      "title": "UCL: Slavia Prague v Lens",
-      "description": "Action from the UEFA Champions League as Czech champions Slavia Prague face Dino Toppmoller's RC Lens at Fortuna Arena.",
-      "categories": [],
-      "start": "2026-09-11T09:00:00Z",
-      "end": "2026-09-11T09:30:00Z",
-      "sport": "other",
-      "confidence": 0.7,
-      "source": "rytec_uk_sport"
-    },
-    {
-      "channel": "Sky Sports Cricket",
-      "channel_id": "SkySpCricket.uk",
-      "title": "3rd Test Day 2: ENG v PAK Hlts",
-      "description": "Bitesize highlights from day two of the third and final Test between England and Pakistan at Edgbaston. (10.09).",
-      "categories": [],
-      "start": "2026-09-11T09:00:00Z",
-      "end": "2026-09-11T09:15:00Z",
-      "sport": "other",
-      "confidence": 0.7,
-      "source": "rytec_uk_sport"
-    },
-    {
-      "channel": "Sky Sports News",
-      "channel_id": "SkySpNews.uk",
-      "title": "Live: Sky Sports FC",
-      "description": "Have your say on the big talking points in this interactive show covering the major football headlines.",
-      "categories": [],
-      "start": "2026-09-11T09:00:00Z",
-      "end": "2026-09-11T10:00:00Z",
-      "sport": "other",
-      "confidence": 0.7,
-      "source": "rytec_uk_sport"
-    },
-    {
-      "channel": "SkySp Racing",
-      "channel_id": "SkySpRacing.uk",
-      "title": "For the Love of the Racehorse",
-      "description": "To celebrate all things great about the racehorse, four Sky Sports Racing presenters take us inside their homes to highlight the love and care racehorses receive in retirement.",
-      "categories": [],
-      "start": "2026-09-11T09:00:00Z",
-      "end": "2026-09-11T09:30:00Z",
-      "sport": "other",
-      "confidence": 0.7,
-      "source": "rytec_uk_sport"
-    },
-    {
-      "channel": "SkySp NFL",
-      "channel_id": "SkySpNFL.uk",
-      "title": "America's Game: Seahawks 2014",
-      "description": "The story of the 2013 Seattle Seahawks. Pete Carroll's side claimed the Vince Lombardi trophy for the second time after destroying Denver Broncos in Super Bowl XLVIII.",
-      "categories": [],
-      "start": "2026-09-11T09:00:00Z",
-      "end": "2026-09-11T10:00:00Z",
-      "sport": "other",
-      "confidence": 0.7,
-      "source": "rytec_uk_sport"
-    },
-    {
-      "channel": "Sky Sports Action",
-      "channel_id": "SkySpAction.uk",
-      "title": "America's Game: Seahawks 2014",
-      "description": "The story of the 2013 Seattle Seahawks. Pete Carroll's side claimed the Vince Lombardi trophy for the second time after destroying Denver Broncos in Super Bowl XLVIII.",
-      "categories": [],
-      "start": "2026-09-11T09:00:00Z",
-      "end": "2026-09-11T10:00:00Z",
-      "sport": "other",
-      "confidence": 0.7,
-      "source": "rytec_uk_sport"
-    },
-    {
-      "channel": "SkySP PL",
-      "channel_id": "SkySpPL.uk",
-      "title": "Live: Sky Sports FC",
-      "description": "Have your say on the big talking points in this interactive show covering the major football headlines.",
-      "categories": [],
-      "start": "2026-09-11T09:00:00Z",
-      "end": "2026-09-11T10:00:00Z",
-      "sport": "other",
-      "confidence": 0.7,
-      "source": "rytec_uk_sport"
-    },
-    {
-      "channel": "SkySp Fball",
-      "channel_id": "SkySpFball.uk",
-      "title": "Retro C'Ship 12: B'pool v West Ham",
-      "description": "A chance to relive a classic match from the Championship. Here the play-off final from the 2011-12 campaign, as Blackpool and West Ham meet at Wembley.",
-      "categories": [],
-      "start": "2026-09-11T09:00:00Z",
-      "end": "2026-09-11T11:00:00Z",
-      "sport": "other",
-      "confidence": 0.7,
-      "source": "rytec_uk_sport"
-    },
-    {
-      "channel": "Sky sports F1",
-      "channel_id": "SkySpF1.uk",
-      "title": "LIVE: Spanish F2: Practice",
-      "description": "The FIA Formula 2 Championship takes to the Madring as practice running begins ahead of qualifying.",
-      "categories": [],
-      "start": "2026-09-11T09:00:00Z",
-      "end": "2026-09-11T10:00:00Z",
-      "sport": "f2",
-      "confidence": 0.83,
-      "source": "rytec_uk_sport"
-    },
-    {
       "channel": "Sky Sports Cricket",
       "channel_id": "skysportscricket.uk",
       "title": "Live Test Cricket",
@@ -720,18 +197,6 @@
       "end": "2026-09-11T18:00:00Z",
       "sport": "cricket",
       "confidence": 0.83,
-      "source": "curated_uk"
-    },
-    {
-      "channel": "Sky Sports Racing",
-      "channel_id": "skysportsracing.uk",
-      "title": "St Leger: 250 Years of History",
-      "description": "",
-      "categories": [],
-      "start": "2026-09-11T09:15:00Z",
-      "end": "2026-09-11T09:30:00Z",
-      "sport": "other",
-      "confidence": 0.7,
       "source": "curated_uk"
     },
     {
@@ -747,96 +212,6 @@
       "source": "rytec_uk_sport"
     },
     {
-      "channel": "FOX Sports 2",
-      "channel_id": "foxsports2.us",
-      "title": "Big Noon Kickoff Presents Bear Bets",
-      "description": "Betting expert Chris",
-      "categories": [
-        "Sports",
-        "Football"
-      ],
-      "start": "2026-09-11T09:30:00Z",
-      "end": "2026-09-11T09:54:00Z",
-      "sport": "football",
-      "confidence": 0.83,
-      "source": "curated_uk"
-    },
-    {
-      "channel": "Premier Sports 1",
-      "channel_id": "premiersports1.uk",
-      "title": "Mass Participation",
-      "description": "",
-      "categories": [],
-      "start": "2026-09-11T09:30:00Z",
-      "end": "2026-09-11T10:30:00Z",
-      "sport": "other",
-      "confidence": 0.7,
-      "source": "curated_uk"
-    },
-    {
-      "channel": "Premier Sports 2",
-      "channel_id": "premiersports2.uk",
-      "title": "Temples of Sport",
-      "description": "",
-      "categories": [],
-      "start": "2026-09-11T09:30:00Z",
-      "end": "2026-09-11T10:00:00Z",
-      "sport": "other",
-      "confidence": 0.7,
-      "source": "curated_uk"
-    },
-    {
-      "channel": "Sky Sports Racing",
-      "channel_id": "skysportsracing.uk",
-      "title": "Raceday Preview",
-      "description": "",
-      "categories": [],
-      "start": "2026-09-11T09:30:00Z",
-      "end": "2026-09-11T11:30:00Z",
-      "sport": "other",
-      "confidence": 0.7,
-      "source": "curated_uk"
-    },
-    {
-      "channel": "Sportsnet 360",
-      "channel_id": "Sportsnet360.ca",
-      "title": "MLB Plays of the Week",
-      "description": "A look at the top plays and moments from the past week in baseball.",
-      "categories": [
-        "Sports",
-        "Baseball"
-      ],
-      "start": "2026-09-11T09:30:00Z",
-      "end": "2026-09-11T10:00:00Z",
-      "sport": "baseball",
-      "confidence": 0.91,
-      "source": "curated_uk"
-    },
-    {
-      "channel": "TNT Sports 1",
-      "channel_id": "tntsports1.uk",
-      "title": "Groundbreaking",
-      "description": "",
-      "categories": [],
-      "start": "2026-09-11T09:30:00Z",
-      "end": "2026-09-11T09:45:00Z",
-      "sport": "other",
-      "confidence": 0.7,
-      "source": "curated_uk"
-    },
-    {
-      "channel": "TNT Sports 3",
-      "channel_id": "tntsports3.uk",
-      "title": "Serie A - Full Impact",
-      "description": "",
-      "categories": [],
-      "start": "2026-09-11T09:30:00Z",
-      "end": "2026-09-11T10:00:00Z",
-      "sport": "other",
-      "confidence": 0.7,
-      "source": "curated_uk"
-    },
-    {
       "channel": "RTE Two +1",
       "channel_id": "RTE2+1.ie",
       "title": "Live: Irish Open, DP World Tour Golf",
@@ -849,90 +224,6 @@
       "source": "rytec_uk_basic"
     },
     {
-      "channel": "Premier Sports",
-      "channel_id": "PremierSports.uk",
-      "title": "Mass Participation",
-      "description": "Mass Participation celebrates the energy, passion and spirit of athletes, covering multiple endurance sports from marathons to trail running.",
-      "categories": [],
-      "start": "2026-09-11T09:30:00Z",
-      "end": "2026-09-11T10:30:00Z",
-      "sport": "other",
-      "confidence": 0.7,
-      "source": "rytec_uk_sport"
-    },
-    {
-      "channel": "TNT Sport 3",
-      "channel_id": "TNTSport3.uk",
-      "title": "Serie A - Full Impact",
-      "description": "All the best moments from matchday three of the Serie A season, featuring Inter v Napoli, Juventus v Milan, Roma v Atalanta, and Genoa v Como.",
-      "categories": [],
-      "start": "2026-09-11T09:30:00Z",
-      "end": "2026-09-11T10:00:00Z",
-      "sport": "other",
-      "confidence": 0.7,
-      "source": "rytec_uk_sport"
-    },
-    {
-      "channel": "SkySp Racing",
-      "channel_id": "SkySpRacing.uk",
-      "title": "Raceday Preview",
-      "description": "We look ahead to Day 2 of this afternoon's St Leger Festival, where we have the G2 Doncaster Cup and G2 Flying Childers.",
-      "categories": [],
-      "start": "2026-09-11T09:30:00Z",
-      "end": "2026-09-11T11:30:00Z",
-      "sport": "other",
-      "confidence": 0.7,
-      "source": "rytec_uk_sport"
-    },
-    {
-      "channel": "TNT Sport 1",
-      "channel_id": "TNTSport1.uk",
-      "title": "Fishing: On the Bank",
-      "description": "Angling magazine show presented by Rob Hughes and Andy Ford, featuring coverage of the 2025 Southampton Boat Show.",
-      "categories": [],
-      "start": "2026-09-11T09:30:00Z",
-      "end": "2026-09-11T10:30:00Z",
-      "sport": "other",
-      "confidence": 0.7,
-      "source": "rytec_uk_sport"
-    },
-    {
-      "channel": "Sky Sports Mix",
-      "channel_id": "skysportsmix.uk",
-      "title": "British and Irish Lions Tour",
-      "description": "",
-      "categories": [],
-      "start": "2026-09-11T09:40:00Z",
-      "end": "2026-09-11T09:45:00Z",
-      "sport": "other",
-      "confidence": 0.7,
-      "source": "curated_uk"
-    },
-    {
-      "channel": "SkySp Mix",
-      "channel_id": "SkySpMix.uk",
-      "title": "Rugby Gold Shorts",
-      "description": "A look back at a classic match. Here, ahead of the first Test against the All Blacks, the British and Irish Lions had the chance to record their first mid-week victory against the Chiefs.",
-      "categories": [],
-      "start": "2026-09-11T09:40:00Z",
-      "end": "2026-09-11T09:45:00Z",
-      "sport": "rugby",
-      "confidence": 0.83,
-      "source": "rytec_uk_sport"
-    },
-    {
-      "channel": "Sky Sports Mix",
-      "channel_id": "skysportsmix.uk",
-      "title": "Rugby Greatest Games",
-      "description": "",
-      "categories": [],
-      "start": "2026-09-11T09:45:00Z",
-      "end": "2026-09-11T09:50:00Z",
-      "sport": "rugby",
-      "confidence": 0.83,
-      "source": "curated_uk"
-    },
-    {
       "channel": "TNT Sports 1",
       "channel_id": "tntsports1.uk",
       "title": "Live AFL",
@@ -942,222 +233,6 @@
       "end": "2026-09-11T12:45:00Z",
       "sport": "other",
       "confidence": 0.7,
-      "source": "curated_uk"
-    },
-    {
-      "channel": "TNT Sports 2",
-      "channel_id": "tntsports2.uk",
-      "title": "MotoGP Rewind",
-      "description": "",
-      "categories": [],
-      "start": "2026-09-11T09:45:00Z",
-      "end": "2026-09-11T10:00:00Z",
-      "sport": "motorsport",
-      "confidence": 0.83,
-      "source": "curated_uk"
-    },
-    {
-      "channel": "SkySp Mix",
-      "channel_id": "SkySpMix.uk",
-      "title": "My Icon: Catriona Matthew",
-      "description": "In a special edition of My Icon to mark International Women's Day, Scottish golfer and Major champion Catriona Matthew looks at the personalities that have inspired her in her career.",
-      "categories": [],
-      "start": "2026-09-11T09:45:00Z",
-      "end": "2026-09-11T10:00:00Z",
-      "sport": "other",
-      "confidence": 0.7,
-      "source": "rytec_uk_sport"
-    },
-    {
-      "channel": "TNT Sport 2",
-      "channel_id": "TNTSport2.uk",
-      "title": "MotoGP Rewind",
-      "description": "A look back at the 2026 MotoGP Grand Prix of Italy at Autodromo Internazionale del Mugello, where Marco Bezzecchi put on a show for his home crowd.",
-      "categories": [],
-      "start": "2026-09-11T09:45:00Z",
-      "end": "2026-09-11T10:00:00Z",
-      "sport": "motorsport",
-      "confidence": 0.83,
-      "source": "rytec_uk_sport"
-    },
-    {
-      "channel": "Sky Sports Mix",
-      "channel_id": "skysportsmix.uk",
-      "title": "Live NRL",
-      "description": "",
-      "categories": [],
-      "start": "2026-09-11T09:50:00Z",
-      "end": "2026-09-11T11:50:00Z",
-      "sport": "other",
-      "confidence": 0.7,
-      "source": "curated_uk"
-    },
-    {
-      "channel": "FOX Sports 2",
-      "channel_id": "foxsports2.us",
-      "title": "AFL Premiership Football",
-      "description": "Semifinal.",
-      "categories": [
-        "Sports",
-        "Australian Rules Football"
-      ],
-      "start": "2026-09-11T09:54:00Z",
-      "end": "2026-09-11T12:30:00Z",
-      "sport": "football",
-      "confidence": 0.83,
-      "source": "curated_uk"
-    },
-    {
-      "channel": "Big Ten Network",
-      "channel_id": "BigTenNetwork.us",
-      "title": "On the Pitch",
-      "description": "Get an inside look at Big Ten men's and women's soccer with behind the scenes footage and features on players and teams from around the conference.",
-      "categories": [
-        "Sports",
-        "Soccer"
-      ],
-      "start": "2026-09-11T10:00:00Z",
-      "end": "2026-09-11T10:30:00Z",
-      "sport": "football",
-      "confidence": 0.83,
-      "source": "curated_uk"
-    },
-    {
-      "channel": "MLB Network",
-      "channel_id": "MLBNetwork.us",
-      "title": "Quick Pitch",
-      "description": "All the latest baseball news, scores and highlights. Plus, a first look at upcoming matchups.",
-      "categories": [
-        "Sports",
-        "Baseball"
-      ],
-      "start": "2026-09-11T10:00:00Z",
-      "end": "2026-09-11T11:00:00Z",
-      "sport": "baseball",
-      "confidence": 0.83,
-      "source": "curated_uk"
-    },
-    {
-      "channel": "NFL Network",
-      "channel_id": "NFLNetwork.us",
-      "title": "NFL Football",
-      "description": "NFC West rivals the Los Angeles Rams and San Francisco 49ers meet in Week 1 of the NFL regular season at the Melbourne Cricket Ground. Both teams finished the 2025 regular season with an identical 12-5 record and split their head-to-head series 1-1.",
-      "categories": [
-        "Sports",
-        "Football"
-      ],
-      "start": "2026-09-11T10:00:00Z",
-      "end": "2026-09-11T12:00:00Z",
-      "sport": "football",
-      "confidence": 0.83,
-      "source": "curated_uk"
-    },
-    {
-      "channel": "Premier Sports 2",
-      "channel_id": "premiersports2.uk",
-      "title": "Brasileiro Serie A",
-      "description": "",
-      "categories": [],
-      "start": "2026-09-11T10:00:00Z",
-      "end": "2026-09-11T12:00:00Z",
-      "sport": "other",
-      "confidence": 0.7,
-      "source": "curated_uk"
-    },
-    {
-      "channel": "Sky Sports Action",
-      "channel_id": "skysportsaction.uk",
-      "title": "NFL Highlights",
-      "description": "",
-      "categories": [],
-      "start": "2026-09-11T10:00:00Z",
-      "end": "2026-09-11T11:00:00Z",
-      "sport": "nfl",
-      "confidence": 0.83,
-      "source": "curated_uk"
-    },
-    {
-      "channel": "Sky Sports F1",
-      "channel_id": "skysportsf1.uk",
-      "title": "At Home with Liam Lawson Pt2",
-      "description": "",
-      "categories": [],
-      "start": "2026-09-11T10:00:00Z",
-      "end": "2026-09-11T10:15:00Z",
-      "sport": "other",
-      "confidence": 0.7,
-      "source": "curated_uk"
-    },
-    {
-      "channel": "Sky Sports News",
-      "channel_id": "skysportsnews.uk",
-      "title": "Sky Sports FC",
-      "description": "",
-      "categories": [],
-      "start": "2026-09-11T10:00:00Z",
-      "end": "2026-09-11T11:00:00Z",
-      "sport": "other",
-      "confidence": 0.7,
-      "source": "curated_uk"
-    },
-    {
-      "channel": "Sky Sports Premier League",
-      "channel_id": "skysportspremiereleague.uk",
-      "title": "Sky Sports FC",
-      "description": "",
-      "categories": [],
-      "start": "2026-09-11T10:00:00Z",
-      "end": "2026-09-11T11:00:00Z",
-      "sport": "other",
-      "confidence": 0.7,
-      "source": "curated_uk"
-    },
-    {
-      "channel": "Sky Sports Tennis",
-      "channel_id": "skysportstennis.uk",
-      "title": "US Open Tennis",
-      "description": "",
-      "categories": [],
-      "start": "2026-09-11T10:00:00Z",
-      "end": "2026-09-11T10:30:00Z",
-      "sport": "tennis",
-      "confidence": 0.91,
-      "source": "curated_uk"
-    },
-    {
-      "channel": "TNT Sports 2",
-      "channel_id": "tntsports2.uk",
-      "title": "MotoGP Rewind",
-      "description": "",
-      "categories": [],
-      "start": "2026-09-11T10:00:00Z",
-      "end": "2026-09-11T10:15:00Z",
-      "sport": "motorsport",
-      "confidence": 0.83,
-      "source": "curated_uk"
-    },
-    {
-      "channel": "TNT Sports 3",
-      "channel_id": "tntsports3.uk",
-      "title": "La Vuelta Men",
-      "description": "",
-      "categories": [],
-      "start": "2026-09-11T10:00:00Z",
-      "end": "2026-09-11T11:00:00Z",
-      "sport": "cycling",
-      "confidence": 0.83,
-      "source": "curated_uk"
-    },
-    {
-      "channel": "TNT Sports 4",
-      "channel_id": "tntsports4.uk",
-      "title": "Snooker Home Nations Series English Open",
-      "description": "",
-      "categories": [],
-      "start": "2026-09-11T10:00:00Z",
-      "end": "2026-09-11T12:00:00Z",
-      "sport": "snooker",
-      "confidence": 0.83,
       "source": "curated_uk"
     },
     {
@@ -1176,378 +251,6 @@
       "source": "curated_uk"
     },
     {
-      "channel": "Premier Sports 2",
-      "channel_id": "PremierSports2.uk",
-      "title": "Campeonato Brasileiro",
-      "description": "Coverage of the Campeonato Brasileiro S\u00e9rie A, the premier league in Brazilian football.",
-      "categories": [],
-      "start": "2026-09-11T10:00:00Z",
-      "end": "2026-09-11T12:00:00Z",
-      "sport": "other",
-      "confidence": 0.7,
-      "source": "rytec_uk_sport"
-    },
-    {
-      "channel": "TNT Sport 3",
-      "channel_id": "TNTSport3.uk",
-      "title": "La Vuelta Men Highlights",
-      "description": "Highlights from stage 18, as the peloton take on a 32km individual time trial running from the historic coastal port city of El Puerto de Santa Maria to Jerez de la Frontera.",
-      "categories": [],
-      "start": "2026-09-11T10:00:00Z",
-      "end": "2026-09-11T11:00:00Z",
-      "sport": "cycling",
-      "confidence": 0.83,
-      "source": "rytec_uk_sport"
-    },
-    {
-      "channel": "SkySp Mix",
-      "channel_id": "SkySpMix.uk",
-      "title": "WTA Final: Brisbane",
-      "description": "Defending champion Aryna Sabalenka enters a third straight Brisbane final as the world number one meets Marta Kostyuk, who defeated fourth seed Jessica Pegula to get here. (11.01).",
-      "categories": [],
-      "start": "2026-09-11T10:00:00Z",
-      "end": "2026-09-11T11:00:00Z",
-      "sport": "tennis",
-      "confidence": 0.83,
-      "source": "rytec_uk_sport"
-    },
-    {
-      "channel": "Sky Sports News",
-      "channel_id": "SkySpNews.uk",
-      "title": "Live: Sky Sports FC",
-      "description": "Have your say on the big talking points in this interactive show covering the major football headlines.",
-      "categories": [],
-      "start": "2026-09-11T10:00:00Z",
-      "end": "2026-09-11T11:00:00Z",
-      "sport": "other",
-      "confidence": 0.7,
-      "source": "rytec_uk_sport"
-    },
-    {
-      "channel": "SkySp NFL",
-      "channel_id": "SkySpNFL.uk",
-      "title": "Super Bowl LX Highlights",
-      "description": "The Seahawks and the Patriots enter a Santa Clara showdown as Super Bowl LX is here. This contest comes as a repeat of the 2015 Super Bowl - a day that belonged to the Patriots. (08.02).",
-      "categories": [],
-      "start": "2026-09-11T10:00:00Z",
-      "end": "2026-09-11T11:15:00Z",
-      "sport": "nfl",
-      "confidence": 0.83,
-      "source": "rytec_uk_sport"
-    },
-    {
-      "channel": "Sky Sports Action",
-      "channel_id": "SkySpAction.uk",
-      "title": "Super Bowl LX Highlights",
-      "description": "The Seahawks and the Patriots enter a Santa Clara showdown as Super Bowl LX is here. This contest comes as a repeat of the 2015 Super Bowl - a day that belonged to the Patriots. (08.02).",
-      "categories": [],
-      "start": "2026-09-11T10:00:00Z",
-      "end": "2026-09-11T11:15:00Z",
-      "sport": "nfl",
-      "confidence": 0.83,
-      "source": "rytec_uk_sport"
-    },
-    {
-      "channel": "SkySP PL",
-      "channel_id": "SkySpPL.uk",
-      "title": "Live: Sky Sports FC",
-      "description": "Have your say on the big talking points in this interactive show covering the major football headlines.",
-      "categories": [],
-      "start": "2026-09-11T10:00:00Z",
-      "end": "2026-09-11T11:00:00Z",
-      "sport": "other",
-      "confidence": 0.7,
-      "source": "rytec_uk_sport"
-    },
-    {
-      "channel": "TNT Sport 2",
-      "channel_id": "TNTSport2.uk",
-      "title": "MotoGP Rewind: Hungary 2026",
-      "description": "A look back at the best of the action from the 2026 MotoGP Grand Prix of Hungary at Balaton Park, as Marc Marquez got back to winning ways.",
-      "categories": [],
-      "start": "2026-09-11T10:00:00Z",
-      "end": "2026-09-11T10:15:00Z",
-      "sport": "motorsport",
-      "confidence": 0.83,
-      "source": "rytec_uk_sport"
-    },
-    {
-      "channel": "TNT Sport 4",
-      "channel_id": "TNTSport4.uk",
-      "title": "Snooker English Open",
-      "description": "Highlights from the BetVictor English Open, part of the Snooker Home Nations Series. (10.09).",
-      "categories": [],
-      "start": "2026-09-11T10:00:00Z",
-      "end": "2026-09-11T12:00:00Z",
-      "sport": "snooker",
-      "confidence": 0.83,
-      "source": "rytec_uk_sport"
-    },
-    {
-      "channel": "408 - SkySp Tennis HD",
-      "channel_id": "SkySportsTennis.uk",
-      "title": "US Open Day 12 Highlights",
-      "description": "A round-up of the 12th day's highlights at the 2026 US Open in New York City.",
-      "categories": [],
-      "start": "2026-09-11T10:00:00Z",
-      "end": "2026-09-11T10:30:00Z",
-      "sport": "tennis",
-      "confidence": 0.83,
-      "source": "rytec_uk_sport"
-    },
-    {
-      "channel": "Sky Sports F1",
-      "channel_id": "skysportsf1.uk",
-      "title": "F1 Drivers Press Conference",
-      "description": "",
-      "categories": [],
-      "start": "2026-09-11T10:15:00Z",
-      "end": "2026-09-11T11:00:00Z",
-      "sport": "f1",
-      "confidence": 0.83,
-      "source": "curated_uk"
-    },
-    {
-      "channel": "TNT Sports 2",
-      "channel_id": "tntsports2.uk",
-      "title": "MotoGP Rewind",
-      "description": "",
-      "categories": [],
-      "start": "2026-09-11T10:15:00Z",
-      "end": "2026-09-11T10:30:00Z",
-      "sport": "motorsport",
-      "confidence": 0.83,
-      "source": "curated_uk"
-    },
-    {
-      "channel": "Sky sports F1",
-      "channel_id": "SkySpF1.uk",
-      "title": "F1 Drivers' Press Conference",
-      "description": "Ahead of the Spanish Grand Prix, the drivers sit down to answer questions from the world's media.",
-      "categories": [],
-      "start": "2026-09-11T10:15:00Z",
-      "end": "2026-09-11T11:00:00Z",
-      "sport": "f1",
-      "confidence": 0.83,
-      "source": "rytec_uk_sport"
-    },
-    {
-      "channel": "TNT Sport 2",
-      "channel_id": "TNTSport2.uk",
-      "title": "MotoGP Rewind: Czechia 2026",
-      "description": "We rewind to round nine of the 2026 MotoGP season and the Grand Prix of Czechia at Automotodrom Brno, as Marc Marquez looked to secure back-to-back victories.",
-      "categories": [],
-      "start": "2026-09-11T10:15:00Z",
-      "end": "2026-09-11T10:30:00Z",
-      "sport": "motorsport",
-      "confidence": 0.83,
-      "source": "rytec_uk_sport"
-    },
-    {
-      "channel": "Big Ten Network",
-      "channel_id": "BigTenNetwork.us",
-      "title": "Ohio State Football Classic",
-      "description": "Troy Smith passed for 269 yards and two touchdowns to lead the top-ranked Buckeyes to a 24-7 victory over the 2nd-ranked Longhorns. From Spet. 9, 2006.",
-      "categories": [
-        "Sports",
-        "Football"
-      ],
-      "start": "2026-09-11T10:30:00Z",
-      "end": "2026-09-11T11:30:00Z",
-      "sport": "football",
-      "confidence": 0.83,
-      "source": "curated_uk"
-    },
-    {
-      "channel": "FOX Sports 1",
-      "channel_id": "foxsports1.us",
-      "title": "Big Noon Kickoff Presents Bear Bets",
-      "description": "Betting expert Chris",
-      "categories": [
-        "Sports",
-        "Football"
-      ],
-      "start": "2026-09-11T10:30:00Z",
-      "end": "2026-09-11T11:00:00Z",
-      "sport": "football",
-      "confidence": 0.83,
-      "source": "curated_uk"
-    },
-    {
-      "channel": "Premier Sports 1",
-      "channel_id": "premiersports1.uk",
-      "title": "Top 14 Rugby Union Highlights",
-      "description": "",
-      "categories": [],
-      "start": "2026-09-11T10:30:00Z",
-      "end": "2026-09-11T11:00:00Z",
-      "sport": "rugby",
-      "confidence": 0.83,
-      "source": "curated_uk"
-    },
-    {
-      "channel": "Sky Sports Tennis",
-      "channel_id": "skysportstennis.uk",
-      "title": "Tennis",
-      "description": "",
-      "categories": [],
-      "start": "2026-09-11T10:30:00Z",
-      "end": "2026-09-11T11:30:00Z",
-      "sport": "tennis",
-      "confidence": 0.83,
-      "source": "curated_uk"
-    },
-    {
-      "channel": "TNT Sports 2",
-      "channel_id": "tntsports2.uk",
-      "title": "MotoGP Rewind",
-      "description": "",
-      "categories": [],
-      "start": "2026-09-11T10:30:00Z",
-      "end": "2026-09-11T10:45:00Z",
-      "sport": "motorsport",
-      "confidence": 0.83,
-      "source": "curated_uk"
-    },
-    {
-      "channel": "Premier Sports",
-      "channel_id": "PremierSports.uk",
-      "title": "Top 14 Highlights",
-      "description": "Highlights of the latest round from the Top 14.",
-      "categories": [],
-      "start": "2026-09-11T10:30:00Z",
-      "end": "2026-09-11T11:00:00Z",
-      "sport": "other",
-      "confidence": 0.7,
-      "source": "rytec_uk_sport"
-    },
-    {
-      "channel": "TNT Sport 2",
-      "channel_id": "TNTSport2.uk",
-      "title": "MotoGP Rewind: Netherlands 2026",
-      "description": "A look back at the 2026 MotoGP Grand Prix of Netherlands at TT Circuit Assen, where Ai Ogura became the first Japanese rider to win a premier-class race since 2004.",
-      "categories": [],
-      "start": "2026-09-11T10:30:00Z",
-      "end": "2026-09-11T10:45:00Z",
-      "sport": "motorsport",
-      "confidence": 0.83,
-      "source": "rytec_uk_sport"
-    },
-    {
-      "channel": "TNT Sport 1",
-      "channel_id": "TNTSport1.uk",
-      "title": "Groundbreaking: Anfield",
-      "description": "We celebrate six of the greatest Anfield matches of the Premier League era - unforgettable afternoons and nights when drama, brilliance and sheer belief combined to create footballing history.",
-      "categories": [],
-      "start": "2026-09-11T10:30:00Z",
-      "end": "2026-09-11T10:45:00Z",
-      "sport": "other",
-      "confidence": 0.7,
-      "source": "rytec_uk_sport"
-    },
-    {
-      "channel": "408 - SkySp Tennis HD",
-      "channel_id": "SkySportsTennis.uk",
-      "title": "Roger Federer in New York",
-      "description": "The Swiss maestro returns to Arthur Ashe as Roger Federer, joined by storied rival Andy Roddick and fellow tennis legends Andre Agassi and John McEnroe, competes for one night only. (25.08).",
-      "categories": [],
-      "start": "2026-09-11T10:30:00Z",
-      "end": "2026-09-11T11:30:00Z",
-      "sport": "other",
-      "confidence": 0.7,
-      "source": "rytec_uk_sport"
-    },
-    {
-      "channel": "TNT Sports 2",
-      "channel_id": "tntsports2.uk",
-      "title": "MotoGP Rewind",
-      "description": "",
-      "categories": [],
-      "start": "2026-09-11T10:45:00Z",
-      "end": "2026-09-11T11:00:00Z",
-      "sport": "motorsport",
-      "confidence": 0.83,
-      "source": "curated_uk"
-    },
-    {
-      "channel": "LiverpoolFCTV",
-      "channel_id": "LiverpoolFCTV.uk",
-      "title": "Goal Rush: Champions League 2004/05",
-      "description": "Relive all the goals from Liverpool 2004/05 Champions League campaign.",
-      "categories": [],
-      "start": "2026-09-11T10:45:00Z",
-      "end": "2026-09-11T11:00:00Z",
-      "sport": "football",
-      "confidence": 0.83,
-      "source": "rytec_uk_sport"
-    },
-    {
-      "channel": "TNT Sport 2",
-      "channel_id": "TNTSport2.uk",
-      "title": "MotoGP Rewind: Germany 2026",
-      "description": "A look back at the best of the action from the 2026 MotoGP Grand Prix of Germany, where Marc Marquez secured a 10th MotoGP win at the Sachsenring.",
-      "categories": [],
-      "start": "2026-09-11T10:45:00Z",
-      "end": "2026-09-11T11:00:00Z",
-      "sport": "motorsport",
-      "confidence": 0.83,
-      "source": "rytec_uk_sport"
-    },
-    {
-      "channel": "TNT Sport 1",
-      "channel_id": "TNTSport1.uk",
-      "title": "UEFA Champions League Highlights",
-      "description": "A round-up of all the goals from Thursday's UEFA Champions League fixtures, including Manchester United v Sabah, Bayern Munich v Bodo/Glimt and Como v RB Leipzig.",
-      "categories": [],
-      "start": "2026-09-11T10:45:00Z",
-      "end": "2026-09-11T11:45:00Z",
-      "sport": "football",
-      "confidence": 0.91,
-      "source": "rytec_uk_sport"
-    },
-    {
-      "channel": "BBC Red Button 1",
-      "channel_id": "BBCRedButton1.uk",
-      "title": "MOTD: UEFA Champions League Highlights",
-      "description": "Highlights from the opening round of matches in the UEFA Champions League group stage.",
-      "categories": [],
-      "start": "2026-09-11T11:00:00Z",
-      "end": "2026-09-11T11:50:00Z",
-      "sport": "football",
-      "confidence": 0.91,
-      "source": "freeview"
-    },
-    {
-      "channel": "FOX Sports 1",
-      "channel_id": "foxsports1.us",
-      "title": "The Joel Klatt Show: A College Football Podcast",
-      "description": "Joel Klatt breaks down the biggest topics in the world of college football.",
-      "categories": [
-        "Sports",
-        "Miscellaneous"
-      ],
-      "start": "2026-09-11T11:00:00Z",
-      "end": "2026-09-11T11:30:00Z",
-      "sport": "football",
-      "confidence": 0.83,
-      "source": "curated_uk"
-    },
-    {
-      "channel": "MLB Network",
-      "channel_id": "MLBNetwork.us",
-      "title": "Quick Pitch",
-      "description": "All the latest baseball news, scores and highlights. Plus, a first look at upcoming matchups.",
-      "categories": [
-        "Sports",
-        "Baseball"
-      ],
-      "start": "2026-09-11T11:00:00Z",
-      "end": "2026-09-11T12:00:00Z",
-      "sport": "baseball",
-      "confidence": 0.83,
-      "source": "curated_uk"
-    },
-    {
       "channel": "Premier Sports 1",
       "channel_id": "premiersports1.uk",
       "title": "LaLiga",
@@ -1560,18 +263,6 @@
       "source": "curated_uk"
     },
     {
-      "channel": "Sky Sports Action",
-      "channel_id": "skysportsaction.uk",
-      "title": "NFL Bitesize Highlights",
-      "description": "",
-      "categories": [],
-      "start": "2026-09-11T11:00:00Z",
-      "end": "2026-09-11T11:15:00Z",
-      "sport": "nfl",
-      "confidence": 0.83,
-      "source": "curated_uk"
-    },
-    {
       "channel": "Sky Sports F1",
       "channel_id": "skysportsf1.uk",
       "title": "Live Formula 1",
@@ -1581,18 +272,6 @@
       "end": "2026-09-11T12:55:00Z",
       "sport": "f1",
       "confidence": 0.83,
-      "source": "curated_uk"
-    },
-    {
-      "channel": "Sky Sports Football",
-      "channel_id": "skysportsfootball.uk",
-      "title": "EFL Highlights",
-      "description": "",
-      "categories": [],
-      "start": "2026-09-11T11:00:00Z",
-      "end": "2026-09-11T11:15:00Z",
-      "sport": "other",
-      "confidence": 0.7,
       "source": "curated_uk"
     },
     {
@@ -1620,42 +299,6 @@
       "source": "curated_uk"
     },
     {
-      "channel": "Sky Sports News",
-      "channel_id": "skysportsnews.uk",
-      "title": "Total Football",
-      "description": "",
-      "categories": [],
-      "start": "2026-09-11T11:00:00Z",
-      "end": "2026-09-11T12:00:00Z",
-      "sport": "football",
-      "confidence": 0.83,
-      "source": "curated_uk"
-    },
-    {
-      "channel": "Sky Sports Premier League",
-      "channel_id": "skysportspremiereleague.uk",
-      "title": "Total Football",
-      "description": "",
-      "categories": [],
-      "start": "2026-09-11T11:00:00Z",
-      "end": "2026-09-11T12:00:00Z",
-      "sport": "football",
-      "confidence": 0.83,
-      "source": "curated_uk"
-    },
-    {
-      "channel": "TNT Sports 2",
-      "channel_id": "tntsports2.uk",
-      "title": "MotoGP Rewind",
-      "description": "",
-      "categories": [],
-      "start": "2026-09-11T11:00:00Z",
-      "end": "2026-09-11T11:15:00Z",
-      "sport": "motorsport",
-      "confidence": 0.83,
-      "source": "curated_uk"
-    },
-    {
       "channel": "TNT Sports 3",
       "channel_id": "tntsports3.uk",
       "title": "Live: La Vuelta Men",
@@ -1666,30 +309,6 @@
       "sport": "cycling",
       "confidence": 0.83,
       "source": "curated_uk"
-    },
-    {
-      "channel": "BBC Red Button 1",
-      "channel_id": "BBCRedButton1.uk",
-      "title": "UEFA Champions League Football",
-      "description": "Highlights from the opening round of matches in the UEFA Champions League group stage.",
-      "categories": [],
-      "start": "2026-09-11T11:00:00Z",
-      "end": "2026-09-11T11:50:00Z",
-      "sport": "football",
-      "confidence": 0.99,
-      "source": "rytec_uk_basic"
-    },
-    {
-      "channel": "BBC Red Button",
-      "channel_id": "BBCRedButton.uk",
-      "title": "UEFA Champions League Football",
-      "description": "Highlights from the opening round of matches in the UEFA Champions League group stage.",
-      "categories": [],
-      "start": "2026-09-11T11:00:00Z",
-      "end": "2026-09-11T11:50:00Z",
-      "sport": "football",
-      "confidence": 0.99,
-      "source": "rytec_uk_basic"
     },
     {
       "channel": "Sky One",
@@ -1716,18 +335,6 @@
       "source": "rytec_uk_sport"
     },
     {
-      "channel": "Premier Sports 1 ROI",
-      "channel_id": "PremierSports1ROI.ie",
-      "title": "UCL Magazine Show",
-      "description": "A look back at the 2025/26 Uefa Champions League season.",
-      "categories": [],
-      "start": "2026-09-11T11:00:00Z",
-      "end": "2026-09-11T12:00:00Z",
-      "sport": "other",
-      "confidence": 0.7,
-      "source": "rytec_uk_sport"
-    },
-    {
       "channel": "TNT Sport 3",
       "channel_id": "TNTSport3.uk",
       "title": "La Vuelta Men",
@@ -1737,18 +344,6 @@
       "end": "2026-09-11T16:00:00Z",
       "sport": "cycling",
       "confidence": 0.83,
-      "source": "rytec_uk_sport"
-    },
-    {
-      "channel": "SkySp Mix",
-      "channel_id": "SkySpMix.uk",
-      "title": "My Icon: Pam Cookey",
-      "description": "Former England netball captain Pamela Cookey discusses the individuals that have inspired her during her life and career.",
-      "categories": [],
-      "start": "2026-09-11T11:00:00Z",
-      "end": "2026-09-11T11:10:00Z",
-      "sport": "other",
-      "confidence": 0.7,
       "source": "rytec_uk_sport"
     },
     {
@@ -1764,18 +359,6 @@
       "source": "rytec_uk_sport"
     },
     {
-      "channel": "SkySP PL",
-      "channel_id": "SkySpPL.uk",
-      "title": "Total Football",
-      "description": "Get the definitive take from the managers and players themselves, with live press conferences, interviews and the biggest headlines ahead of the weekend to come.",
-      "categories": [],
-      "start": "2026-09-11T11:00:00Z",
-      "end": "2026-09-11T12:00:00Z",
-      "sport": "football",
-      "confidence": 0.83,
-      "source": "rytec_uk_sport"
-    },
-    {
       "channel": "SkySpMainEv",
       "channel_id": "SkySpMainEv.uk",
       "title": "LIVE: Solheim Cup Day 1 Fourballs",
@@ -1788,21 +371,6 @@
       "source": "rytec_uk_sport"
     },
     {
-      "channel": "SkySp Fball",
-      "channel_id": "SkySpFball.uk",
-      "title": "EFL 26/27: Watford v Preston NE",
-      "description": "Watford play host to Preston North End at Vicarage Road in the Sky Bet Championship. (08.09).",
-      "categories": [],
-      "start": "2026-09-11T11:00:00Z",
-      "end": "2026-09-11T11:15:00Z",
-      "sport": "other",
-      "confidence": 0.7,
-      "source": "rytec_uk_sport",
-      "home_team": "Watford",
-      "away_team": "Preston North End",
-      "fixture": "Watford v Preston North End"
-    },
-    {
       "channel": "Sky sports F1",
       "channel_id": "SkySpF1.uk",
       "title": "LIVE: Spanish F1 GP: Practice 1",
@@ -1811,18 +379,6 @@
       "start": "2026-09-11T11:00:00Z",
       "end": "2026-09-11T12:55:00Z",
       "sport": "f1",
-      "confidence": 0.83,
-      "source": "rytec_uk_sport"
-    },
-    {
-      "channel": "TNT Sport 2",
-      "channel_id": "TNTSport2.uk",
-      "title": "MotoGP Rewind: British GP 2026",
-      "description": "A look back at the best of the action from round 12 of the 2026 MotoGP season and the Qatar Airways Grand Prix of Great Britain at Silverstone Circuit.",
-      "categories": [],
-      "start": "2026-09-11T11:00:00Z",
-      "end": "2026-09-11T11:15:00Z",
-      "sport": "motorsport",
       "confidence": 0.83,
       "source": "rytec_uk_sport"
     },
@@ -1839,42 +395,6 @@
       "source": "rytec_uk_sport"
     },
     {
-      "channel": "SkySp Mix",
-      "channel_id": "SkySpMix.uk",
-      "title": "My Icon: Leon Pryce",
-      "description": "Former Bradford Bulls and St Helens star Leon Pryce discusses the individuals that have inspired him in his life and career.",
-      "categories": [],
-      "start": "2026-09-11T11:10:00Z",
-      "end": "2026-09-11T11:20:00Z",
-      "sport": "other",
-      "confidence": 0.7,
-      "source": "rytec_uk_sport"
-    },
-    {
-      "channel": "Sky Sports Action",
-      "channel_id": "skysportsaction.uk",
-      "title": "NFL Bitesize Highlights",
-      "description": "",
-      "categories": [],
-      "start": "2026-09-11T11:15:00Z",
-      "end": "2026-09-11T11:30:00Z",
-      "sport": "nfl",
-      "confidence": 0.83,
-      "source": "curated_uk"
-    },
-    {
-      "channel": "Sky Sports Football",
-      "channel_id": "skysportsfootball.uk",
-      "title": "EFL Highlights",
-      "description": "",
-      "categories": [],
-      "start": "2026-09-11T11:15:00Z",
-      "end": "2026-09-11T11:30:00Z",
-      "sport": "other",
-      "confidence": 0.7,
-      "source": "curated_uk"
-    },
-    {
       "channel": "TNT Sports 2",
       "channel_id": "tntsports2.uk",
       "title": "Live MotoGP",
@@ -1887,42 +407,6 @@
       "source": "curated_uk"
     },
     {
-      "channel": "SkySp NFL",
-      "channel_id": "SkySpNFL.uk",
-      "title": "NFL Highlights",
-      "description": "Bitesize highlights from a first-time meeting in the NFL playoffs as the Pittsburgh Steelers, who arrive here on the back of a season-ending classic, take on the Houston Texans. (12.01).",
-      "categories": [],
-      "start": "2026-09-11T11:15:00Z",
-      "end": "2026-09-11T11:30:00Z",
-      "sport": "nfl",
-      "confidence": 0.83,
-      "source": "rytec_uk_sport"
-    },
-    {
-      "channel": "Sky Sports Action",
-      "channel_id": "SkySpAction.uk",
-      "title": "NFL Highlights",
-      "description": "Bitesize highlights from a first-time meeting in the NFL playoffs as the Pittsburgh Steelers, who arrive here on the back of a season-ending classic, take on the Houston Texans. (12.01).",
-      "categories": [],
-      "start": "2026-09-11T11:15:00Z",
-      "end": "2026-09-11T11:30:00Z",
-      "sport": "nfl",
-      "confidence": 0.83,
-      "source": "rytec_uk_sport"
-    },
-    {
-      "channel": "SkySp Fball",
-      "channel_id": "SkySpFball.uk",
-      "title": "EFL 26/27: Bolton v West Ham Utd",
-      "description": "Bolton play host to West Ham at the Toughsheet Community Stadium in the Sky Bet Championship. (08.09).",
-      "categories": [],
-      "start": "2026-09-11T11:15:00Z",
-      "end": "2026-09-11T11:30:00Z",
-      "sport": "other",
-      "confidence": 0.7,
-      "source": "rytec_uk_sport"
-    },
-    {
       "channel": "TNT Sport 2",
       "channel_id": "TNTSport2.uk",
       "title": "Live: Formula E World Championship",
@@ -1933,57 +417,6 @@
       "sport": "other",
       "confidence": 0.7,
       "source": "rytec_uk_sport"
-    },
-    {
-      "channel": "SkySp Mix",
-      "channel_id": "SkySpMix.uk",
-      "title": "My Icon: Linford Christie",
-      "description": "Former sprint superstar and Olympic gold medalist Linford Christie discusses the individuals that have inspired him in his life and career.",
-      "categories": [],
-      "start": "2026-09-11T11:20:00Z",
-      "end": "2026-09-11T11:30:00Z",
-      "sport": "other",
-      "confidence": 0.7,
-      "source": "rytec_uk_sport"
-    },
-    {
-      "channel": "FOX Sports 1",
-      "channel_id": "foxsports1.us",
-      "title": "MLB Epic Moments",
-      "description": "Through the lens of Game 7 of the 2001 World Series, we'll revisit an amazing postseason run: the Yanks' amazing comeback in Game 4 and Jeter's walk-off HR, another 9th inning comeback and walk-off in Game 5 and then, the heartbreak of Game 7.",
-      "categories": [
-        "Sports",
-        "Baseball"
-      ],
-      "start": "2026-09-11T11:30:00Z",
-      "end": "2026-09-11T12:00:00Z",
-      "sport": "baseball",
-      "confidence": 0.91,
-      "source": "curated_uk"
-    },
-    {
-      "channel": "Sky Sports Action",
-      "channel_id": "skysportsaction.uk",
-      "title": "The Proving Ground",
-      "description": "",
-      "categories": [],
-      "start": "2026-09-11T11:30:00Z",
-      "end": "2026-09-11T12:00:00Z",
-      "sport": "other",
-      "confidence": 0.7,
-      "source": "curated_uk"
-    },
-    {
-      "channel": "Sky Sports Football",
-      "channel_id": "skysportsfootball.uk",
-      "title": "Bundesliga Weekly",
-      "description": "",
-      "categories": [],
-      "start": "2026-09-11T11:30:00Z",
-      "end": "2026-09-11T12:00:00Z",
-      "sport": "other",
-      "confidence": 0.7,
-      "source": "curated_uk"
     },
     {
       "channel": "Sky Sports Racing",
@@ -2034,18 +467,6 @@
       "source": "rytec_uk_sport"
     },
     {
-      "channel": "SkySp Mix",
-      "channel_id": "SkySpMix.uk",
-      "title": "WDC Finals 12/13",
-      "description": "A chance to relive some classic darts matches. Here are the 2013 World Darts Championship finals at Alexandra Palace.",
-      "categories": [],
-      "start": "2026-09-11T11:30:00Z",
-      "end": "2026-09-11T12:00:00Z",
-      "sport": "other",
-      "confidence": 0.7,
-      "source": "rytec_uk_sport"
-    },
-    {
       "channel": "SkySp Racing",
       "channel_id": "SkySpRacing.uk",
       "title": "Raceday Live",
@@ -2053,30 +474,6 @@
       "categories": [],
       "start": "2026-09-11T11:30:00Z",
       "end": "2026-09-11T18:00:00Z",
-      "sport": "other",
-      "confidence": 0.7,
-      "source": "rytec_uk_sport"
-    },
-    {
-      "channel": "SkySp NFL",
-      "channel_id": "SkySpNFL.uk",
-      "title": "The Proving Ground",
-      "description": "Get an all-access look at the team's intersquad scrimmage and hear from Aaron Glenn, Minkah Fitzpatrick and Joe Tippmann as the intensity of Training Camp reaches another level. Ep 1.",
-      "categories": [],
-      "start": "2026-09-11T11:30:00Z",
-      "end": "2026-09-11T12:00:00Z",
-      "sport": "other",
-      "confidence": 0.7,
-      "source": "rytec_uk_sport"
-    },
-    {
-      "channel": "SkySp Fball",
-      "channel_id": "SkySpFball.uk",
-      "title": "Bundesliga Weekly",
-      "description": "A preview ahead of the weekend's Bundesliga action from the 2026-2027 German top-flight season.",
-      "categories": [],
-      "start": "2026-09-11T11:30:00Z",
-      "end": "2026-09-11T12:00:00Z",
       "sport": "other",
       "confidence": 0.7,
       "source": "rytec_uk_sport"
@@ -2092,30 +489,6 @@
       "sport": "tennis",
       "confidence": 0.83,
       "source": "rytec_uk_sport"
-    },
-    {
-      "channel": "CBBC",
-      "channel_id": "CBBC.uk",
-      "title": "Football Fantastics",
-      "description": "The Big Match. Who's going to win the trophy for the match between the Fantastics and Grown Ups United?",
-      "categories": [],
-      "start": "2026-09-11T11:35:00Z",
-      "end": "2026-09-11T11:50:00Z",
-      "sport": "football",
-      "confidence": 0.83,
-      "source": "freeview"
-    },
-    {
-      "channel": "CBBC HD",
-      "channel_id": "CBBC.uk",
-      "title": "Football Fantastics",
-      "description": "The Big Match. Who's going to win the trophy for the match between the Fantastics and Grown Ups United? [S,AD] [HD].",
-      "categories": [],
-      "start": "2026-09-11T11:35:00Z",
-      "end": "2026-09-11T11:50:00Z",
-      "sport": "football",
-      "confidence": 0.83,
-      "source": "rytec_uk_basic"
     },
     {
       "channel": "TNT Sports 8",
@@ -2154,18 +527,6 @@
       "source": "rytec_uk_sport"
     },
     {
-      "channel": "Sky Sports Mix",
-      "channel_id": "skysportsmix.uk",
-      "title": "My Icon",
-      "description": "",
-      "categories": [],
-      "start": "2026-09-11T11:50:00Z",
-      "end": "2026-09-11T12:00:00Z",
-      "sport": "other",
-      "confidence": 0.7,
-      "source": "curated_uk"
-    },
-    {
       "channel": "MLB Network",
       "channel_id": "MLBNetwork.us",
       "title": "Quick Pitch",
@@ -2196,18 +557,6 @@
       "source": "curated_uk"
     },
     {
-      "channel": "Premier Sports 2",
-      "channel_id": "premiersports2.uk",
-      "title": "Temples of Sport",
-      "description": "",
-      "categories": [],
-      "start": "2026-09-11T12:00:00Z",
-      "end": "2026-09-11T12:30:00Z",
-      "sport": "other",
-      "confidence": 0.7,
-      "source": "curated_uk"
-    },
-    {
       "channel": "Sky Sports Action",
       "channel_id": "skysportsaction.uk",
       "title": "Good Morning Football",
@@ -2217,18 +566,6 @@
       "end": "2026-09-11T14:00:00Z",
       "sport": "football",
       "confidence": 0.83,
-      "source": "curated_uk"
-    },
-    {
-      "channel": "Sky Sports Football",
-      "channel_id": "skysportsfootball.uk",
-      "title": "WSL",
-      "description": "",
-      "categories": [],
-      "start": "2026-09-11T12:00:00Z",
-      "end": "2026-09-11T12:30:00Z",
-      "sport": "other",
-      "confidence": 0.7,
       "source": "curated_uk"
     },
     {
@@ -2335,30 +672,6 @@
       "categories": [],
       "start": "2026-09-11T12:00:00Z",
       "end": "2026-09-11T13:00:00Z",
-      "sport": "football",
-      "confidence": 0.83,
-      "source": "rytec_uk_sport"
-    },
-    {
-      "channel": "SkySp Fball",
-      "channel_id": "SkySpFball.uk",
-      "title": "WSL: London City v Manchester Utd",
-      "description": "After a summer of big-name arrivals, the London City Lionesses get their campaign underway against Manchester United in the Barclays Women's Super League opener. (04.09).",
-      "categories": [],
-      "start": "2026-09-11T12:00:00Z",
-      "end": "2026-09-11T12:30:00Z",
-      "sport": "other",
-      "confidence": 0.7,
-      "source": "rytec_uk_sport"
-    },
-    {
-      "channel": "LiverpoolFCTV",
-      "channel_id": "LiverpoolFCTV.uk",
-      "title": "The Champions League Review Show",
-      "description": "Join Neil Mellor as he analyses the action and looks back on the stats from Liverpool's game against Atletico Madrid.",
-      "categories": [],
-      "start": "2026-09-11T12:00:00Z",
-      "end": "2026-09-11T12:30:00Z",
       "sport": "football",
       "confidence": 0.83,
       "source": "rytec_uk_sport"
@@ -3150,7 +1463,7 @@
       "channel": "Big Ten Network",
       "channel_id": "BigTenNetwork.us",
       "title": "On the Pitch",
-      "description": "Get an inside look at Big Ten men's and women's soccer with behind the scenes footage and features on players and teams from around the conference.",
+      "description": "Washington players on what representing their home state and winning the National Championship means to them. Illinois women's soccer head coach Katie Hultin; Will Smith's journey playing for Wisconsin. Maryland's Mia Mitchell gives back to Jamaica.",
       "categories": [
         "Sports",
         "Soccer"
@@ -3699,7 +2012,7 @@
       "channel": "CBS Sports Network",
       "channel_id": "CBSSportsNetwork.us",
       "title": "College Football Picks Show",
-      "description": "",
+      "description": "Enjoy pregame analysis, interviews and predictions for college football matchups.",
       "categories": [
         "Sports",
         "Talk Show"
@@ -5463,7 +3776,7 @@
       "channel": "Big Ten Network",
       "channel_id": "BigTenNetwork.us",
       "title": "On the Pitch",
-      "description": "Get an inside look at Big Ten men's and women's soccer with behind the scenes footage and features on players and teams from around the conference.",
+      "description": "Washington players on what representing their home state and winning the National Championship means to them. Illinois women's soccer head coach Katie Hultin; Will Smith's journey playing for Wisconsin. Maryland's Mia Mitchell gives back to Jamaica.",
       "categories": [
         "Sports",
         "Soccer"
@@ -5472,7 +3785,10 @@
       "end": "2026-09-11T19:00:00Z",
       "sport": "football",
       "confidence": 0.83,
-      "source": "curated_uk"
+      "source": "curated_uk",
+      "home_team": "West Ham United",
+      "away_team": "Wrexham",
+      "fixture": "West Ham United v Wrexham"
     },
     {
       "channel": "Premier Sports 1",
@@ -8133,7 +6449,7 @@
       "channel": "CBS Sports Network",
       "channel_id": "CBSSportsNetwork.us",
       "title": "Road to Garcia vs. Benn",
-      "description": "",
+      "description": "Enjoy the buildup to the highly anticipated WBC welterweight title match between Ryan Garcia and Conor Benn. From T-Mobile Arena in Las Vegas.",
       "categories": [
         "Sports",
         "Boxing"
@@ -8628,7 +6944,7 @@
       "description": "",
       "categories": [],
       "start": "2026-09-12T02:00:00Z",
-      "end": "2026-09-12T03:45:00Z",
+      "end": "2026-09-12T04:00:00Z",
       "sport": "other",
       "confidence": 0.7,
       "source": "curated_uk"
@@ -9138,22 +7454,10 @@
       "source": "curated_uk"
     },
     {
-      "channel": "Sky Sports+",
-      "channel_id": "SkySportsArena.uk",
-      "title": "Live NRLW",
-      "description": "",
-      "categories": [],
-      "start": "2026-09-12T03:45:00Z",
-      "end": "2026-09-12T05:00:00Z",
-      "sport": "other",
-      "confidence": 0.7,
-      "source": "curated_uk"
-    },
-    {
       "channel": "CBS Sports Network",
       "channel_id": "CBSSportsNetwork.us",
       "title": "Road to Garcia vs. Benn",
-      "description": "",
+      "description": "Enjoy the buildup to the highly anticipated WBC welterweight title match between Ryan Garcia and Conor Benn. From T-Mobile Arena in Las Vegas.",
       "categories": [
         "Sports",
         "Boxing"
@@ -9618,18 +7922,6 @@
       "source": "curated_uk"
     },
     {
-      "channel": "Sky Sports+",
-      "channel_id": "SkySportsArena.uk",
-      "title": "Live NRLW",
-      "description": "",
-      "categories": [],
-      "start": "2026-09-12T05:00:00Z",
-      "end": "2026-09-12T05:45:00Z",
-      "sport": "other",
-      "confidence": 0.7,
-      "source": "curated_uk"
-    },
-    {
       "channel": "Sky Sports Cricket",
       "channel_id": "skysportscricket.uk",
       "title": "Test Cricket",
@@ -9900,18 +8192,6 @@
       "source": "curated_uk"
     },
     {
-      "channel": "Sky Sports+",
-      "channel_id": "SkySportsArena.uk",
-      "title": "Rugby Greatest Games",
-      "description": "",
-      "categories": [],
-      "start": "2026-09-12T05:45:00Z",
-      "end": "2026-09-12T05:55:00Z",
-      "sport": "rugby",
-      "confidence": 0.83,
-      "source": "curated_uk"
-    },
-    {
       "channel": "Sky Sports Mix",
       "channel_id": "skysportsmix.uk",
       "title": "PL Greatest Games",
@@ -9936,22 +8216,10 @@
       "source": "curated_uk"
     },
     {
-      "channel": "Sky Sports+",
-      "channel_id": "SkySportsArena.uk",
-      "title": "Rugby Greatest Games",
-      "description": "",
-      "categories": [],
-      "start": "2026-09-12T05:55:00Z",
-      "end": "2026-09-12T06:05:00Z",
-      "sport": "rugby",
-      "confidence": 0.83,
-      "source": "curated_uk"
-    },
-    {
       "channel": "Big Ten Network",
       "channel_id": "BigTenNetwork.us",
       "title": "On the Pitch",
-      "description": "Get an inside look at Big Ten men's and women's soccer with behind the scenes footage and features on players and teams from around the conference.",
+      "description": "Washington players on what representing their home state and winning the National Championship means to them. Illinois women's soccer head coach Katie Hultin; Will Smith's journey playing for Wisconsin. Maryland's Mia Mitchell gives back to Jamaica.",
       "categories": [
         "Sports",
         "Soccer"
@@ -10035,6 +8303,18 @@
       "source": "curated_uk"
     },
     {
+      "channel": "Sky Sports+",
+      "channel_id": "SkySportsArena.uk",
+      "title": "Ferrari Milan Event",
+      "description": "",
+      "categories": [],
+      "start": "2026-09-12T06:00:00Z",
+      "end": "2026-09-12T06:05:00Z",
+      "sport": "other",
+      "confidence": 0.7,
+      "source": "curated_uk"
+    },
+    {
       "channel": "Sky Sports Cricket",
       "channel_id": "skysportscricket.uk",
       "title": "Women's International One-Day Cricket",
@@ -10049,11 +8329,11 @@
     {
       "channel": "Sky Sports Mix",
       "channel_id": "skysportsmix.uk",
-      "title": "EFL Cup Retro",
+      "title": "Women's State of Origin",
       "description": "",
       "categories": [],
       "start": "2026-09-12T06:00:00Z",
-      "end": "2026-09-12T08:00:00Z",
+      "end": "2026-09-12T07:00:00Z",
       "sport": "other",
       "confidence": 0.7,
       "source": "curated_uk"
@@ -10182,21 +8462,6 @@
       "source": "curated_uk"
     },
     {
-      "channel": "TSN 3",
-      "channel_id": "TSN3.ca",
-      "title": "2026 World Rugby Pacific Nations Cup",
-      "description": "From Hanazono Rugby Stadium in Higashiosaka, Osaka, Japan.",
-      "categories": [
-        "Sports",
-        "Rugby"
-      ],
-      "start": "2026-09-12T06:40:00Z",
-      "end": "2026-09-12T09:00:00Z",
-      "sport": "rugby",
-      "confidence": 0.83,
-      "source": "curated_uk"
-    },
-    {
       "channel": "Sky Sports F1",
       "channel_id": "skysportsf1.uk",
       "title": "Formula 1",
@@ -10205,6 +8470,21 @@
       "start": "2026-09-12T06:45:00Z",
       "end": "2026-09-12T08:00:00Z",
       "sport": "f1",
+      "confidence": 0.83,
+      "source": "curated_uk"
+    },
+    {
+      "channel": "TSN 3",
+      "channel_id": "TSN3.ca",
+      "title": "2026 World Rugby Pacific Nations Cup",
+      "description": "From Hanazono Rugby Stadium in Higashiosaka, Osaka, Japan.",
+      "categories": [
+        "Sports",
+        "Rugby"
+      ],
+      "start": "2026-09-12T06:49:00Z",
+      "end": "2026-09-12T09:00:00Z",
+      "sport": "rugby",
       "confidence": 0.83,
       "source": "curated_uk"
     },
@@ -10299,6 +8579,18 @@
       "source": "curated_uk"
     },
     {
+      "channel": "Sky Sports Mix",
+      "channel_id": "skysportsmix.uk",
+      "title": "My Icon",
+      "description": "",
+      "categories": [],
+      "start": "2026-09-12T07:00:00Z",
+      "end": "2026-09-12T07:10:00Z",
+      "sport": "other",
+      "confidence": 0.7,
+      "source": "curated_uk"
+    },
+    {
       "channel": "Sky Sports News",
       "channel_id": "skysportsnews.uk",
       "title": "Sky Sports Breakfast",
@@ -10342,6 +8634,18 @@
       "categories": [],
       "start": "2026-09-12T07:00:00Z",
       "end": "2026-09-12T08:00:00Z",
+      "sport": "other",
+      "confidence": 0.7,
+      "source": "curated_uk"
+    },
+    {
+      "channel": "Sky Sports Mix",
+      "channel_id": "skysportsmix.uk",
+      "title": "Live NRLW",
+      "description": "",
+      "categories": [],
+      "start": "2026-09-12T07:10:00Z",
+      "end": "2026-09-12T09:10:00Z",
       "sport": "other",
       "confidence": 0.7,
       "source": "curated_uk"
@@ -10542,18 +8846,6 @@
       "source": "curated_uk"
     },
     {
-      "channel": "Sky Sports Mix",
-      "channel_id": "skysportsmix.uk",
-      "title": "Chasing The Dream",
-      "description": "",
-      "categories": [],
-      "start": "2026-09-12T08:00:00Z",
-      "end": "2026-09-12T08:20:00Z",
-      "sport": "other",
-      "confidence": 0.7,
-      "source": "curated_uk"
-    },
-    {
       "channel": "Sky Sports News",
       "channel_id": "skysportsnews.uk",
       "title": "Sky Sports Breakfast",
@@ -10650,18 +8942,6 @@
       "source": "curated_uk"
     },
     {
-      "channel": "Sky Sports Mix",
-      "channel_id": "skysportsmix.uk",
-      "title": "Live Ferrari Challenge",
-      "description": "",
-      "categories": [],
-      "start": "2026-09-12T08:20:00Z",
-      "end": "2026-09-12T09:20:00Z",
-      "sport": "other",
-      "confidence": 0.7,
-      "source": "curated_uk"
-    },
-    {
       "channel": "Sky Sports Racing",
       "channel_id": "skysportsracing.uk",
       "title": "Racing to Win",
@@ -10696,8 +8976,1061 @@
       "sport": "nfl",
       "confidence": 0.83,
       "source": "freeview"
+    },
+    {
+      "channel": "CBS Sports Network",
+      "channel_id": "CBSSportsNetwork.us",
+      "title": "Road to Garcia vs. Benn",
+      "description": "Enjoy the buildup to the highly anticipated WBC welterweight title match between Ryan Garcia and Conor Benn. From T-Mobile Arena in Las Vegas.",
+      "categories": [
+        "Sports",
+        "Boxing"
+      ],
+      "start": "2026-09-12T09:00:00Z",
+      "end": "2026-09-12T10:00:00Z",
+      "sport": "boxing",
+      "confidence": 0.83,
+      "source": "curated_uk"
+    },
+    {
+      "channel": "ESPN News",
+      "channel_id": "ESPNNews.us",
+      "title": "The Hoop Collective",
+      "description": "Brian Windhorst is joined by Tim MacMahon, Tim Bontemps and other insiders to sort out life in and around the NBA world.",
+      "categories": [
+        "Sports",
+        "Basketball"
+      ],
+      "start": "2026-09-12T09:00:00Z",
+      "end": "2026-09-12T09:30:00Z",
+      "sport": "nba",
+      "confidence": 0.83,
+      "source": "curated_uk"
+    },
+    {
+      "channel": "MLB Network",
+      "channel_id": "MLBNetwork.us",
+      "title": "Quick Pitch",
+      "description": "All the latest baseball news, scores and highlights. Plus, a first look at upcoming matchups.",
+      "categories": [
+        "Sports",
+        "Baseball"
+      ],
+      "start": "2026-09-12T09:00:00Z",
+      "end": "2026-09-12T10:00:00Z",
+      "sport": "baseball",
+      "confidence": 0.83,
+      "source": "curated_uk"
+    },
+    {
+      "channel": "NFL Network",
+      "channel_id": "NFLNetwork.us",
+      "title": "NFL Fantasy Live",
+      "description": "Fantasy experts share the latest news and analysis to help you dominate your fantasy matchup.",
+      "categories": [
+        "Sports",
+        "Football"
+      ],
+      "start": "2026-09-12T09:00:00Z",
+      "end": "2026-09-12T10:00:00Z",
+      "sport": "football",
+      "confidence": 0.83,
+      "source": "curated_uk"
+    },
+    {
+      "channel": "Sky Sports Action",
+      "channel_id": "skysportsaction.uk",
+      "title": "NFL Highlights",
+      "description": "",
+      "categories": [],
+      "start": "2026-09-12T09:00:00Z",
+      "end": "2026-09-12T10:00:00Z",
+      "sport": "nfl",
+      "confidence": 0.83,
+      "source": "curated_uk"
+    },
+    {
+      "channel": "Sky Sports+",
+      "channel_id": "SkySportsArena.uk",
+      "title": "Premier League Weekend",
+      "description": "",
+      "categories": [],
+      "start": "2026-09-12T09:00:00Z",
+      "end": "2026-09-12T10:30:00Z",
+      "sport": "football",
+      "confidence": 0.83,
+      "source": "curated_uk"
+    },
+    {
+      "channel": "Sky Sports Cricket",
+      "channel_id": "skysportscricket.uk",
+      "title": "Test Cricket Bitesize",
+      "description": "",
+      "categories": [],
+      "start": "2026-09-12T09:00:00Z",
+      "end": "2026-09-12T09:15:00Z",
+      "sport": "cricket",
+      "confidence": 0.83,
+      "source": "curated_uk"
+    },
+    {
+      "channel": "Sky Sports F1",
+      "channel_id": "skysportsf1.uk",
+      "title": "Live Formula 3 Championship",
+      "description": "",
+      "categories": [],
+      "start": "2026-09-12T09:00:00Z",
+      "end": "2026-09-12T10:00:00Z",
+      "sport": "f3",
+      "confidence": 0.83,
+      "source": "curated_uk"
+    },
+    {
+      "channel": "Sky Sports Football",
+      "channel_id": "skysportsfootball.uk",
+      "title": "EFL Cup Highlights",
+      "description": "",
+      "categories": [],
+      "start": "2026-09-12T09:00:00Z",
+      "end": "2026-09-12T09:30:00Z",
+      "sport": "other",
+      "confidence": 0.7,
+      "source": "curated_uk"
+    },
+    {
+      "channel": "Sky Sports News",
+      "channel_id": "skysportsnews.uk",
+      "title": "Premier League Weekend",
+      "description": "",
+      "categories": [],
+      "start": "2026-09-12T09:00:00Z",
+      "end": "2026-09-12T10:30:00Z",
+      "sport": "football",
+      "confidence": 0.83,
+      "source": "curated_uk"
+    },
+    {
+      "channel": "Sky Sports Premier League",
+      "channel_id": "skysportspremiereleague.uk",
+      "title": "Premier League Weekend",
+      "description": "",
+      "categories": [],
+      "start": "2026-09-12T09:00:00Z",
+      "end": "2026-09-12T10:30:00Z",
+      "sport": "football",
+      "confidence": 0.83,
+      "source": "curated_uk"
+    },
+    {
+      "channel": "Sky Sports Racing",
+      "channel_id": "skysportsracing.uk",
+      "title": "St Leger 2026 Preview",
+      "description": "",
+      "categories": [],
+      "start": "2026-09-12T09:00:00Z",
+      "end": "2026-09-12T11:00:00Z",
+      "sport": "other",
+      "confidence": 0.7,
+      "source": "curated_uk"
+    },
+    {
+      "channel": "TNT Sports 6",
+      "channel_id": "TNTSport2.uk",
+      "title": "Live: European T20 Premier League",
+      "description": "",
+      "categories": [],
+      "start": "2026-09-12T09:00:00Z",
+      "end": "2026-09-12T12:45:00Z",
+      "sport": "football",
+      "confidence": 0.83,
+      "source": "curated_uk"
+    },
+    {
+      "channel": "TNT Sports 1",
+      "channel_id": "tntsports1.uk",
+      "title": "TNT Sports Reload",
+      "description": "",
+      "categories": [],
+      "start": "2026-09-12T09:00:00Z",
+      "end": "2026-09-12T09:15:00Z",
+      "sport": "other",
+      "confidence": 0.7,
+      "source": "curated_uk"
+    },
+    {
+      "channel": "TNT Sports 3",
+      "channel_id": "tntsports3.uk",
+      "title": "La Vuelta Men",
+      "description": "",
+      "categories": [],
+      "start": "2026-09-12T09:00:00Z",
+      "end": "2026-09-12T10:00:00Z",
+      "sport": "cycling",
+      "confidence": 0.83,
+      "source": "curated_uk"
+    },
+    {
+      "channel": "TNT Sports 4",
+      "channel_id": "tntsports4.uk",
+      "title": "MLB Plays of the Week",
+      "description": "",
+      "categories": [],
+      "start": "2026-09-12T09:00:00Z",
+      "end": "2026-09-12T09:30:00Z",
+      "sport": "baseball",
+      "confidence": 0.83,
+      "source": "curated_uk"
+    },
+    {
+      "channel": "Sky One",
+      "channel_id": "SkyOne.uk",
+      "title": "Premier League Weekend",
+      "description": "",
+      "categories": [],
+      "start": "2026-09-12T09:00:00Z",
+      "end": "2026-09-12T10:30:00Z",
+      "sport": "football",
+      "confidence": 0.83,
+      "source": "rytec_uk_sky"
+    },
+    {
+      "channel": "Sky Sports Mix",
+      "channel_id": "skysportsmix.uk",
+      "title": "Ferrari Challenge UK Highlights",
+      "description": "",
+      "categories": [],
+      "start": "2026-09-12T09:10:00Z",
+      "end": "2026-09-12T09:40:00Z",
+      "sport": "other",
+      "confidence": 0.7,
+      "source": "curated_uk"
+    },
+    {
+      "channel": "Sky Sports Cricket",
+      "channel_id": "skysportscricket.uk",
+      "title": "Live Test Cricket",
+      "description": "",
+      "categories": [],
+      "start": "2026-09-12T09:15:00Z",
+      "end": "2026-09-12T18:00:00Z",
+      "sport": "cricket",
+      "confidence": 0.83,
+      "source": "curated_uk"
+    },
+    {
+      "channel": "TNT Sports 1",
+      "channel_id": "tntsports1.uk",
+      "title": "Live AFL",
+      "description": "",
+      "categories": [],
+      "start": "2026-09-12T09:15:00Z",
+      "end": "2026-09-12T12:15:00Z",
+      "sport": "other",
+      "confidence": 0.7,
+      "source": "curated_uk"
+    },
+    {
+      "channel": "Premier Sports 1",
+      "channel_id": "premiersports1.uk",
+      "title": "Football's Greatest",
+      "description": "",
+      "categories": [],
+      "start": "2026-09-12T09:30:00Z",
+      "end": "2026-09-12T10:00:00Z",
+      "sport": "football",
+      "confidence": 0.83,
+      "source": "curated_uk"
+    },
+    {
+      "channel": "Premier Sports 2",
+      "channel_id": "premiersports2.uk",
+      "title": "Top 14 Rugby Union",
+      "description": "",
+      "categories": [],
+      "start": "2026-09-12T09:30:00Z",
+      "end": "2026-09-12T11:30:00Z",
+      "sport": "rugby",
+      "confidence": 0.83,
+      "source": "curated_uk"
+    },
+    {
+      "channel": "Sky Sports Football",
+      "channel_id": "skysportsfootball.uk",
+      "title": "EFL Cup Highlights",
+      "description": "",
+      "categories": [],
+      "start": "2026-09-12T09:30:00Z",
+      "end": "2026-09-12T10:00:00Z",
+      "sport": "other",
+      "confidence": 0.7,
+      "source": "curated_uk"
+    },
+    {
+      "channel": "TNT Sports 4",
+      "channel_id": "tntsports4.uk",
+      "title": "The Fantasy Show",
+      "description": "",
+      "categories": [],
+      "start": "2026-09-12T09:30:00Z",
+      "end": "2026-09-12T10:00:00Z",
+      "sport": "other",
+      "confidence": 0.7,
+      "source": "curated_uk"
+    },
+    {
+      "channel": "TSN 2",
+      "channel_id": "TSN2.ca",
+      "title": "AFL Premiership Football",
+      "description": "Semifinal.",
+      "categories": [
+        "Sports",
+        "Australian Rules Football"
+      ],
+      "start": "2026-09-12T09:30:00Z",
+      "end": "2026-09-12T12:30:00Z",
+      "sport": "football",
+      "confidence": 0.83,
+      "source": "curated_uk"
+    },
+    {
+      "channel": "FOX Sports 1",
+      "channel_id": "foxsports1.us",
+      "title": "AFL Premiership Football",
+      "description": "Semifinal.",
+      "categories": [
+        "Sports",
+        "Australian Rules Football"
+      ],
+      "start": "2026-09-12T09:33:00Z",
+      "end": "2026-09-12T12:30:00Z",
+      "sport": "football",
+      "confidence": 0.83,
+      "source": "curated_uk"
+    },
+    {
+      "channel": "Sky Sports Mix",
+      "channel_id": "skysportsmix.uk",
+      "title": "Rugby Greatest Games",
+      "description": "",
+      "categories": [],
+      "start": "2026-09-12T09:40:00Z",
+      "end": "2026-09-12T09:50:00Z",
+      "sport": "rugby",
+      "confidence": 0.83,
+      "source": "curated_uk"
+    },
+    {
+      "channel": "Virgin Media Two",
+      "channel_id": "VirginMediaTwo.ie",
+      "title": "UEFA Champions League Magazine...",
+      "description": "Show. All the latest from the world of UEFA Champions League. Featuring highlights and interviews. (HD)",
+      "categories": [],
+      "start": "2026-09-12T09:45:00Z",
+      "end": "2026-09-12T10:15:00Z",
+      "sport": "football",
+      "confidence": 0.91,
+      "source": "freeview"
+    },
+    {
+      "channel": "Virgin Media Two",
+      "channel_id": "VirginMediaTwo.ie",
+      "title": "UEFA Champions League Magazine",
+      "description": "The latest news and updates from the UEFA Champions League. Fernando Torres Samuel Eto'o Luis Figo Fernando Hierro Kak\u00e1 Jos\u00e9 Mourinho.",
+      "categories": [],
+      "start": "2026-09-12T09:45:00Z",
+      "end": "2026-09-12T10:15:00Z",
+      "sport": "football",
+      "confidence": 0.91,
+      "source": "rytec_uk_basic"
+    },
+    {
+      "channel": "FOX Sports 2",
+      "channel_id": "foxsports2.us",
+      "title": "NRL Rugby",
+      "description": "From Allegiant Stadium in Las Vegas.",
+      "categories": [
+        "Sports",
+        "Rugby"
+      ],
+      "start": "2026-09-12T09:48:00Z",
+      "end": "2026-09-12T12:00:00Z",
+      "sport": "rugby",
+      "confidence": 0.83,
+      "source": "curated_uk"
+    },
+    {
+      "channel": "Sky Sports Mix",
+      "channel_id": "skysportsmix.uk",
+      "title": "Live NRL",
+      "description": "",
+      "categories": [],
+      "start": "2026-09-12T09:50:00Z",
+      "end": "2026-09-12T11:50:00Z",
+      "sport": "other",
+      "confidence": 0.7,
+      "source": "curated_uk"
+    },
+    {
+      "channel": "TSN 3",
+      "channel_id": "TSN3.ca",
+      "title": "2026 World Rugby Pacific Nations Cup",
+      "description": "From Hanazono Rugby Stadium in Higashiosaka, Osaka, Japan.",
+      "categories": [
+        "Sports",
+        "Rugby"
+      ],
+      "start": "2026-09-12T09:52:00Z",
+      "end": "2026-09-12T12:00:00Z",
+      "sport": "rugby",
+      "confidence": 0.83,
+      "source": "curated_uk"
+    },
+    {
+      "channel": "CNBC HD",
+      "channel_id": "CNBCEurope.uk",
+      "title": "CNBC Sports - PGA Tour",
+      "description": "At&T Pebble Beach Pro-am RD 3: Highlights from the latest PGA TOUR tournament. (Ep11)",
+      "categories": [],
+      "start": "2026-09-12T10:00:00Z",
+      "end": "2026-09-12T12:00:00Z",
+      "sport": "golf",
+      "confidence": 0.83,
+      "source": "freeview"
+    },
+    {
+      "channel": "Now 80s",
+      "channel_id": "Now80s.uk",
+      "title": "Mark Goodier's No.1s of 1985",
+      "description": "60 minutes of back to back number 1s from the year that included the first ever chart-toppers from Madonna and Whitney Houston. With Mr Charts himself - Mark Goodier.",
+      "categories": [],
+      "start": "2026-09-12T10:00:00Z",
+      "end": "2026-09-12T11:00:00Z",
+      "sport": "cricket",
+      "confidence": 0.83,
+      "source": "freeview"
+    },
+    {
+      "channel": "MLB Network",
+      "channel_id": "MLBNetwork.us",
+      "title": "Quick Pitch",
+      "description": "All the latest baseball news, scores and highlights. Plus, a first look at upcoming matchups.",
+      "categories": [
+        "Sports",
+        "Baseball"
+      ],
+      "start": "2026-09-12T10:00:00Z",
+      "end": "2026-09-12T11:00:00Z",
+      "sport": "baseball",
+      "confidence": 0.83,
+      "source": "curated_uk"
+    },
+    {
+      "channel": "NFL Network",
+      "channel_id": "NFLNetwork.us",
+      "title": "NFL Football",
+      "description": "The Seattle Seahawks host the New England Patriots in Week 1 at Lumen Field. Seattle defeated New England 29-13 at Levi's Stadium to win Super Bowl LX. Entering this matchup, Seattle leads the all-time head-to-head series 12-9 against New England.",
+      "categories": [
+        "Sports",
+        "Football"
+      ],
+      "start": "2026-09-12T10:00:00Z",
+      "end": "2026-09-12T12:30:00Z",
+      "sport": "football",
+      "confidence": 0.83,
+      "source": "curated_uk"
+    },
+    {
+      "channel": "Premier Sports 1",
+      "channel_id": "premiersports1.uk",
+      "title": "LaLiga",
+      "description": "",
+      "categories": [],
+      "start": "2026-09-12T10:00:00Z",
+      "end": "2026-09-12T11:55:00Z",
+      "sport": "other",
+      "confidence": 0.7,
+      "source": "curated_uk"
+    },
+    {
+      "channel": "Sky Sports Action",
+      "channel_id": "skysportsaction.uk",
+      "title": "NFL Bitesize Highlights",
+      "description": "",
+      "categories": [],
+      "start": "2026-09-12T10:00:00Z",
+      "end": "2026-09-12T11:00:00Z",
+      "sport": "nfl",
+      "confidence": 0.83,
+      "source": "curated_uk"
+    },
+    {
+      "channel": "Sky Sports F1",
+      "channel_id": "skysportsf1.uk",
+      "title": "Live Formula 1",
+      "description": "",
+      "categories": [],
+      "start": "2026-09-12T10:00:00Z",
+      "end": "2026-09-12T12:10:00Z",
+      "sport": "f1",
+      "confidence": 0.83,
+      "source": "curated_uk"
+    },
+    {
+      "channel": "Sky Sports Football",
+      "channel_id": "skysportsfootball.uk",
+      "title": "EFL Highlights",
+      "description": "",
+      "categories": [],
+      "start": "2026-09-12T10:00:00Z",
+      "end": "2026-09-12T10:15:00Z",
+      "sport": "other",
+      "confidence": 0.7,
+      "source": "curated_uk"
+    },
+    {
+      "channel": "Sky Sports Tennis",
+      "channel_id": "skysportstennis.uk",
+      "title": "US Open Tennis",
+      "description": "",
+      "categories": [],
+      "start": "2026-09-12T10:00:00Z",
+      "end": "2026-09-12T10:30:00Z",
+      "sport": "tennis",
+      "confidence": 0.91,
+      "source": "curated_uk"
+    },
+    {
+      "channel": "TNT Sports 3",
+      "channel_id": "tntsports3.uk",
+      "title": "Live: La Vuelta Men",
+      "description": "",
+      "categories": [],
+      "start": "2026-09-12T10:00:00Z",
+      "end": "2026-09-12T16:00:00Z",
+      "sport": "cycling",
+      "confidence": 0.83,
+      "source": "curated_uk"
+    },
+    {
+      "channel": "TNT Sports 4",
+      "channel_id": "tntsports4.uk",
+      "title": "Snooker Home Nations Series English Open",
+      "description": "",
+      "categories": [],
+      "start": "2026-09-12T10:00:00Z",
+      "end": "2026-09-12T12:00:00Z",
+      "sport": "snooker",
+      "confidence": 0.83,
+      "source": "curated_uk"
+    },
+    {
+      "channel": "Urdu1 Europe",
+      "channel_id": "Urdu1Europe.uk",
+      "title": "CNBC Sports - PGA Tour",
+      "description": "Highlights from the latest PGA TOUR tournament. (Ep11).",
+      "categories": [],
+      "start": "2026-09-12T10:00:00Z",
+      "end": "2026-09-12T12:00:00Z",
+      "sport": "golf",
+      "confidence": 0.83,
+      "source": "rytec_uk_basic"
+    },
+    {
+      "channel": "Sky Sports Football",
+      "channel_id": "skysportsfootball.uk",
+      "title": "EFL Highlights",
+      "description": "",
+      "categories": [],
+      "start": "2026-09-12T10:15:00Z",
+      "end": "2026-09-12T10:30:00Z",
+      "sport": "other",
+      "confidence": 0.7,
+      "source": "curated_uk"
+    },
+    {
+      "channel": "CBS Sports Network",
+      "channel_id": "CBSSportsNetwork.us",
+      "title": "UEFA Champions League Matchnight",
+      "description": "Discussion and analysis of the day's matchups.",
+      "categories": [
+        "Sports",
+        "Soccer"
+      ],
+      "start": "2026-09-12T10:30:00Z",
+      "end": "2026-09-12T11:30:00Z",
+      "sport": "football",
+      "confidence": 0.99,
+      "source": "curated_uk"
+    },
+    {
+      "channel": "Sky Sports+",
+      "channel_id": "SkySportsArena.uk",
+      "title": "Live EFL",
+      "description": "",
+      "categories": [],
+      "start": "2026-09-12T10:30:00Z",
+      "end": "2026-09-12T13:30:00Z",
+      "sport": "other",
+      "confidence": 0.7,
+      "source": "curated_uk"
+    },
+    {
+      "channel": "Sky Sports Football",
+      "channel_id": "skysportsfootball.uk",
+      "title": "Live EFL",
+      "description": "",
+      "categories": [],
+      "start": "2026-09-12T10:30:00Z",
+      "end": "2026-09-12T14:00:00Z",
+      "sport": "other",
+      "confidence": 0.7,
+      "source": "curated_uk"
+    },
+    {
+      "channel": "Sky Sports News",
+      "channel_id": "skysportsnews.uk",
+      "title": "Soccer Saturday Pre-Match",
+      "description": "",
+      "categories": [],
+      "start": "2026-09-12T10:30:00Z",
+      "end": "2026-09-12T11:00:00Z",
+      "sport": "football",
+      "confidence": 0.83,
+      "source": "curated_uk"
+    },
+    {
+      "channel": "Sky Sports Premier League",
+      "channel_id": "skysportspremiereleague.uk",
+      "title": "Premier League Preview",
+      "description": "",
+      "categories": [],
+      "start": "2026-09-12T10:30:00Z",
+      "end": "2026-09-12T11:00:00Z",
+      "sport": "football",
+      "confidence": 0.83,
+      "source": "curated_uk"
+    },
+    {
+      "channel": "Sky Sports Tennis",
+      "channel_id": "skysportstennis.uk",
+      "title": "US Open Tennis",
+      "description": "",
+      "categories": [],
+      "start": "2026-09-12T10:30:00Z",
+      "end": "2026-09-12T11:30:00Z",
+      "sport": "tennis",
+      "confidence": 0.91,
+      "source": "curated_uk"
+    },
+    {
+      "channel": "TNT Sports 2",
+      "channel_id": "tntsports2.uk",
+      "title": "Live MotoGP",
+      "description": "",
+      "categories": [],
+      "start": "2026-09-12T10:45:00Z",
+      "end": "2026-09-12T12:45:00Z",
+      "sport": "motorsport",
+      "confidence": 0.83,
+      "source": "curated_uk"
+    },
+    {
+      "channel": "MLB Network",
+      "channel_id": "MLBNetwork.us",
+      "title": "Quick Pitch",
+      "description": "All the latest baseball news, scores and highlights. Plus, a first look at upcoming matchups.",
+      "categories": [
+        "Sports",
+        "Baseball"
+      ],
+      "start": "2026-09-12T11:00:00Z",
+      "end": "2026-09-12T12:00:00Z",
+      "sport": "baseball",
+      "confidence": 0.83,
+      "source": "curated_uk"
+    },
+    {
+      "channel": "Sky Sports Action",
+      "channel_id": "skysportsaction.uk",
+      "title": "NFL Bitesize Highlights",
+      "description": "",
+      "categories": [],
+      "start": "2026-09-12T11:00:00Z",
+      "end": "2026-09-12T11:15:00Z",
+      "sport": "nfl",
+      "confidence": 0.83,
+      "source": "curated_uk"
+    },
+    {
+      "channel": "Sky Sports Golf",
+      "channel_id": "skysportsgolf.uk",
+      "title": "Live Solheim Cup Golf",
+      "description": "",
+      "categories": [],
+      "start": "2026-09-12T11:00:00Z",
+      "end": "2026-09-12T17:00:00Z",
+      "sport": "golf",
+      "confidence": 0.83,
+      "source": "curated_uk"
+    },
+    {
+      "channel": "Sky Sports Main Event",
+      "channel_id": "skysportsmainevent.uk",
+      "title": "Live Solheim Cup Golf",
+      "description": "",
+      "categories": [],
+      "start": "2026-09-12T11:00:00Z",
+      "end": "2026-09-12T13:55:00Z",
+      "sport": "golf",
+      "confidence": 0.83,
+      "source": "curated_uk"
+    },
+    {
+      "channel": "Sky Sports News",
+      "channel_id": "skysportsnews.uk",
+      "title": "Soccer Saturday: Build-Up",
+      "description": "",
+      "categories": [],
+      "start": "2026-09-12T11:00:00Z",
+      "end": "2026-09-12T14:00:00Z",
+      "sport": "football",
+      "confidence": 0.83,
+      "source": "curated_uk"
+    },
+    {
+      "channel": "Sky Sports Premier League",
+      "channel_id": "skysportspremiereleague.uk",
+      "title": "Soccer Saturday: Build-Up",
+      "description": "",
+      "categories": [],
+      "start": "2026-09-12T11:00:00Z",
+      "end": "2026-09-12T11:30:00Z",
+      "sport": "football",
+      "confidence": 0.83,
+      "source": "curated_uk"
+    },
+    {
+      "channel": "Sky Sports Racing",
+      "channel_id": "skysportsracing.uk",
+      "title": "Raceday Live",
+      "description": "",
+      "categories": [],
+      "start": "2026-09-12T11:00:00Z",
+      "end": "2026-09-12T18:00:00Z",
+      "sport": "other",
+      "confidence": 0.7,
+      "source": "curated_uk"
+    },
+    {
+      "channel": "ATN Bangla UK",
+      "channel_id": "ATNBanglaUK.uk",
+      "title": "Bissho Batpar",
+      "description": "Bangla Movie.",
+      "categories": [],
+      "start": "2026-09-12T11:00:00Z",
+      "end": "2026-09-12T12:15:00Z",
+      "sport": "tennis",
+      "confidence": 0.83,
+      "source": "rytec_uk_basic"
+    },
+    {
+      "channel": "Sky Sports Action",
+      "channel_id": "skysportsaction.uk",
+      "title": "NFL Bitesize Highlights",
+      "description": "",
+      "categories": [],
+      "start": "2026-09-12T11:15:00Z",
+      "end": "2026-09-12T11:30:00Z",
+      "sport": "nfl",
+      "confidence": 0.83,
+      "source": "curated_uk"
+    },
+    {
+      "channel": "CBS Sports Network",
+      "channel_id": "CBSSportsNetwork.us",
+      "title": "EFL Championship",
+      "description": "From Pride Park Stadium in Derby, England, United Kingdom.",
+      "categories": [
+        "Sports",
+        "Soccer"
+      ],
+      "start": "2026-09-12T11:30:00Z",
+      "end": "2026-09-12T13:30:00Z",
+      "sport": "football",
+      "confidence": 0.91,
+      "source": "curated_uk",
+      "home_team": "Derby County",
+      "away_team": "Birmingham City",
+      "fixture": "Derby County v Birmingham City"
+    },
+    {
+      "channel": "Premier Sports 2",
+      "channel_id": "premiersports2.uk",
+      "title": "German Cup",
+      "description": "",
+      "categories": [],
+      "start": "2026-09-12T11:30:00Z",
+      "end": "2026-09-12T13:30:00Z",
+      "sport": "other",
+      "confidence": 0.7,
+      "source": "curated_uk"
+    },
+    {
+      "channel": "Sky Sports Action",
+      "channel_id": "skysportsaction.uk",
+      "title": "The Proving Ground",
+      "description": "",
+      "categories": [],
+      "start": "2026-09-12T11:30:00Z",
+      "end": "2026-09-12T12:00:00Z",
+      "sport": "other",
+      "confidence": 0.7,
+      "source": "curated_uk"
+    },
+    {
+      "channel": "Sky Sports Premier League",
+      "channel_id": "skysportspremiereleague.uk",
+      "title": "Live WSL",
+      "description": "",
+      "categories": [],
+      "start": "2026-09-12T11:30:00Z",
+      "end": "2026-09-12T13:45:00Z",
+      "sport": "other",
+      "confidence": 0.7,
+      "source": "curated_uk"
+    },
+    {
+      "channel": "Sky Sports Tennis",
+      "channel_id": "skysportstennis.uk",
+      "title": "US Open Tennis",
+      "description": "",
+      "categories": [],
+      "start": "2026-09-12T11:30:00Z",
+      "end": "2026-09-12T13:30:00Z",
+      "sport": "tennis",
+      "confidence": 0.91,
+      "source": "curated_uk"
+    },
+    {
+      "channel": "Sportsnet 360",
+      "channel_id": "Sportsnet360.ca",
+      "title": "Blue Jays in 30",
+      "description": "From Sept. 11, 2026.",
+      "categories": [
+        "Sports",
+        "Baseball"
+      ],
+      "start": "2026-09-12T11:30:00Z",
+      "end": "2026-09-12T12:00:00Z",
+      "sport": "baseball",
+      "confidence": 0.83,
+      "source": "curated_uk"
+    },
+    {
+      "channel": "BBC One",
+      "channel_id": "BBCOneChannelIslands.uk",
+      "title": "The Football Interview",
+      "description": "Bold, in-depth conversations full of insight about the nation's favourite sport.",
+      "categories": [],
+      "start": "2026-09-12T11:45:00Z",
+      "end": "2026-09-12T12:00:00Z",
+      "sport": "football",
+      "confidence": 0.83,
+      "source": "freeview"
+    },
+    {
+      "channel": "PTV Prime",
+      "channel_id": "PTVPrime.uk",
+      "title": "The Football Interview",
+      "description": "Bold, in-depth conversations full of insight about the nation's favourite sport. [S] [HD].",
+      "categories": [],
+      "start": "2026-09-12T11:45:00Z",
+      "end": "2026-09-12T12:00:00Z",
+      "sport": "football",
+      "confidence": 0.83,
+      "source": "rytec_uk_basic"
+    },
+    {
+      "channel": "Sky Sports Mix",
+      "channel_id": "skysportsmix.uk",
+      "title": "Live WSL",
+      "description": "",
+      "categories": [],
+      "start": "2026-09-12T11:50:00Z",
+      "end": "2026-09-12T13:45:00Z",
+      "sport": "other",
+      "confidence": 0.7,
+      "source": "curated_uk"
+    },
+    {
+      "channel": "Premier Sports 1",
+      "channel_id": "premiersports1.uk",
+      "title": "Live LaLiga",
+      "description": "",
+      "categories": [],
+      "start": "2026-09-12T11:55:00Z",
+      "end": "2026-09-12T14:00:00Z",
+      "sport": "other",
+      "confidence": 0.7,
+      "source": "curated_uk"
+    },
+    {
+      "channel": "Now 70s",
+      "channel_id": "Now70s.uk",
+      "title": "Mark Goodier's No.1s of 1970",
+      "description": "Sixty minutes of back-to-back 1970 Number 1s - from Simon & Garfunkel and Elvis Presley to Lee Marvin and Freda Payne. With Mr Charts himself - Mark Goodier.",
+      "categories": [],
+      "start": "2026-09-12T12:00:00Z",
+      "end": "2026-09-12T13:00:00Z",
+      "sport": "cricket",
+      "confidence": 0.83,
+      "source": "freeview"
+    },
+    {
+      "channel": "ESPN News",
+      "channel_id": "ESPNNews.us",
+      "title": "The Popdarts Championship Presented by APL",
+      "description": "From viral sensation to national sport -- four top players battle for $10,000 in a high-stakes competition of skill and precision. Each throw echoes with the pop that started it all. This is more than a game. It's the Popdarts Championship!",
+      "categories": [
+        "Sports",
+        "Miscellaneous"
+      ],
+      "start": "2026-09-12T12:00:00Z",
+      "end": "2026-09-12T13:00:00Z",
+      "sport": "darts",
+      "confidence": 0.83,
+      "source": "curated_uk"
+    },
+    {
+      "channel": "FOX Sports 2",
+      "channel_id": "foxsports2.us",
+      "title": "The Joel Klatt Show: A College Football Podcast",
+      "description": "Joel Klatt breaks down the biggest topics in the world of college football.",
+      "categories": [
+        "Sports",
+        "Miscellaneous"
+      ],
+      "start": "2026-09-12T12:00:00Z",
+      "end": "2026-09-12T12:30:00Z",
+      "sport": "football",
+      "confidence": 0.83,
+      "source": "curated_uk"
+    },
+    {
+      "channel": "MLB Network",
+      "channel_id": "MLBNetwork.us",
+      "title": "Quick Pitch",
+      "description": "All the latest baseball news, scores and highlights. Plus, a first look at upcoming matchups.",
+      "categories": [
+        "Sports",
+        "Baseball"
+      ],
+      "start": "2026-09-12T12:00:00Z",
+      "end": "2026-09-12T13:00:00Z",
+      "sport": "baseball",
+      "confidence": 0.83,
+      "source": "curated_uk"
+    },
+    {
+      "channel": "Sky Sports Action",
+      "channel_id": "skysportsaction.uk",
+      "title": "NFL Highlights",
+      "description": "",
+      "categories": [],
+      "start": "2026-09-12T12:00:00Z",
+      "end": "2026-09-12T14:00:00Z",
+      "sport": "nfl",
+      "confidence": 0.83,
+      "source": "curated_uk"
+    },
+    {
+      "channel": "Sportsnet 360",
+      "channel_id": "Sportsnet360.ca",
+      "title": "Blue Jays in 30",
+      "description": "From Sept. 11, 2026.",
+      "categories": [
+        "Sports",
+        "Baseball"
+      ],
+      "start": "2026-09-12T12:00:00Z",
+      "end": "2026-09-12T12:30:00Z",
+      "sport": "baseball",
+      "confidence": 0.83,
+      "source": "curated_uk"
+    },
+    {
+      "channel": "TNT Sports 5",
+      "channel_id": "TNTSport1.uk",
+      "title": "Live FIM Speedway Grand Prix",
+      "description": "",
+      "categories": [],
+      "start": "2026-09-12T12:00:00Z",
+      "end": "2026-09-12T13:30:00Z",
+      "sport": "f1",
+      "confidence": 0.83,
+      "source": "curated_uk"
+    },
+    {
+      "channel": "TNT Sports 8",
+      "channel_id": "TNTSport4.uk",
+      "title": "Live World Rally Championship",
+      "description": "",
+      "categories": [],
+      "start": "2026-09-12T12:00:00Z",
+      "end": "2026-09-12T13:45:00Z",
+      "sport": "other",
+      "confidence": 0.7,
+      "source": "curated_uk"
+    },
+    {
+      "channel": "TNT Sports 4",
+      "channel_id": "tntsports4.uk",
+      "title": "Live: Snooker Home Nations Series English Open",
+      "description": "",
+      "categories": [],
+      "start": "2026-09-12T12:00:00Z",
+      "end": "2026-09-12T15:30:00Z",
+      "sport": "snooker",
+      "confidence": 0.83,
+      "source": "curated_uk"
+    },
+    {
+      "channel": "Sky Sports F1",
+      "channel_id": "skysportsf1.uk",
+      "title": "Live Formula 2 Championship",
+      "description": "",
+      "categories": [],
+      "start": "2026-09-12T12:10:00Z",
+      "end": "2026-09-12T13:15:00Z",
+      "sport": "f2",
+      "confidence": 0.83,
+      "source": "curated_uk"
+    },
+    {
+      "channel": "TNT Sports 1",
+      "channel_id": "tntsports1.uk",
+      "title": "Live World Rally Championship",
+      "description": "",
+      "categories": [],
+      "start": "2026-09-12T12:15:00Z",
+      "end": "2026-09-12T13:45:00Z",
+      "sport": "other",
+      "confidence": 0.7,
+      "source": "curated_uk"
+    },
+    {
+      "channel": "ATN Bangla UK",
+      "channel_id": "ATNBanglaUK.uk",
+      "title": "Bissho Batpar",
+      "description": "Bangla Movie.",
+      "categories": [],
+      "start": "2026-09-12T12:20:00Z",
+      "end": "2026-09-12T13:00:00Z",
+      "sport": "tennis",
+      "confidence": 0.83,
+      "source": "rytec_uk_basic"
     }
   ],
-  "fixture_enriched_count": 29,
-  "fixture_ambiguous_count": 34
+  "fixture_enriched_count": 30,
+  "fixture_ambiguous_count": 42
 }
