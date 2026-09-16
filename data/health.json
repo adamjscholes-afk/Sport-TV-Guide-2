@@ -1,62 +1,61 @@
 {
-  "checked_at": "2026-09-16T12:31:33.231254Z",
-  "window_start": "2026-09-16T12:30:00Z",
-  "window_end": "2026-09-17T12:30:00Z",
+  "checked_at": "2026-09-16T15:25:30.704540Z",
+  "window_start": "2026-09-16T15:00:00Z",
+  "window_end": "2026-09-17T15:00:00Z",
   "sources": {
     "freeview": {
       "ok": true,
       "url": "https://raw.githubusercontent.com/dp247/Freeview-EPG/master/epg.xml",
-      "programmes": 11,
+      "programmes": 12,
       "sha256": "d327c50bca29801d3e34ba1a064f1fc385acd7f07a904561cbeaf292c79c54a8"
     },
     "curated_uk": {
       "ok": true,
       "url": "https://raw.githubusercontent.com/farleyflex/epg-guide/main/epg.xml",
-      "programmes": 577,
+      "programmes": 562,
       "sha256": "4b4ca49efbc8fec38ff9172d6d9ccc14214eede928dd76e364fef6fe5243abba"
     },
     "rytec_uk_basic": {
       "ok": true,
       "url": "http://www.xmltvepg.nl/rytecUK_Basic.xz",
-      "programmes": 12,
+      "programmes": 13,
       "sha256": "da9d3f4016df97790b2158050ebdc0d1e71d1da174362704dab215399a680a17"
     },
     "rytec_uk_sky": {
       "ok": true,
       "url": "http://www.xmltvepg.nl/rytecUK_SkyLive.xz",
-      "programmes": 2,
+      "programmes": 3,
       "sha256": "8909fcd75e0f1a368f164c0a4bbef3977aa85b53c838c0164193ccd422f5ae7b"
     },
     "rytec_uk_sport": {
       "ok": true,
       "url": "http://www.xmltvepg.nl/rytecUK_SportMovies.xz",
-      "programmes": 571,
+      "programmes": 553,
       "sha256": "20246a72893cd64e3bae00754c83fd364e498aa65e0bbd7dba74874d8e7d270b"
     },
     "publish": {
       "ok": true,
-      "events": 1139,
+      "events": 1112,
       "channels": 82
     }
   },
   "channel_count": 82,
   "sport_counts": {
-    "baseball": 47,
+    "baseball": 52,
     "boxing": 1,
-    "cricket": 70,
+    "cricket": 66,
     "cycling": 14,
     "darts": 10,
-    "f1": 31,
-    "f2": 4,
-    "f3": 2,
-    "football": 189,
-    "golf": 78,
+    "f1": 32,
+    "f2": 2,
+    "football": 186,
+    "golf": 77,
     "ice hockey": 1,
     "motorsport": 33,
-    "nfl": 95,
-    "other": 485,
+    "nfl": 87,
+    "other": 470,
     "rugby": 5,
-    "tennis": 57,
+    "tennis": 59,
     "ufc": 10,
     "wrestling": 7
   }
