@@ -1,19 +1,19 @@
 {
-  "checked_at": "2026-10-13T10:31:32.821591Z",
-  "window_start": "2026-10-13T10:30:00Z",
-  "window_end": "2026-10-14T10:30:00Z",
+  "checked_at": "2026-10-13T19:14:55.229896Z",
+  "window_start": "2026-10-13T19:00:00Z",
+  "window_end": "2026-10-14T19:00:00Z",
   "sources": {
     "freeview": {
       "ok": true,
       "url": "https://raw.githubusercontent.com/dp247/Freeview-EPG/master/epg.xml",
-      "programmes": 9,
-      "sha256": "35040e2264cf1856e8cb16c1fab1baf4649d7cd367bafba2971201b6f663b704"
+      "programmes": 14,
+      "sha256": "ad250e8d06bfa1aa92f48ec6e0fe98a3b819012e85bbc2d296bc21b60a9419c4"
     },
     "curated_uk": {
       "ok": true,
       "url": "https://raw.githubusercontent.com/farleyflex/epg-guide/main/epg.xml",
-      "programmes": 618,
-      "sha256": "835a32ef5f1f0a474a00d1bc4ce3507019420ca0fbdb8f3e78970adad283a8b8"
+      "programmes": 594,
+      "sha256": "1fb80ca8303a1601d7ff1eda78367dad6cafea7154d1377e065814cac29652e7"
     },
     "rytec_uk_basic": {
       "ok": true,
@@ -30,31 +30,32 @@
     "rytec_uk_sport": {
       "ok": true,
       "url": "http://www.xmltvepg.nl/rytecUK_SportMovies.xz",
-      "programmes": 585,
+      "programmes": 572,
       "sha256": "ed2cf71ade2dde3a6ad8fd28b50e7cce9e48e959fde7eed42407fcaa1d749b8b"
     },
     "publish": {
       "ok": true,
-      "events": 1210,
-      "channels": 86
+      "events": 1180,
+      "channels": 87
     }
   },
-  "channel_count": 86,
+  "channel_count": 87,
   "sport_counts": {
-    "baseball": 31,
-    "cricket": 47,
-    "cycling": 11,
-    "darts": 6,
-    "f1": 44,
+    "baseball": 27,
+    "cricket": 45,
+    "cycling": 18,
+    "darts": 8,
+    "f1": 40,
     "football": 241,
-    "golf": 62,
-    "ice hockey": 33,
-    "motorsport": 20,
-    "nba": 13,
-    "nfl": 82,
-    "other": 520,
-    "rugby": 12,
-    "tennis": 84,
+    "golf": 57,
+    "horse racing": 1,
+    "ice hockey": 35,
+    "motorsport": 21,
+    "nba": 11,
+    "nfl": 72,
+    "other": 508,
+    "rugby": 13,
+    "tennis": 79,
     "wrestling": 4
   }
 }
