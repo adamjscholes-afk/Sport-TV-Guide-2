@@ -1,18 +1,18 @@
 {
-  "checked_at": "2026-10-16T23:33:50.639782Z",
-  "window_start": "2026-10-16T23:30:00Z",
-  "window_end": "2026-10-17T23:30:00Z",
+  "checked_at": "2026-10-17T04:21:54.456360Z",
+  "window_start": "2026-10-17T04:00:00Z",
+  "window_end": "2026-10-18T04:00:00Z",
   "sources": {
     "freeview": {
       "ok": true,
       "url": "https://raw.githubusercontent.com/dp247/Freeview-EPG/master/epg.xml",
-      "programmes": 88,
-      "sha256": "dc82b5f9c72ffc3c9b1e13425130a89e4e8e3fda6d976e6e5ac8db8fcc506df8"
+      "programmes": 89,
+      "sha256": "c1ea165ea31c6e39894543ffa6aabf7ffa806c934d1cb13f42f2d773499790b0"
     },
     "curated_uk": {
       "ok": true,
       "url": "https://raw.githubusercontent.com/farleyflex/epg-guide/main/epg.xml",
-      "programmes": 559,
+      "programmes": 568,
       "sha256": "f353dfd2e5a8be3e4d8eb875aadf812800e5495366687aea7debfe062fd44739"
     },
     "rytec_uk_basic": {
@@ -30,34 +30,34 @@
     "rytec_uk_sport": {
       "ok": true,
       "url": "http://www.xmltvepg.nl/rytecUK_SportMovies.xz",
-      "programmes": 521,
+      "programmes": 516,
       "sha256": "08dbc201aab9a0810a155013c794c8884f2ba2ea67d5d91d3a375d04090e49b5"
     },
     "publish": {
       "ok": true,
-      "events": 1121,
-      "channels": 109
+      "events": 1125,
+      "channels": 104
     }
   },
-  "channel_count": 109,
+  "channel_count": 104,
   "sport_counts": {
-    "baseball": 54,
-    "boxing": 1,
-    "cricket": 44,
-    "cycling": 18,
-    "darts": 3,
+    "baseball": 51,
+    "boxing": 3,
+    "cricket": 40,
+    "cycling": 27,
+    "darts": 6,
     "f1": 28,
-    "football": 196,
-    "golf": 71,
+    "football": 186,
+    "golf": 76,
     "horse racing": 15,
-    "ice hockey": 7,
-    "motorsport": 11,
-    "nba": 23,
-    "nfl": 98,
-    "other": 443,
-    "rugby": 38,
-    "tennis": 60,
-    "ufc": 1,
-    "wrestling": 10
+    "ice hockey": 12,
+    "motorsport": 10,
+    "nba": 19,
+    "nfl": 101,
+    "other": 457,
+    "rugby": 37,
+    "tennis": 49,
+    "ufc": 2,
+    "wrestling": 6
   }
 }
