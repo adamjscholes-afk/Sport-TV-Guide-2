@@ -1,63 +1,65 @@
 {
-  "checked_at": "2026-10-19T20:34:25.911991Z",
-  "window_start": "2026-10-19T20:30:00Z",
-  "window_end": "2026-10-20T20:30:00Z",
+  "checked_at": "2026-10-20T00:18:38.876234Z",
+  "window_start": "2026-10-20T00:00:00Z",
+  "window_end": "2026-10-21T00:00:00Z",
   "sources": {
     "freeview": {
       "ok": true,
       "url": "https://raw.githubusercontent.com/dp247/Freeview-EPG/master/epg.xml",
-      "programmes": 8,
+      "programmes": 10,
       "sha256": "fa1e54d29a0306a8b3d50775c77eb05bda8c3239cd3c50e643d3a30f41d43e22"
     },
     "curated_uk": {
       "ok": true,
       "url": "https://raw.githubusercontent.com/farleyflex/epg-guide/main/epg.xml",
-      "programmes": 599,
+      "programmes": 591,
       "sha256": "a0b696eeb6c57ea14ed9e803282ffbd29e21ef53a0f7f56ba4387c5a897fa66b"
     },
     "rytec_uk_basic": {
       "ok": true,
       "url": "http://www.xmltvepg.nl/rytecUK_Basic.xz",
-      "programmes": 10,
+      "programmes": 12,
       "sha256": "906d5da35492d83a664e2e3608ee5e6c2cca0b7f1730ea32089a4dcb365619f3"
     },
     "rytec_uk_sky": {
-      "ok": true,
-      "url": "http://www.xmltvepg.nl/rytecUK_SkyLive.xz",
-      "programmes": 1,
-      "sha256": "d325f222c5ceb034278bfd6be55397c37cc23b561ac3a9e7e6aafcad27c664ba"
+      "ok": false,
+      "errors": [
+        "http://www.xmltvepg.nl/rytecUK_SkyLive.xz: parsed but no sports programmes",
+        "http://rytecepg.wanwizard.eu/rytecUK_SkyLive.xz: HTTP Error 403: Forbidden",
+        "http://epg.vuplus-community.net/rytecUK_SkyLive.xz: parsed but no sports programmes"
+      ]
     },
     "rytec_uk_sport": {
       "ok": true,
       "url": "http://www.xmltvepg.nl/rytecUK_SportMovies.xz",
-      "programmes": 544,
+      "programmes": 536,
       "sha256": "d13fabb3850721ae15c7e4c42e7418e7459cb1fead389748baaf641271117f5c"
     },
     "publish": {
       "ok": true,
-      "events": 1140,
-      "channels": 81
+      "events": 1126,
+      "channels": 80
     }
   },
-  "channel_count": 81,
+  "channel_count": 80,
   "sport_counts": {
-    "baseball": 37,
-    "boxing": 1,
-    "cricket": 43,
-    "cycling": 12,
+    "baseball": 34,
+    "boxing": 2,
+    "cricket": 44,
+    "cycling": 11,
     "darts": 4,
-    "f1": 39,
-    "football": 202,
-    "golf": 66,
-    "ice hockey": 14,
+    "f1": 41,
+    "football": 218,
+    "golf": 61,
+    "ice hockey": 21,
     "motorsport": 9,
-    "nba": 66,
-    "nfl": 92,
-    "other": 466,
-    "rugby": 19,
-    "snooker": 16,
-    "tennis": 45,
-    "ufc": 7,
-    "wrestling": 2
+    "nba": 64,
+    "nfl": 87,
+    "other": 442,
+    "rugby": 17,
+    "snooker": 12,
+    "tennis": 43,
+    "ufc": 10,
+    "wrestling": 6
   }
 }
