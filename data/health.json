@@ -1,24 +1,24 @@
 {
-  "checked_at": "2026-10-31T05:36:17.334930Z",
-  "window_start": "2026-10-31T05:30:00Z",
-  "window_end": "2026-11-01T05:30:00Z",
+  "checked_at": "2026-10-31T12:22:08.983072Z",
+  "window_start": "2026-10-31T12:00:00Z",
+  "window_end": "2026-11-01T12:00:00Z",
   "sources": {
     "freeview": {
       "ok": true,
       "url": "https://raw.githubusercontent.com/dp247/Freeview-EPG/master/epg.xml",
-      "programmes": 69,
+      "programmes": 83,
       "sha256": "07bdb990c92249d5e2612313dd9edabb4936c61d237166a04683b21f7b7b9ea3"
     },
     "curated_uk": {
       "ok": true,
       "url": "https://raw.githubusercontent.com/farleyflex/epg-guide/main/epg.xml",
-      "programmes": 568,
-      "sha256": "aee6ccbf6011ae4efebfeeb7254f206c9ddb62681e29e00d1d9d94af7eb560ee"
+      "programmes": 570,
+      "sha256": "8dc4127369dd5f77f73fe64eff7f7bc13536c92a0fc658f2629a51fed813b261"
     },
     "rytec_uk_basic": {
       "ok": true,
       "url": "http://www.xmltvepg.nl/rytecUK_Basic.xz",
-      "programmes": 69,
+      "programmes": 76,
       "sha256": "57a7c3a999dd937e11f19e8df39b0d60fe9ef3038709feb6e6fe1780db32b34b"
     },
     "rytec_uk_sky": {
@@ -35,29 +35,29 @@
     },
     "publish": {
       "ok": true,
-      "events": 1117,
-      "channels": 116
+      "events": 1131,
+      "channels": 113
     }
   },
-  "channel_count": 116,
+  "channel_count": 113,
   "sport_counts": {
-    "baseball": 28,
+    "baseball": 18,
     "boxing": 5,
-    "cricket": 67,
-    "darts": 2,
-    "f1": 65,
-    "football": 174,
-    "golf": 74,
+    "cricket": 55,
+    "darts": 3,
+    "f1": 77,
+    "football": 173,
+    "golf": 79,
     "horse racing": 7,
-    "ice hockey": 15,
-    "motorsport": 26,
-    "nba": 32,
-    "nfl": 71,
-    "other": 447,
-    "rugby": 36,
-    "snooker": 4,
-    "tennis": 55,
-    "ufc": 5,
+    "ice hockey": 13,
+    "motorsport": 24,
+    "nba": 35,
+    "nfl": 67,
+    "other": 470,
+    "rugby": 30,
+    "snooker": 5,
+    "tennis": 64,
+    "ufc": 2,
     "wrestling": 4
   }
 }
