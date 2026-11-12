@@ -1,66 +1,64 @@
 {
-  "checked_at": "2026-11-11T19:33:30.844951Z",
-  "window_start": "2026-11-11T19:30:00Z",
-  "window_end": "2026-11-12T19:30:00Z",
+  "checked_at": "2026-11-12T02:14:33.428411Z",
+  "window_start": "2026-11-12T02:00:00Z",
+  "window_end": "2026-11-13T02:00:00Z",
   "sources": {
     "freeview": {
       "ok": true,
       "url": "https://raw.githubusercontent.com/dp247/Freeview-EPG/master/epg.xml",
-      "programmes": 20,
-      "sha256": "c424474a010f93a4e91b4ccad041f579aa835a893a9af3fa0302af8e887e6250"
+      "programmes": 41,
+      "sha256": "1ac0696ac5a8f43f422a5cd561b2647b516a6d4c8cd14005ab8ec3afafdc2498"
     },
     "curated_uk": {
       "ok": true,
       "url": "https://raw.githubusercontent.com/farleyflex/epg-guide/main/epg.xml",
-      "programmes": 699,
+      "programmes": 685,
       "sha256": "7eea7d570998a25e7c06966814cdf2e13e4d6d7eedb322000fb8aa5f7309df0e"
     },
     "rytec_uk_basic": {
       "ok": true,
       "url": "http://www.xmltvepg.nl/rytecUK_Basic.xz",
-      "programmes": 41,
+      "programmes": 45,
       "sha256": "e992da53ac30831864d6c3953cae9e247141637ed26736b9fc24582d2b2245e8"
     },
     "rytec_uk_sky": {
-      "ok": false,
-      "errors": [
-        "http://www.xmltvepg.nl/rytecUK_SkyLive.xz: parsed but no sports programmes",
-        "http://rytecepg.wanwizard.eu/rytecUK_SkyLive.xz: HTTP Error 403: Forbidden",
-        "http://epg.vuplus-community.net/rytecUK_SkyLive.xz: parsed but no sports programmes"
-      ]
+      "ok": true,
+      "url": "http://www.xmltvepg.nl/rytecUK_SkyLive.xz",
+      "programmes": 4,
+      "sha256": "7b68694c29f0e23db8df1d4444aa3b9bdd210d93b4cb13bc59e756493969416f"
     },
     "rytec_uk_sport": {
       "ok": true,
       "url": "http://www.xmltvepg.nl/rytecUK_SportMovies.xz",
-      "programmes": 575,
+      "programmes": 569,
       "sha256": "e15d66077fa666f8ce9caabaf2c3f1f98084ed9b1690235a001040c8373ae3ee"
     },
     "publish": {
       "ok": true,
-      "events": 1268,
-      "channels": 77
+      "events": 1269,
+      "channels": 87
     }
   },
-  "channel_count": 77,
+  "channel_count": 87,
   "sport_counts": {
-    "baseball": 19,
-    "boxing": 3,
-    "cricket": 34,
-    "cycling": 4,
-    "darts": 11,
-    "f1": 43,
-    "football": 234,
-    "golf": 86,
+    "baseball": 18,
+    "boxing": 2,
+    "cricket": 45,
+    "cycling": 2,
+    "darts": 7,
+    "f1": 39,
+    "football": 231,
+    "golf": 88,
     "horse racing": 1,
-    "ice hockey": 34,
-    "motorsport": 24,
-    "nba": 33,
-    "nfl": 75,
-    "other": 550,
-    "rugby": 11,
-    "snooker": 11,
-    "tennis": 74,
-    "ufc": 14,
-    "wrestling": 7
+    "ice hockey": 43,
+    "motorsport": 21,
+    "nba": 30,
+    "nfl": 82,
+    "other": 543,
+    "rugby": 8,
+    "snooker": 9,
+    "tennis": 80,
+    "ufc": 15,
+    "wrestling": 5
   }
 }
