@@ -1,63 +1,62 @@
 {
-  "checked_at": "2026-11-22T01:15:27.941881Z",
-  "window_start": "2026-11-22T01:00:00Z",
-  "window_end": "2026-11-23T01:00:00Z",
+  "checked_at": "2026-11-22T11:17:09.499381Z",
+  "window_start": "2026-11-22T11:00:00Z",
+  "window_end": "2026-11-23T11:00:00Z",
   "sources": {
     "freeview": {
       "ok": true,
       "url": "https://raw.githubusercontent.com/dp247/Freeview-EPG/master/epg.xml",
-      "programmes": 50,
+      "programmes": 67,
       "sha256": "dbfe0c9b7bd992cbb5135e598dd51d99134044623d2c4aca1072a727744213aa"
     },
     "curated_uk": {
       "ok": true,
       "url": "https://raw.githubusercontent.com/farleyflex/epg-guide/main/epg.xml",
-      "programmes": 643,
+      "programmes": 622,
       "sha256": "88d7a564a0a8afd6ee9b8e1a19b72994776f8692fe631afc2729c9d64c7632e8"
     },
     "rytec_uk_basic": {
       "ok": true,
       "url": "http://www.xmltvepg.nl/rytecUK_Basic.xz",
-      "programmes": 57,
-      "sha256": "dbf6e6953bcd9e0d7adb4169394df4505f374a616c6d8c8e519a765e8bd03ac2"
+      "programmes": 74,
+      "sha256": "f5cac5219c00ba3748bb4447c9bffef13310d4ffaacf85af2bb9464685df0f96"
     },
     "rytec_uk_sky": {
       "ok": true,
       "url": "http://www.xmltvepg.nl/rytecUK_SkyLive.xz",
-      "programmes": 8,
-      "sha256": "24fe1eefa3d183d5098c98a2dca018c805b8d72166eacbd6f02e29c5e46f7304"
+      "programmes": 5,
+      "sha256": "bbbf5bc3ddbceab78a57d053cf364d3dfd07e75abccc813a2711efbb0f2c8705"
     },
     "rytec_uk_sport": {
       "ok": true,
       "url": "http://www.xmltvepg.nl/rytecUK_SportMovies.xz",
-      "programmes": 484,
-      "sha256": "698ae788102db5d3d6605dd37bbcf8685f9de64a4727436a74c5d830865356c3"
+      "programmes": 492,
+      "sha256": "33f232e524f62c06935ecfaf9da3c99ff4f74d4e16b5fd04a949b2107356ca09"
     },
     "publish": {
       "ok": true,
-      "events": 1164,
-      "channels": 132
+      "events": 1166,
+      "channels": 130
     }
   },
-  "channel_count": 132,
+  "channel_count": 130,
   "sport_counts": {
     "baseball": 20,
-    "boxing": 2,
-    "cricket": 41,
-    "cycling": 1,
+    "boxing": 1,
+    "cricket": 54,
     "darts": 4,
-    "f1": 89,
-    "football": 161,
-    "golf": 68,
+    "f1": 66,
+    "football": 162,
+    "golf": 74,
     "horse racing": 3,
     "ice hockey": 25,
-    "motorsport": 33,
-    "nba": 26,
-    "nfl": 65,
-    "other": 549,
-    "rugby": 8,
-    "tennis": 66,
+    "motorsport": 44,
+    "nba": 28,
+    "nfl": 78,
+    "other": 523,
+    "rugby": 7,
+    "tennis": 75,
     "ufc": 1,
-    "wrestling": 2
+    "wrestling": 1
   }
 }
